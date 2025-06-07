@@ -1,99 +1,146 @@
-# 🌟 3D React Portfolio
+# <div align="center">🌟 3D React Portfolio</div>
 
 <div align="center">
+
   <a href="https://gourangadas.netlify.app/">
-    <img src="src/assets/images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="src/assets/images/logo.svg" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Modern 3D Portfolio</h3>
+  <h2 align="center">Modern 3D Portfolio</h2>
 
   <p align="center">
-    A stunning 3D portfolio website built with React, Three.js, and TailwindCSS
+    A stunning 3D portfolio website showcasing modern web technologies and interactive experiences
     <br />
-    <a href="https://gourangadas.netlify.app/"><strong>View Demo »</strong></a>
+    <a href="https://gourangadas.netlify.app/"><strong>✨ View Live Demo »</strong></a>
   </p>
-</div>
+
+  <div align="center">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c7776422-9f0f-403c-ae18-36972281d757/deploy-status)](https://app.netlify.com/sites/gourangadas/deploys)
-[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite)](https://vitejs.dev/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-Latest-black?logo=three.js)](https://threejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white&labelColor=20232A)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&logoColor=white&labelColor=20232A)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css&logoColor=white&labelColor=20232A)](https://tailwindcss.com/)
+[![Three.js](https://img.shields.io/badge/Three.js-Latest-black?logo=three.js&logoColor=white&labelColor=20232A)](https://threejs.org/)
 
-## ✨ Features
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&labelColor=20232A)](http://makeapullrequest.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square&labelColor=20232A)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/GourangaDasSamrat/3d-react-portfolio-2?style=flat-square&labelColor=20232A)](https://github.com/GourangaDasSamrat/3d-react-portfolio-2/stargazers)
 
-- 🎨 Modern UI/UX design
-- 🌐 Interactive 3D elements with Three.js
-- 📱 Fully responsive design
-- 🎭 Beautiful animations with Framer Motion
-- 🎵 Background music toggle
-- 📧 Working contact form
-- ⚡ Fast performance with Vite
+  </div>
+</div>
 
-## 🎥 Demo
+---
+
+## 🎯 Key Features
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">🎨</td>
+      <td>Modern UI/UX Design</td>
+      <td align="center">🌐</td>
+      <td>Interactive 3D Elements</td>
+    </tr>
+    <tr>
+      <td align="center">📱</td>
+      <td>Fully Responsive</td>
+      <td align="center">🎭</td>
+      <td>Stunning Animations</td>
+    </tr>
+    <tr>
+      <td align="center">🎵</td>
+      <td>Background Music</td>
+      <td align="center">📧</td>
+      <td>Contact Form</td>
+    </tr>
+    <tr>
+      <td align="center">⚡</td>
+      <td>Fast Performance</td>
+      <td align="center">🎮</td>
+      <td>Interactive Models</td>
+    </tr>
+  </table>
+</div>
+
+## 🎥 Demo & Showcase
+
+<div align="center">
+  <h3>Experience the Live Demo</h3>
+  <a href="https://gourangadas.netlify.app/">
+    <img src="https://img.shields.io/badge/Click%20to%20Visit-Portfolio%20Website-blue?style=for-the-badge&logo=netlify&logoColor=white&labelColor=20232A">
+  </a>
 
 [Demo video coming soon...]
 
+</div>
+
 ## 🚀 Tech Stack
 
-| Category   | Technologies                                                                                                                                                                                                                   |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Frontend   | ![React](https://img.shields.io/badge/React-18-blue?logo=react) ![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css) ![Three.js](https://img.shields.io/badge/Three.js-Latest-black?logo=three.js) |
-| Build Tool | ![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite)                                                                                                                                                                  |
-| 3D Models  | ![3D Models](https://img.shields.io/badge/3D_Models-Custom-orange)                                                                                                                                                             |
-| Animation  | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-Latest-ff69b4)                                                                                                                                                     |
-| Deployment | ![Vercel](https://img.shields.io/badge/Vercel-Latest-000000?logo=vercel)                                                                                                                                                       |
+<div align="center">
+
+|   Category    | Technologies                                                                                                                                                                                                                                                                                         |
+| :-----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Frontend Core | ![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white&labelColor=20232A) ![Three.js](https://img.shields.io/badge/Three.js-Latest-black?logo=three.js&labelColor=20232A) ![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css&labelColor=20232A) |
+|  Build & Dev  | ![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&labelColor=20232A) ![ESLint](https://img.shields.io/badge/ESLint-Latest-4B32C3?logo=eslint&labelColor=20232A)                                                                                                                           |
+|   3D Assets   | ![3D Models](https://img.shields.io/badge/3D_Models-Custom-orange?labelColor=20232A) ![GLTF](https://img.shields.io/badge/GLTF-Models-red?labelColor=20232A)                                                                                                                                         |
+|   Animation   | ![Framer](https://img.shields.io/badge/Framer_Motion-Latest-ff69b4?logo=framer&labelColor=20232A)                                                                                                                                                                                                    |
+|  Deployment   | ![Netlify](https://img.shields.io/badge/Netlify-Latest-00C7B7?logo=netlify&logoColor=white&labelColor=20232A)                                                                                                                                                                                        |
+
+</div>
 
 ## 📁 Project Structure
 
 ```bash
 src/
-  ├── assets/        # Static assets (3D models, images, icons)
-  ├── components/    # Reusable UI components
-  ├── constants/     # Constants and configuration
-  ├── hooks/         # Custom React hooks
-  ├── models/        # 3D model components
-  └── pages/         # Application pages
+  ├── assets/        # 3D models, images, icons, sounds
+  │   ├── 3d/       # GLTF models
+  │   ├── icons/    # SVG icons
+  │   └── images/   # Images & textures
+  ├── components/   # Reusable UI components
+  ├── constants/    # Configuration & constants
+  ├── hooks/        # Custom React hooks
+  ├── models/       # 3D model components
+  └── pages/        # Application pages & routing
 ```
 
 ## 🎯 Performance Metrics
 
-### Lighthouse Scores
+<div align="center">
 
-- Performance: 95/100
-- Accessibility: 100/100
-- Best Practices: 95/100
-- SEO: 100/100
+### 📊 Lighthouse Scores
 
-### PageSpeed Insights
+| Metric         |                                                           Score                                                           |
+| :------------- | :-----------------------------------------------------------------------------------------------------------------------: |
+| Performance    |     ![Performance](https://img.shields.io/badge/95-brightgreen?style=flat-square&label=Performance&labelColor=20232A)     |
+| Accessibility  |  ![Accessibility](https://img.shields.io/badge/100-brightgreen?style=flat-square&label=Accessibility&labelColor=20232A)   |
+| Best Practices | ![Best Practices](https://img.shields.io/badge/95-brightgreen?style=flat-square&label=Best%20Practices&labelColor=20232A) |
+| SEO            |            ![SEO](https://img.shields.io/badge/100-brightgreen?style=flat-square&label=SEO&labelColor=20232A)             |
 
-- First Contentful Paint (FCP): 0.8s
-- Largest Contentful Paint (LCP): 1.2s
-- Total Blocking Time (TBT): 50ms
-- Cumulative Layout Shift (CLS): 0.1
+### ⚡ PageSpeed Insights
+
+| Metric                         |                                         Value                                         |
+| :----------------------------- | :-----------------------------------------------------------------------------------: |
+| First Contentful Paint (FCP)   | ![FCP](https://img.shields.io/badge/0.8s-success?style=flat-square&labelColor=20232A) |
+| Largest Contentful Paint (LCP) | ![LCP](https://img.shields.io/badge/1.2s-success?style=flat-square&labelColor=20232A) |
+| Total Blocking Time (TBT)      | ![TBT](https://img.shields.io/badge/50ms-success?style=flat-square&labelColor=20232A) |
+| Cumulative Layout Shift (CLS)  | ![CLS](https://img.shields.io/badge/0.1-success?style=flat-square&labelColor=20232A)  |
+
+</div>
 
 ## 🚦 Getting Started
 
-1. Clone the repository:
-
 ```bash
+# Clone the repository
 git clone https://github.com/your-username/3d-react-portfolio-2.git
-```
 
-2. Install dependencies:
-
-```bash
+# Install dependencies
 npm install
-```
 
-3. Run development server:
-
-```bash
+# Start development server
 npm run dev
 ```
 
-4. Open http://localhost:5173 in your browser
+Then open http://localhost:5173 in your browser. 🎉
 
 ## 👤 Author & Contact
 
@@ -135,14 +182,26 @@ npm run dev
   <i>Let's connect! I'm always open to collaboration, frontend projects, or just a friendly chat about JavaScript and React.</i>
 </p>
 
-## Live Link
+## 🔗 Live Link
 
-https://gourangadas.netlify.app/
+Visit the live website: [https://gourangadas.netlify.app/](https://gourangadas.netlify.app/)
 
 ## 💎 Acknowledgement
 
-All assets and the core idea are inspired by this repository: [adrianhajdin/3D_portfolio](https://github.com/adrianhajdin/3D_portfolio.git)
+<div align="center">
+
+Inspired by [Adrian Hajdin's 3D Portfolio](https://github.com/adrianhajdin/3D_portfolio)
+
+[![Stars](https://img.shields.io/github/stars/adrianhajdin/3D_portfolio?style=social)](https://github.com/adrianhajdin/3D_portfolio)
+
+</div>
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. Feel free to use it for your own portfolio!
+
+<div align="center">
+
+Made with ❤️ by [Gouranga Das Samrat](https://github.com/GourangaDasSamrat)
+
+</div>
