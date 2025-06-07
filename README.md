@@ -38,7 +38,9 @@
   <i>Let's connect! I'm always open to collaboration, frontend projects, or just a friendly chat about JavaScript and React.</i>
 </p>
 
+## Live Link
 
+https://gouranga-portfolio-phi.vercel.app/
 
 
 ## Acknowledgement
