@@ -143,11 +143,15 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <ReCAPTCHA
-            sitekey={import.meta.env.VITE_APP_RECAPTCHA_SITE_KEY}
-            onChange={(value) => setRecaptchaValue(value)}
-            className="recaptcha"
-          />
+          <div className="flex justify-center">
+            <ReCAPTCHA
+              ref={recaptchaRef}
+              sitekey={import.meta.env.VITE_APP_RECAPTCHA_SITE_KEY}
+              onChange={(value) => setRecaptchaValue(value)}
+              theme="light"
+              className="recaptcha"
+            />
+          </div>
 
           <button
             type="submit"

@@ -7,13 +7,21 @@ const App = () => {
   return (
     <main className="bg-slate-300/20">
       <Router>
-        <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar />
+                <Home />
+              </>
+            }
+          />
           <Route
             path="/about"
             element={
               <>
+                <Navbar />
                 <About />
                 <Footer />
               </>
@@ -23,6 +31,7 @@ const App = () => {
             path="/projects"
             element={
               <>
+                <Navbar />
                 <Projects />
                 <Footer />
               </>
@@ -32,6 +41,7 @@ const App = () => {
             path="/contact"
             element={
               <>
+                <Navbar />
                 <Contact />
                 <Footer />
               </>
