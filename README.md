@@ -3,7 +3,7 @@
 <div align="center">
 
   <a href="https://gouranga-das.netlify.app/">
-    <img src="src/assets/images/logo.svg" alt="Logo" width="100" height="100">
+    <img src="src/assets/images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h2 align="center">Modern 3D Portfolio</h2>
