@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/sitemap-generator.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-sitemap": "node scripts/sitemap-generator.js"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -18,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
     "react-vertical-timeline-component": "^3.6.0",
+    "sitemap": "^8.0.0",
     "three": "^0.157.0"
   },
   "devDependencies": {
