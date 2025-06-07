@@ -7,7 +7,7 @@ const routes = ["/", "/about", "/projects", "/contact"];
 
 // Create a stream to write to
 const stream = new SitemapStream({
-  hostname: "https://gourangadas.netlify.app",
+  hostname: "https://gouranga-das.netlify.app",
 });
 
 // Return a promise that resolves with your XML string

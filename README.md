@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <a href="https://gourangadas.netlify.app/">
+  <a href="https://gouranga-das.netlify.app/">
     <img src="src/assets/images/logo.svg" alt="Logo" width="100" height="100">
   </a>
 
@@ -11,7 +11,7 @@
   <p align="center">
     A stunning 3D portfolio website showcasing modern web technologies and interactive experiences
     <br />
-    <a href="https://gourangadas.netlify.app/"><strong>✨ View Live Demo »</strong></a>
+    <a href="https://gouranga-das.netlify.app/"><strong>✨ View Live Demo »</strong></a>
   </p>
 
   <div align="center">
@@ -66,7 +66,7 @@
 
 <div align="center">
   <h3>Experience the Live Demo</h3>
-  <a href="https://gourangadas.netlify.app/">
+  <a href="https://gouranga-das.netlify.app/">
     <img src="https://img.shields.io/badge/Click%20to%20Visit-Portfolio%20Website-blue?style=for-the-badge&logo=netlify&logoColor=white&labelColor=20232A">
   </a>
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gourangadas.netlify.app/sitemap.xml
+Sitemap: https://gouranga-das.netlify.app/sitemap.xml
