@@ -189,7 +189,7 @@ export const projects = [
     name: "iPhone 15 pro Official 3D website clone",
     description:
       "iPhone 15 pro 3D website clone using react js and tailwind css.",
-    link: "https://github.com/GourangaDasSamrat/iphone-15-pro-3d-website-clone.git",
+    link: "https://iphone-15-pro-3d-website-clone.vercel.app/",
   },
   {
     iconUrl: threads,
@@ -197,7 +197,7 @@ export const projects = [
     name: "3D React Portfolio ",
     description:
       "A  personal portfolio website showcasing my web development skills, projects, and experience with a modern, responsive design.",
-    link: "https://github.com/GourangaDasSamrat/3D-React-Portfolio.git",
+    link: "https://gourangadas.netlify.app/",
   },
   {
     iconUrl: car,
@@ -205,7 +205,7 @@ export const projects = [
     name: "Google Gemini Clone",
     description:
       "A fully functional Google Gemini 2.0 flash clone using HTML CSS JavaScript and Google Ai Studio free api key.",
-    link: "https://github.com/GourangaDasSamrat/Gemini-Clone.git",
+    link: "https://geminiclonebygouranga.netlify.app/",
   },
   {
     iconUrl: snapgram,
@@ -213,7 +213,7 @@ export const projects = [
     name: "Simple Python Compiler",
     description:
       "It is a simple and responsive web-based tool where you can write and run Python code right in your browser. ",
-    link: "https://github.com/GourangaDasSamrat/SimPle-Python-Compiler.git",
+    link: "https://simplepythoncompiler.netlify.app/",
   },
   {
     iconUrl: estate,
@@ -221,7 +221,7 @@ export const projects = [
     name: "Live Code Editor",
     description:
       "A responsive live web based code editor using codemirror library.",
-    link: "https://github.com/GourangaDasSamrat/Live-Code-Editor.git",
+    link: "https://livecodeeditorbygouranga.netlify.app/",
   },
   {
     iconUrl: summiz,
@@ -229,6 +229,6 @@ export const projects = [
     name: "Daraz Clone",
     description:
       "Frontend clone of daraz official website using HTML CSS JavaScript bootstrap 5 and jQuery.",
-    link: "https://github.com/GourangaDasSamrat/Daraz-Clone.git",
+    link: "https://darazclonebygouranga.netlify.app/",
   },
 ];
