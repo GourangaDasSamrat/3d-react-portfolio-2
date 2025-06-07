@@ -23,6 +23,19 @@ const Contact = () => {
   const handleFocus = () => setCurrentAnimation("walk");
   const handleBlur = () => setCurrentAnimation("idle");
 
+  const handleRecaptchaChange = (value) => {
+    setRecaptchaValue(value);
+  };
+
+  const handleRecaptchaExpired = () => {
+    setRecaptchaValue(null);
+    showAlert({
+      show: true,
+      text: "reCAPTCHA has expired, please verify again",
+      type: "danger",
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -44,10 +57,11 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Gouranga Das",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "gouranga.das.khulna@gmail.com",
           message: form.message,
+          "g-recaptcha-response": recaptchaValue,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
@@ -60,15 +74,19 @@ const Contact = () => {
             type: "success",
           });
 
+          // Reset recaptcha
+          recaptchaRef.current?.reset();
+          setRecaptchaValue(null);
+
           setTimeout(() => {
-            hideAlert(false);
+            hideAlert();
             setCurrentAnimation("idle");
             setForm({
               name: "",
               email: "",
               message: "",
             });
-          }, [3000]);
+          }, 3000);
         },
         (error) => {
           setLoading(false);
@@ -143,20 +161,23 @@ const Contact = () => {
               onBlur={handleBlur}
             />
           </label>
-          <div className="flex justify-center">
+          <div className="flex justify-center w-full">
             <ReCAPTCHA
               ref={recaptchaRef}
               sitekey={import.meta.env.VITE_APP_RECAPTCHA_SITE_KEY}
-              onChange={(value) => setRecaptchaValue(value)}
+              onChange={handleRecaptchaChange}
+              onExpired={handleRecaptchaExpired}
               theme="light"
-              className="recaptcha"
+              className="transform scale-100 md:scale-100 mx-auto"
             />
           </div>
 
           <button
             type="submit"
             disabled={loading || !recaptchaValue}
-            className="btn"
+            className={`btn ${
+              (!recaptchaValue || loading) ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-600'
+            }`}
             onFocus={handleFocus}
             onBlur={handleBlur}
           >
