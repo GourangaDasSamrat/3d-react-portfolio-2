@@ -62,6 +62,7 @@ const Contact = () => {
           to_email: "gouranga.das.khulna@gmail.com",
           message: form.message,
           "g-recaptcha-response": recaptchaValue,
+          sent_date: new Date().toLocaleString(),
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
