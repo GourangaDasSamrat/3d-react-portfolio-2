@@ -176,7 +176,9 @@ const Contact = () => {
             type="submit"
             disabled={loading || !recaptchaValue}
             className={`btn ${
-              (!recaptchaValue || loading) ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-600'
+              !recaptchaValue || loading
+                ? "opacity-50 cursor-not-allowed"
+                : "hover:bg-blue-600"
             }`}
             onFocus={handleFocus}
             onBlur={handleBlur}
