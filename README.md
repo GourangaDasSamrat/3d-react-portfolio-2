@@ -70,7 +70,9 @@
     <img src="https://img.shields.io/badge/Click%20to%20Visit-Portfolio%20Website-blue?style=for-the-badge&logo=netlify&logoColor=white&labelColor=20232A">
   </a>
 
-[Demo video coming soon...]
+[<img src="https://img.youtube.com/vi/ZG73Dhri9CA/0.jpg" width="600" height="350">](https://www.youtube.com/watch?v=ZG73Dhri9CA)
+
+
 
 </div>
 
