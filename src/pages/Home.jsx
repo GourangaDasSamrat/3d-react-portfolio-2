@@ -60,9 +60,8 @@ const Home = () => {
   return (
     <section className="w-full h-screen relative">
       <SEO
-        title="Gouranga Das Samrat | 3D Portfolio"
-        description="Welcome to my 3D portfolio. I'm a Frontend Developer specializing in React and JavaScript, creating immersive web experiences."
-        name="Gouranga Das Samrat"
+        title="Gouranga Das Samrat | Frontend Web Developer and Open Source Enthusias"
+        description="Gouranga Das Samrat: Frontend Web Developer expert in React, Tailwind CSS, Bootstrap, HTML, CSS, and JavaScript. Crafting modern, responsive web experiences."
         type="website"
       />
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
