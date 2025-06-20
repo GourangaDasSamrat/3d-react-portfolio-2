@@ -242,59 +242,71 @@ export const projects = [
 
 export const blogs = [
   {
-    title: "Building Scalable React Applications: Best Practices",
+    title: "CSS only Click-handlers You Might not be using, but you should",
     excerpt:
-      "Discover the essential practices and patterns for creating maintainable, performant React applications at scale.",
+      "A deep dive into CSS-only click handlers and how they can enhance user experience without JavaScript.",
     image: blog1,
     date: "May 22, 2025",
     links: {
       medium:
-        "https://medium.com/@yourusername/building-scalable-react-applications",
-      devto: "https://dev.to/yourusername/building-scalable-react-applications",
+        "https://medium.com/@gouranga.das.khulna/css-only-click-handlers-you-might-not-be-using-but-you-should-1fd0f2a65ce6",
+      devto:
+        "https://dev.to/gouranga-das-khulna/css-only-click-handlers-you-might-not-be-using-but-you-should-p3e",
     },
   },
   {
-    title: "The Future of Web Development with AI",
+    title:
+      "The 10 Best New CSS Features in 2025 Already Supported in All Major Browser",
     excerpt:
-      "Exploring how artificial intelligence is transforming the landscape of web development and what it means for developers.",
+      "An overview of the latest CSS features introduced in 2025 and their cross-browser support.",
     image: blog2,
     date: "May 25, 2025",
     links: {
-      medium: "https://medium.com/@yourusername/future-of-web-development-ai",
-      devto: "https://dev.to/yourusername/future-of-web-development-ai",
+      medium:
+        "https://medium.com/@gouranga.das.khulna/the-10-best-new-css-features-in-2025-already-supported-in-all-major-browser-5150ece5c85a",
+      devto:
+        "https://dev.to/gouranga-das-khulna/the-10-best-new-css-features-in-2025-already-supported-in-all-major-browsers-467f",
     },
   },
   {
-    title: "Mastering 3D Animations in React",
+    title:
+      "React Native vs React JS — Key Difference, Advantages-Disadvantages, Limitations",
     excerpt:
-      "A comprehensive guide to implementing stunning 3D animations in React applications using Three.js and React Three Fiber.",
+      "A comprehensive comparison of React Native and React JS, highlighting their differences, advantages, disadvantages, and limitations.",
     image: blog3,
     date: "June 1, 2025",
     links: {
-      medium: "https://medium.com/@yourusername/mastering-3d-animations-react",
-      devto: "https://dev.to/yourusername/mastering-3d-animations-react",
+      medium:
+        "https://medium.com/@gouranga.das.khulna/react-native-vs-react-js-key-difference-advantages-disadvantages-limitations-2900fdfc9466",
+      devto:
+        "https://dev.to/gouranga-das-khulna/react-native-vs-react-js-key-difference-advantages-disadvantages-limitations-2f96",
     },
   },
   {
-    title: "Modern State Management in React",
+    title:
+      "Difference Between Three.js and Babylon.js: What Actually Should You Choose?",
     excerpt:
-      "Comparing different state management solutions in React and when to use each one effectively.",
+      "A detailed comparison of Three.js and Babylon.js, helping developers choose the right 3D engine for their projects.",
     image: blog4,
     date: "June 8, 2025",
     links: {
-      medium: "https://medium.com/@yourusername/modern-state-management-react",
-      devto: "https://dev.to/yourusername/modern-state-management-react",
+      medium:
+        "https://medium.com/@gouranga.das.khulna/difference-between-three-js-and-babylon-js-what-actually-should-you-choose-122ab1838256",
+      devto:
+        "https://dev.to/gouranga-das-khulna/difference-between-threejs-and-babylonjs-what-actually-should-you-choose-437g",
     },
   },
   {
-    title: "Building a Portfolio that Stands Out",
+    title: "All React Concepts Explained in Just One Read",
     excerpt:
-      "Tips and strategies for creating a developer portfolio that catches the attention of potential employers.",
+      "A comprehensive guide covering all essential React concepts in a single read, perfect for both beginners and experienced developers.",
     image: blog5,
     date: "June 15, 2025",
     links: {
-      medium: "https://medium.com/@yourusername/portfolio-that-stands-out",
-      devto: "https://dev.to/yourusername/portfolio-that-stands-out",
+      medium:
+        "https://medium.com/@gouranga.das.khulna/all-react-concepts-explained-in-just-one-read-ddf1b520ad1e",
+      devto:
+        "https://dev.to/gouranga-das-khulna/all-react-concepts-explained-in-just-one-read-part-1-1kop",
     },
   },
 ];

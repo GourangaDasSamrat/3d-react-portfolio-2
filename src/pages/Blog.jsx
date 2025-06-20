@@ -1,7 +1,7 @@
 import { blogs } from "../constants";
 
 const BlogCard = ({ blog }) => (
-  <div className="w-full sm:w-[350px] bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow border border-slate-200 group overflow-hidden flex flex-col hover:-translate-y-1 hover:scale-[1.025] duration-300">
+  <div className="w-full bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow border border-slate-200 group overflow-hidden flex flex-col hover:-translate-y-1 hover:scale-[1.025] duration-300">
     <div className="relative">
       <img
         src={blog.image}
@@ -84,7 +84,7 @@ const Blog = () => {
         </div>
       </div>
       <div className="mt-8 container mx-auto px-2">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {blogs.map((blog, index) => (
             <BlogCard key={index} blog={blog} />
           ))}
