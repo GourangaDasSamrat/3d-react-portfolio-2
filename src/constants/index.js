@@ -242,30 +242,30 @@ export const projects = [
 
 export const blogs = [
   {
-    title: "CSS only Click-handlers You Might not be using, but you should",
+    title: "All React Concepts Explained in Just One Read",
     excerpt:
-      "A deep dive into CSS-only click handlers and how they can enhance user experience without JavaScript.",
-    image: blog1,
-    date: "May 22, 2025",
+      "A comprehensive guide covering all essential React concepts in a single read, perfect for both beginners and experienced developers.",
+    image: blog5,
+    date: "June 15, 2025",
     links: {
       medium:
-        "https://medium.com/@gouranga.das.khulna/css-only-click-handlers-you-might-not-be-using-but-you-should-1fd0f2a65ce6",
+        "https://medium.com/@gouranga.das.khulna/all-react-concepts-explained-in-just-one-read-ddf1b520ad1e",
       devto:
-        "https://dev.to/gouranga-das-khulna/css-only-click-handlers-you-might-not-be-using-but-you-should-p3e",
+        "https://dev.to/gouranga-das-khulna/all-react-concepts-explained-in-just-one-read-part-1-1kop",
     },
   },
   {
     title:
-      "The 10 Best New CSS Features in 2025 Already Supported in All Major Browser",
+      "Difference Between Three.js and Babylon.js: What Actually Should You Choose?",
     excerpt:
-      "An overview of the latest CSS features introduced in 2025 and their cross-browser support.",
-    image: blog2,
-    date: "May 25, 2025",
+      "A detailed comparison of Three.js and Babylon.js, helping developers choose the right 3D engine for their projects.",
+    image: blog4,
+    date: "June 8, 2025",
     links: {
       medium:
-        "https://medium.com/@gouranga.das.khulna/the-10-best-new-css-features-in-2025-already-supported-in-all-major-browser-5150ece5c85a",
+        "https://medium.com/@gouranga.das.khulna/difference-between-three-js-and-babylon-js-what-actually-should-you-choose-122ab1838256",
       devto:
-        "https://dev.to/gouranga-das-khulna/the-10-best-new-css-features-in-2025-already-supported-in-all-major-browsers-467f",
+        "https://dev.to/gouranga-das-khulna/difference-between-threejs-and-babylonjs-what-actually-should-you-choose-437g",
     },
   },
   {
@@ -284,29 +284,29 @@ export const blogs = [
   },
   {
     title:
-      "Difference Between Three.js and Babylon.js: What Actually Should You Choose?",
+      "The 10 Best New CSS Features in 2025 Already Supported in All Major Browser",
     excerpt:
-      "A detailed comparison of Three.js and Babylon.js, helping developers choose the right 3D engine for their projects.",
-    image: blog4,
-    date: "June 8, 2025",
+      "An overview of the latest CSS features introduced in 2025 and their cross-browser support.",
+    image: blog2,
+    date: "May 25, 2025",
     links: {
       medium:
-        "https://medium.com/@gouranga.das.khulna/difference-between-three-js-and-babylon-js-what-actually-should-you-choose-122ab1838256",
+        "https://medium.com/@gouranga.das.khulna/the-10-best-new-css-features-in-2025-already-supported-in-all-major-browser-5150ece5c85a",
       devto:
-        "https://dev.to/gouranga-das-khulna/difference-between-threejs-and-babylonjs-what-actually-should-you-choose-437g",
+        "https://dev.to/gouranga-das-khulna/the-10-best-new-css-features-in-2025-already-supported-in-all-major-browsers-467f",
     },
   },
   {
-    title: "All React Concepts Explained in Just One Read",
+    title: "CSS only Click-handlers You Might not be using, but you should",
     excerpt:
-      "A comprehensive guide covering all essential React concepts in a single read, perfect for both beginners and experienced developers.",
-    image: blog5,
-    date: "June 15, 2025",
+      "A deep dive into CSS-only click handlers and how they can enhance user experience without JavaScript.",
+    image: blog1,
+    date: "May 22, 2025",
     links: {
       medium:
-        "https://medium.com/@gouranga.das.khulna/all-react-concepts-explained-in-just-one-read-ddf1b520ad1e",
+        "https://medium.com/@gouranga.das.khulna/css-only-click-handlers-you-might-not-be-using-but-you-should-1fd0f2a65ce6",
       devto:
-        "https://dev.to/gouranga-das-khulna/all-react-concepts-explained-in-just-one-read-part-1-1kop",
+        "https://dev.to/gouranga-das-khulna/css-only-click-handlers-you-might-not-be-using-but-you-should-p3e",
     },
   },
 ];
