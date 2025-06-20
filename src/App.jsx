@@ -1,7 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import { Footer, Navbar } from "./components";
-import { About, Contact, Home, NotFound, Projects } from "./pages";
+import { About, Blog, Contact, Home, NotFound, Projects } from "./pages";
 
 const App = () => {
   return (
@@ -33,6 +33,16 @@ const App = () => {
               <>
                 <Navbar />
                 <Projects />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/blog"
+            element={
+              <>
+                <Navbar />
+                <Blog />
                 <Footer />
               </>
             }

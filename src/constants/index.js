@@ -26,6 +26,13 @@ import {
 } from "../assets/icons";
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 
+// Import blog images
+import blog3 from "../assets/blog-img/01-06-2025.webp";
+import blog4 from "../assets/blog-img/08-06-2025.webp";
+import blog5 from "../assets/blog-img/15-06-2025.webp";
+import blog1 from "../assets/blog-img/22-05-2025.webp";
+import blog2 from "../assets/blog-img/25-05-2025.webp";
+
 export const skills = [
   {
     imageUrl: css,
@@ -230,5 +237,64 @@ export const projects = [
     description:
       "Frontend clone of daraz official website using HTML CSS JavaScript bootstrap 5 and jQuery.",
     link: "https://darazclonebygouranga.netlify.app/",
+  },
+];
+
+export const blogs = [
+  {
+    title: "Building Scalable React Applications: Best Practices",
+    excerpt:
+      "Discover the essential practices and patterns for creating maintainable, performant React applications at scale.",
+    image: blog1,
+    date: "May 22, 2025",
+    links: {
+      medium:
+        "https://medium.com/@yourusername/building-scalable-react-applications",
+      devto: "https://dev.to/yourusername/building-scalable-react-applications",
+    },
+  },
+  {
+    title: "The Future of Web Development with AI",
+    excerpt:
+      "Exploring how artificial intelligence is transforming the landscape of web development and what it means for developers.",
+    image: blog2,
+    date: "May 25, 2025",
+    links: {
+      medium: "https://medium.com/@yourusername/future-of-web-development-ai",
+      devto: "https://dev.to/yourusername/future-of-web-development-ai",
+    },
+  },
+  {
+    title: "Mastering 3D Animations in React",
+    excerpt:
+      "A comprehensive guide to implementing stunning 3D animations in React applications using Three.js and React Three Fiber.",
+    image: blog3,
+    date: "June 1, 2025",
+    links: {
+      medium: "https://medium.com/@yourusername/mastering-3d-animations-react",
+      devto: "https://dev.to/yourusername/mastering-3d-animations-react",
+    },
+  },
+  {
+    title: "Modern State Management in React",
+    excerpt:
+      "Comparing different state management solutions in React and when to use each one effectively.",
+    image: blog4,
+    date: "June 8, 2025",
+    links: {
+      medium: "https://medium.com/@yourusername/modern-state-management-react",
+      devto: "https://dev.to/yourusername/modern-state-management-react",
+    },
+  },
+  {
+    title: "Building a Portfolio that Stands Out",
+    excerpt:
+      "Tips and strategies for creating a developer portfolio that catches the attention of potential employers.",
+    image: blog5,
+    date: "June 15, 2025",
+    links: {
+      medium: "https://medium.com/@yourusername/portfolio-that-stands-out",
+      devto: "https://dev.to/yourusername/portfolio-that-stands-out",
+    },
   },
 ];
