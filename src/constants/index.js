@@ -30,8 +30,8 @@ import { meta, shopify, starbucks, tesla } from "../assets/images";
 import blog3 from "../assets/blog-img/01-06-2025.webp";
 import blog4 from "../assets/blog-img/08-06-2025.webp";
 import blog5 from "../assets/blog-img/15-06-2025.webp";
-import blog6 from "../assets/blog-img/22-06-2025.webp";
 import blog1 from "../assets/blog-img/22-05-2025.webp";
+import blog6 from "../assets/blog-img/22-06-2025.webp";
 import blog2 from "../assets/blog-img/25-05-2025.webp";
 
 export const skills = [
@@ -247,13 +247,13 @@ export const blogs = [
       "Tailwind CSS v4.0: A Complete Game Changer for Modern Web Development",
     excerpt:
       "Tailwind CSS v4.0 introduces groundbreaking features that revolutionize web development, making it easier and more efficient than ever.",
-    image: blog,
+    image: blog6,
     date: "June 22, 2025",
     links: {
       medium:
         "https://medium.com/@gouranga.das.khulna/tailwind-css-v4-0-a-complete-game-changer-for-modern-web-development-bdcdc2409def",
       devto:
-        "",
+        "https://dev.to/gouranga-das-khulna/tailwind-css-v40-a-complete-game-changer-for-modern-web-development-4hon",
     },
   },
   {
