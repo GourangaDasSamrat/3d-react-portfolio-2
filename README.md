@@ -72,9 +72,11 @@
 
 [<img src="https://img.youtube.com/vi/ZG73Dhri9CA/0.jpg" width="600" height="350">](https://www.youtube.com/watch?v=ZG73Dhri9CA)
 
-
-
 </div>
+
+## 📱 Mobile Navigation System
+
+A modern, responsive hamburger menu is implemented for mobile devices, ensuring seamless navigation and a clean UI on smaller screens. The menu uses Framer Motion for smooth slide-in/out animations, aligning with the overall design and enhancing user experience. The navigation links are hidden on desktop and shown in a mobile drawer on small screens.
 
 ## 🚀 Tech Stack
 
@@ -99,6 +101,7 @@ src/
   │   ├── icons/    # SVG icons
   │   └── images/   # Images & textures
   ├── components/   # Reusable UI components
+  │   ├── HamburgerMenu.jsx  # Responsive hamburger menu for mobile navigation
   ├── constants/    # Configuration & constants
   ├── hooks/        # Custom React hooks
   ├── models/       # 3D model components

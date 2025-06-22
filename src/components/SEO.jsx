@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 const SEO = ({
   title = "Gouranga Das Samrat | Frontend Web Developer",
-  description = "Hey there! I'm Gouranga Das Samrat, a 16-year-old passionate Frontend Web Developer from Khulna, Bangladesh. I craft beautiful and interactive web experiences using HTML, CSS, JavaScript (ES6), Bootstrap 5, and I'm diving deep into React JS and Tailwind CSS. I host my projects on Netlify and Vercel. Let's build something awesome together! 🚀",
+  description = "Hey there! I'm Gouranga Das Samrat, a 16-year-old passionate Frontend Web Developer from Khulna, Bangladesh. I craft beautiful and interactive web experiences using HTML, CSS, JavaScript (ES6), Bootstrap 5, and I'm diving deep into React JS and Tailwind CSS. Now featuring a mobile-friendly hamburger menu and Framer Motion for smooth, modern UI/UX transitions. I host my projects on Netlify and Vercel. Let's build something awesome together! 🚀",
   type = "website",
   keywords = "Frontend Developer, Web Developer, HTML, CSS, JavaScript, React JS, Tailwind CSS, Bootstrap 5, Portfolio, Gouranga Das Samrat, Khulna, Bangladesh, Web Design, UI/UX, Responsive Design, Netlify, Vercel, Full Stack Developer, MERN Stack",
   image = "https://i.postimg.cc/HsWDG5nx/Screenshot-from-2025-06-07-13-26-18.png", // Your website screenshot as the default OG image
@@ -93,10 +93,18 @@ const SEO = ({
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       <meta name="description" content={description} />
-      <meta name="keywords" content={keywords} />
+      <meta
+        name="keywords"
+        content={
+          keywords +
+          ", mobile navigation, hamburger menu, framer motion, responsive UI"
+        }
+      />
       <meta name="author" content="Gouranga Das Samrat" />
-      <link rel="canonical" href={canonicalUrl} />
-
+      <meta
+        name="subject"
+        content="Portfolio with mobile navigation and Framer Motion UI enhancements"
+      />
       <meta
         name="robots"
         content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
@@ -157,8 +165,6 @@ const SEO = ({
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
 
       <meta name="theme-color" content="#000000" />
-
-  
 
       <script type="application/ld+json">{JSON.stringify(ldJson)}</script>
     </Helmet>

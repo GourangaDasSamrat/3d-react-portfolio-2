@@ -3,7 +3,14 @@ import { SitemapStream, streamToPromise } from "sitemap";
 import { Readable } from "stream";
 
 // Define your website routes
-const routes = ["/", "/about", "/projects", "/contact"];
+const routes = [
+  "/",
+  "/about",
+  "/projects",
+  "/certifications",
+  "/blog",
+  "/contact",
+];
 
 // Create a stream to write to
 const stream = new SitemapStream({
