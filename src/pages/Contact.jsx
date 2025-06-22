@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
+import { motion } from "framer-motion";
 import { Suspense, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -104,54 +105,90 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container">
+    <motion.section
+      className="relative flex lg:flex-row flex-col max-container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <SEO
         title="Contact | Gouranga Das Samrat"
-        description="Get in touch with Gouranga Das Samrat. Let's discuss your web development projects and opportunities."
+        description="Get in touch with Gouranga Das Samrat for web development projects and collaborations"
         name="Gouranga Das Samrat"
         type="website"
       />
-      {alert.show && <Alert {...alert} />}
 
-      <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">Get in Touch</h1>
+      <motion.div
+        className="flex-1 min-w-[50%] flex flex-col"
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
+        <motion.h1
+          className="head-text"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+        >
+          Get in Touch
+        </motion.h1>
 
-        <form
+        <motion.form
           ref={formRef}
           onSubmit={handleSubmit}
           className="w-full flex flex-col gap-7 mt-14"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <label className="text-black-500 font-semibold">
+          <motion.label
+            className="text-black-500 font-semibold"
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
             Name
-            <input
+            <motion.input
               type="text"
               name="name"
               className="input"
-              placeholder="John"
+              placeholder="John Doe"
               required
               value={form.name}
               onChange={handleChange}
               onFocus={handleFocus}
               onBlur={handleBlur}
+              whileFocus={{ scale: 1.02 }}
             />
-          </label>
-          <label className="text-black-500 font-semibold">
+          </motion.label>
+          <motion.label
+            className="text-black-500 font-semibold"
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.6 }}
+          >
             Email
-            <input
+            <motion.input
               type="email"
               name="email"
               className="input"
-              placeholder="John@gmail.com"
+              placeholder="john@example.com"
               required
               value={form.email}
               onChange={handleChange}
               onFocus={handleFocus}
               onBlur={handleBlur}
+              whileFocus={{ scale: 1.02 }}
             />
-          </label>
-          <label className="text-black-500 font-semibold">
+          </motion.label>
+          <motion.label
+            className="text-black-500 font-semibold"
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.7 }}
+          >
             Your Message
-            <textarea
+            <motion.textarea
               name="message"
               rows="4"
               className="textarea"
@@ -160,9 +197,15 @@ const Contact = () => {
               onChange={handleChange}
               onFocus={handleFocus}
               onBlur={handleBlur}
+              whileFocus={{ scale: 1.02 }}
             />
-          </label>
-          <div className="flex justify-center w-full">
+          </motion.label>
+          <motion.div
+            className="flex justify-center w-full"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.8 }}
+          >
             <ReCAPTCHA
               ref={recaptchaRef}
               sitekey={import.meta.env.VITE_APP_RECAPTCHA_SITE_KEY}
@@ -171,9 +214,9 @@ const Contact = () => {
               theme="light"
               className="transform scale-100 md:scale-100 mx-auto"
             />
-          </div>
+          </motion.div>
 
-          <button
+          <motion.button
             type="submit"
             disabled={loading || !recaptchaValue}
             className={`btn ${
@@ -183,13 +226,23 @@ const Contact = () => {
             }`}
             onFocus={handleFocus}
             onBlur={handleBlur}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.9 }}
           >
             {loading ? "Sending..." : "Submit"}
-          </button>
-        </form>
-      </div>
+          </motion.button>
+        </motion.form>
+      </motion.div>
 
-      <div className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]">
+      <motion.div
+        className="lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]"
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
         <Canvas
           camera={{
             position: [0, 0, 5],
@@ -217,8 +270,10 @@ const Contact = () => {
             />
           </Suspense>
         </Canvas>
-      </div>
-    </section>
+      </motion.div>
+
+      {alert.show && <Alert {...alert} />}
+    </motion.section>
   );
 };
 

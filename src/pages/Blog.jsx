@@ -1,105 +1,140 @@
+import { motion } from "framer-motion";
 import { blogs } from "../constants";
 
-const BlogCard = ({ blog }) => (
-  <div className="w-full bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow border border-slate-200 group overflow-hidden flex flex-col hover:-translate-y-1 hover:scale-[1.025] duration-300">
-    <div className="relative">
-      <img
+const BlogCard = ({ blog, index }) => (
+  <motion.div
+    className="w-full bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-shadow border border-slate-200 group overflow-hidden flex flex-col"
+    initial={{ opacity: 0, y: 50 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{
+      duration: 0.5,
+      delay: index * 0.2,
+    }}
+    whileHover={{
+      y: -10,
+      scale: 1.02,
+      transition: { duration: 0.2 },
+    }}
+  >
+    <motion.div className="relative">
+      <motion.img
         src={blog.image}
         alt={blog.title}
-        className="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-300"
+        className="w-full h-52 object-cover"
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.3 }}
       />
-      <span className="absolute top-3 left-3 bg-gradient-to-r from-blue-600 to-blue-400 text-white text-xs px-3 py-1 rounded-full shadow font-semibold">
+      <motion.span
+        className="absolute top-3 left-3 bg-gradient-to-r from-blue-600 to-blue-400 text-white text-xs px-3 py-1 rounded-full shadow font-semibold"
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.3, delay: 0.2 + index * 0.1 }}
+      >
         {blog.date}
-      </span>
-    </div>
-    <div className="flex-1 flex flex-col justify-between p-6">
+      </motion.span>
+    </motion.div>
+    <motion.div
+      className="flex-1 flex flex-col justify-between p-6"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.3, delay: 0.3 + index * 0.1 }}
+    >
       <div>
-        <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-700 transition-colors">
+        <motion.h3
+          className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-700 transition-colors"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.4 + index * 0.1 }}
+        >
           {blog.title}
-        </h3>
-        <p className="text-slate-600 text-base mb-4 line-clamp-3">
+        </motion.h3>
+        <motion.p
+          className="text-slate-600 text-base mb-4 line-clamp-3"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.3, delay: 0.5 + index * 0.1 }}
+        >
           {blog.excerpt}
-        </p>
+        </motion.p>
       </div>
-      <div className="flex gap-3 mt-auto">
-        <a
+      <motion.div
+        className="flex gap-3 mt-auto"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, delay: 0.6 + index * 0.1 }}
+      >
+        <motion.a
           href={blog.links.medium}
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-400 text-white rounded-lg text-sm font-semibold shadow hover:from-blue-700 hover:to-blue-500 transition-colors text-center"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
         >
           Medium
-        </a>
-        <a
+        </motion.a>
+        <motion.a
           href={blog.links.devto}
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 px-4 py-2 bg-gradient-to-r from-gray-700 to-gray-500 text-white rounded-lg text-sm font-semibold shadow hover:from-gray-800 hover:to-gray-600 transition-colors text-center"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
         >
           Dev.to
-        </a>
-      </div>
-    </div>
-  </div>
+        </motion.a>
+      </motion.div>
+    </motion.div>
+  </motion.div>
 );
 
 const Blog = () => {
   return (
-    <section className="max-container">
-      <h1 className="head-text mb-2">
+    <motion.section
+      className="max-container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <motion.h1
+        className="head-text mb-2"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
         My{" "}
-        <span className="blue-gradient_text font-semibold drop-shadow">
+        <motion.span
+          className="blue-gradient_text font-semibold drop-shadow"
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "spring", stiffness: 300 }}
+        >
           Blog
-        </span>
-      </h1>
-      <div className="bg-gradient-to-r from-blue-50 to-slate-100 rounded-xl p-6 md:p-10 mb-10 shadow flex flex-col md:flex-row items-center gap-6 md:gap-12 border border-blue-100">
-        <div className="flex-1">
-          <h2 className="text-2xl md:text-3xl font-bold text-blue-700 mb-2">
-            Insights, Tutorials & Stories
-          </h2>
-          <p className="text-slate-600 text-base md:text-lg">
-            Welcome to my blog! Here you'll find in-depth articles, practical
-            guides, and personal stories about web development, React, and the
-            latest in tech. Whether you're a beginner or a seasoned developer,
-            there's something here for you. Stay curious and keep building!
-          </p>
-        </div>
-        <div className="flex-shrink-0 hidden md:block animate-float">
-          <svg
-            width="90"
-            height="90"
-            viewBox="0 0 90 90"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="45" cy="45" r="45" fill="#2563EB" fillOpacity="0.1" />
-            <path
-              d="M30 60L60 30M60 30H35M60 30V55"
-              stroke="#2563EB"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-      <div className="mt-8 container mx-auto px-2">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {blogs.map((blog, index) => (
-            <BlogCard key={index} blog={blog} />
-          ))}
-        </div>
-      </div>
-      <style>{`
-        .animate-float {
-          animation: float 3s ease-in-out infinite;
-        }
-        @keyframes float {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-10px); }
-        }
-      `}</style>
-    </section>
+        </motion.span>{" "}
+        Posts
+      </motion.h1>
+
+      <motion.p
+        className="text-slate-500 mt-2 leading-relaxed"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
+        Welcome to my blog section. Here, I share my thoughts, experiences, and
+        insights about web development, programming, and technology. Feel free
+        to explore and learn something new!
+      </motion.p>
+
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+      >
+        {blogs.map((blog, index) => (
+          <BlogCard key={blog.title} blog={blog} index={index} />
+        ))}
+      </motion.div>
+    </motion.section>
   );
 };
 
