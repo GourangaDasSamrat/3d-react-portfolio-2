@@ -8,7 +8,8 @@ const Certifications = () => {
       title: "Responsive Web Design Certification",
       image: certificate1,
       date: "22 June 2025",
-      description: "This certification demonstrates my proficiency in creating responsive and accessible web designs using HTML, CSS, and JavaScript. It covers topics such as Flexbox, Grid, and media queries to ensure websites are optimized for various devices.",
+      description:
+        "This certification demonstrates my proficiency in creating responsive and accessible web designs using HTML, CSS, and JavaScript. It covers topics such as Flexbox, Grid, and media queries to ensure websites are optimized for various devices.",
       verificationLink:
         "https://freecodecamp.org/certification/GpurangaDasSamrat/responsive-web-design",
     },
@@ -16,7 +17,7 @@ const Certifications = () => {
 
   return (
     <section className="max-container">
-      <SEO title="Certifications - Adrian" />
+      <SEO title="Certifications | Gouranga Das Samrat" />
 
       <h1 className="head-text">
         My{" "}
