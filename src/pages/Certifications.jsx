@@ -1,9 +1,18 @@
 import { motion } from "framer-motion";
 import SEO from "../components/SEO";
-import certificate1 from "/src/assets/images/certificate-1.png";
+import certificate1 from "/src/assets/images/certificate-1.webp";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Front End Development Libraries",
+      image: certificate1,
+      date: "23 June 2025",
+      description:
+        "This certification showcases my expertise in front-end development libraries such as React, Redux, and Bootstrap. It highlights my ability to build dynamic and responsive user interfaces, manage application state, and create visually appealing web applications.",
+      verificationLink:
+        "https://freecodecamp.org/certification/GpurangaDasSamrat/front-end-development-libraries",
+    },
     {
       title: "Responsive Web Design Certification",
       image: certificate1,
