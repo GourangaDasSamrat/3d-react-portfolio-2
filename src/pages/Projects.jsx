@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
-import { arrow } from "../assets/icons";
 import { CTA, SEO } from "../components";
 import { projects } from "../constants";
 
@@ -46,19 +44,18 @@ const Projects = () => {
         the ones I hold closest to my heart. Many of them are open-source, so if
         you come across something that piques your interest, feel free to
         explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
       </motion.p>
 
       <motion.div
-        className="flex flex-wrap my-20 gap-16"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-20"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
         {projects.map((project, index) => (
           <motion.div
-            className="lg:w-[400px] w-full"
             key={project.name}
+            className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -67,52 +64,42 @@ const Projects = () => {
             }}
             whileHover={{ y: -10 }}
           >
-            <motion.div
-              className="block-container w-12 h-12"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <div className={`btn-back rounded-xl ${project.theme}`} />
-              <div className="btn-front rounded-xl flex justify-center items-center">
-                <img
-                  src={project.iconUrl}
-                  alt="threads"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </div>
-            </motion.div>
+            <div className="relative h-48 w-full">
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-full object-cover"
+              />
+            </div>
 
-            <motion.div
-              className="mt-5 flex flex-col"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 1 + index * 0.2 }}
-            >
-              <h4 className="text-2xl font-poppins font-semibold">
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-2 text-gray-800">
                 {project.name}
-              </h4>
-              <p className="mt-2 text-slate-500">{project.description}</p>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
+              </h3>
+              <p className="text-gray-600 mb-4">{project.description}</p>
+
+              <div className="flex gap-4">
                 <Link
-                  to={project.link}
+                  to={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
+                  className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg text-center hover:bg-blue-600 transition-colors duration-300"
                 >
-                  Live Link
+                  Live Demo
                 </Link>
-                <img
-                  src={arrow}
-                  alt="arrow"
-                  className="w-4 h-4 object-contain"
-                />
+                <Link
+                  to={project.sourceCode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 border border-blue-500 text-blue-500 py-2 px-4 rounded-lg text-center hover:bg-blue-50 transition-colors duration-300"
+                >
+                  Source Code
+                </Link>
               </div>
-            </motion.div>
+            </div>
           </motion.div>
         ))}
       </motion.div>
-
-      <hr className="border-slate-200" />
 
       <CTA />
     </motion.section>

@@ -1,8 +1,6 @@
 import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -14,14 +12,10 @@ import {
   mui,
   nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
 } from "../assets/icons";
 import { meta, shopify, starbucks, tesla } from "../assets/images";
@@ -33,6 +27,14 @@ import blog5 from "../assets/blog-img/15-06-2025.webp";
 import blog1 from "../assets/blog-img/22-05-2025.webp";
 import blog6 from "../assets/blog-img/22-06-2025.webp";
 import blog2 from "../assets/blog-img/25-05-2025.webp";
+
+// Import project images
+import p1 from "../assets/images/p1.png";
+import p2 from "../assets/images/p2.png";
+import p3 from "../assets/images/p3.png";
+import p4 from "../assets/images/p4.png";
+import p5 from "../assets/images/p5.png";
+import p6 from "../assets/images/p6.png";
 
 export const skills = [
   {
@@ -192,52 +194,54 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "iPhone 15 pro Official 3D website clone",
+    name: "3D Portfolio",
     description:
-      "iPhone 15 pro 3D website clone using react js and tailwind css.",
-    link: "https://iphone-15-pro-3d-website-clone.vercel.app/",
+      "A stunning 3D portfolio website showcasing your skills and projects, built with React and Three.js for an immersive user experience.Also used React Helmet for SEO optimization.",
+    image: p1,
+    liveUrl: "https://gourangadas.netlify.app/",
+    sourceCode: "https://github.com/GourangaDasSamrat/3D-React-Portfolio.git",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "3D React Portfolio ",
+    name: "3D Island Portfolio",
     description:
-      "A  personal portfolio website showcasing my web development skills, projects, and experience with a modern, responsive design.",
-    link: "https://gourangadas.netlify.app/",
+      "An interactive 3D island portfolio that showcases your work in a unique and engaging way, built with React and Three.js.And a blog section for sharing insights and updates.",
+    image: p2,
+    liveUrl: "https://gouranga-das.netlify.app/",
+    sourceCode: "https://github.com/GourangaDasSamrat/3d-react-portfolio-2.git",
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
+    name: "Advanced Weather App",
+    description:
+      "An advanced weather application that provides real-time weather updates, forecasts, and location-based services, built with React and OpenWeatherMap API.",
+    image: p3,
+    liveUrl: "https://ecosky.vercel.app/",
+    sourceCode: "https://github.com/GourangaDasSamrat/React-Weather-App.git",
+  },
+  {
+    name: "Python Compiler",
+    description:
+      "A web-based Python compiler that allows users to write, run, and test Python code directly in the browser, built with CodeMirror.",
+    image: p4,
+    liveUrl: "https://simplepythoncompiler.netlify.app/",
+    sourceCode:
+      "https://github.com/GourangaDasSamrat/SimPle-Python-Compiler.git",
+  },
+  {
     name: "Google Gemini Clone",
     description:
-      "A fully functional Google Gemini 2.0 flash clone using HTML CSS JavaScript and Google Ai Studio free api key.",
-    link: "https://geminiclonebygouranga.netlify.app/",
+      "A clone of Google Gemini, a modern AI Assistant, built with Google Ai Studio Free Api for natural language processing.",
+    image: p5,
+    liveUrl: "https://geminiclonebygouranga.netlify.app/",
+    sourceCode: "https://github.com/GourangaDasSamrat/Gemini-Clone.git",
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Simple Python Compiler",
+    name: "3D iPhone Website Clone",
     description:
-      "It is a simple and responsive web-based tool where you can write and run Python code right in your browser. ",
-    link: "https://simplepythoncompiler.netlify.app/",
-  },
-  {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Live Code Editor",
-    description:
-      "A responsive live web based code editor using codemirror library.",
-    link: "https://livecodeeditorbygouranga.netlify.app/",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "Daraz Clone",
-    description:
-      "Frontend clone of daraz official website using HTML CSS JavaScript bootstrap 5 and jQuery.",
-    link: "https://darazclonebygouranga.netlify.app/",
+      "A 3D clone of the iPhone website, showcasing the latest iPhone models in an interactive 3D environment, built with React and Three.js.",
+    image: p6,
+    liveUrl: "https://iphone-15-pro-3d-website-clone.vercel.app/",
+    sourceCode:
+      "https://github.com/GourangaDasSamrat/iphone-15-pro-3d-website-clone.git",
   },
 ];
 
