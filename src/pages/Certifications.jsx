@@ -1,12 +1,22 @@
 import { motion } from "framer-motion";
 import SEO from "../components/SEO";
 import certificate1 from "/src/assets/images/certificate-1.webp";
+import certificate2 from "/src/assets/images/certificate-2.webp";
+import certificate3 from "/src/assets/images/certificate-3.webp";
 
 const Certifications = () => {
   const certifications = [
     {
+      title: "JavaScript Algorithms and Data Structures",
+      image: certificate3,
+      date: "28 June 2025",
+      description: "This certification demonstrates my proficiency in JavaScript programming, covering fundamental concepts such as algorithms, data structures, and problem-solving techniques. It showcases my ability to write efficient and optimized code for various applications.",
+      verificationLink:
+        "https://freecodecamp.org/certification/GpurangaDasSamrat/javascript-algorithms-and-data-structures-v8 ",
+    },
+    {
       title: "Front End Development Libraries",
-      image: certificate1,
+      image: certificate2,
       date: "23 June 2025",
       description:
         "This certification showcases my expertise in front-end development libraries such as React, Redux, and Bootstrap. It highlights my ability to build dynamic and responsive user interfaces, manage application state, and create visually appealing web applications.",
