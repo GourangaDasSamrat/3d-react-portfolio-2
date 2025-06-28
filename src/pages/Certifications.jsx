@@ -10,7 +10,8 @@ const Certifications = () => {
       title: "JavaScript Algorithms and Data Structures",
       image: certificate3,
       date: "28 June 2025",
-      description: "This certification demonstrates my proficiency in JavaScript programming, covering fundamental concepts such as algorithms, data structures, and problem-solving techniques. It showcases my ability to write efficient and optimized code for various applications.",
+      description:
+        "This certification demonstrates my proficiency in JavaScript programming, covering fundamental concepts such as algorithms, data structures, and problem-solving techniques. It showcases my ability to write efficient and optimized code for various applications.",
       verificationLink:
         "https://freecodecamp.org/certification/GpurangaDasSamrat/javascript-algorithms-and-data-structures-v8 ",
     },
@@ -77,7 +78,7 @@ const Certifications = () => {
       </motion.div>
 
       <motion.div
-        className="mt-12 flex flex-wrap gap-8"
+        className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.6 }}
@@ -98,7 +99,7 @@ const Certifications = () => {
               scale: 1.02,
               transition: { duration: 0.2 },
             }}
-            className="w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-21px)] p-4 rounded-2xl bg-white shadow-xl hover:shadow-2xl transition-shadow"
+            className="w-full p-4 rounded-2xl bg-white shadow-xl hover:shadow-2xl transition-shadow"
           >
             <motion.div
               className="relative w-full h-48 mb-4"
