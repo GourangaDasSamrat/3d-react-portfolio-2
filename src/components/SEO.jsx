@@ -59,7 +59,7 @@ const SEO = ({
       name: "Gouranga Das Samrat's Portfolio",
       logo: {
         "@type": "ImageObject",
-        url: "https://gouranga-das.netlify.app/logo.png",
+        url: "https://gouranga-das.netlify.app/logo.webp",
       },
     },
     keywords: keywords.split(", "),

@@ -29,12 +29,12 @@ import blog2 from "../assets/blog-img/25-05-2025.webp";
 import blog7 from "../assets/blog-img/29-06-2025.webp";
 
 // Import project images
-import p1 from "../assets/images/p1.png";
-import p2 from "../assets/images/p2.png";
-import p3 from "../assets/images/p3.png";
-import p4 from "../assets/images/p4.png";
-import p5 from "../assets/images/p5.png";
-import p6 from "../assets/images/p6.png";
+import p1 from "../assets/images/project-1.webp";
+import p2 from "../assets/images/project-2.webp";
+import p3 from "../assets/images/project-3.webp";
+import p4 from "../assets/images/project-4.webp";
+import p5 from "../assets/images/project-5.webp";
+import p6 from "../assets/images/project-6.webp";
 
 export const skills = [
   {
