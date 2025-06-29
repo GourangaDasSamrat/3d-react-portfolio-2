@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import { logo } from "../assets/images";
+import logo from "../assets/images/logo.png";
 import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {

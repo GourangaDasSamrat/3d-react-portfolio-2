@@ -18,7 +18,6 @@ import {
   tailwindcss,
   typescript,
 } from "../assets/icons";
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 
 // Import blog images
 import blog3 from "../assets/blog-img/01-06-2025.webp";
@@ -27,6 +26,7 @@ import blog5 from "../assets/blog-img/15-06-2025.webp";
 import blog1 from "../assets/blog-img/22-05-2025.webp";
 import blog6 from "../assets/blog-img/22-06-2025.webp";
 import blog2 from "../assets/blog-img/25-05-2025.webp";
+import blog7 from "../assets/blog-img/29-06-2025.webp";
 
 // Import project images
 import p1 from "../assets/images/p1.png";
@@ -119,61 +119,6 @@ export const skills = [
   },
 ];
 
-export const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
 export const socialLinks = [
   {
     name: "Contact",
@@ -246,6 +191,18 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title: "10 Front-End Performance Fixes You Should Apply Today",
+    excerpt: "A guide to essential front-end performance optimizations that can significantly improve your web application's speed and user experience.",
+    image: blog7,
+    date: "June 29, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/10-front-end-performance-fixes-you-should-apply-today-54b3ff5b5cfc",
+      devto:
+        "https://dev.to/gouranga-das-khulna/10-front-end-performance-fixes-you-should-apply-today-3506",
+    },
+  },
   {
     title:
       "Tailwind CSS v4.0: A Complete Game Changer for Modern Web Development",
