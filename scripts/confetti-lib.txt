@@ -1,0 +1,3 @@
+// react-confetti is a lightweight confetti animation library for React.
+// https://www.npmjs.com/package/react-confetti
+// Install with: npm install react-confetti

@@ -1,7 +1,8 @@
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { motion } from "framer-motion";
-import { Suspense, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
+import ReactConfetti from "react-confetti";
 import ReCAPTCHA from "react-google-recaptcha";
 
 import { Alert, Loader, SEO } from "../components";
@@ -16,6 +17,24 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
   const [currentAnimation, setCurrentAnimation] = useState("idle");
   const [recaptchaValue, setRecaptchaValue] = useState(null);
+  const [showConfetti, setShowConfetti] = useState(false);
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  // Update window size when window is resized
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleChange = ({ target: { name, value } }) => {
     setForm({ ...form, [name]: value });
@@ -76,6 +95,9 @@ const Contact = () => {
             type: "success",
           });
 
+          // Show confetti
+          setShowConfetti(true);
+
           // Reset recaptcha
           recaptchaRef.current?.reset();
           setRecaptchaValue(null);
@@ -83,12 +105,13 @@ const Contact = () => {
           setTimeout(() => {
             hideAlert();
             setCurrentAnimation("idle");
+            setShowConfetti(false);
             setForm({
               name: "",
               email: "",
               message: "",
             });
-          }, 3000);
+          }, 5000);
         },
         (error) => {
           setLoading(false);
@@ -111,6 +134,15 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
+      {showConfetti && (
+        <ReactConfetti
+          width={windowSize.width}
+          height={windowSize.height}
+          numberOfPieces={200}
+          recycle={false}
+          colors={["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"]}
+        />
+      )}
       <SEO
         title="Contact | Gouranga Das Samrat"
         description="Get in touch with Gouranga Das Samrat for web development projects and collaborations"
