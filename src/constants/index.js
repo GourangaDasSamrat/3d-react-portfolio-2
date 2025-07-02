@@ -20,14 +20,22 @@ import {
 } from "../assets/icons";
 
 // Import blog images
-import blog8 from "../assets/blog-img/01-07-2025.webp";
-import blog3 from "../assets/blog-img/01-06-2025.webp";
-import blog4 from "../assets/blog-img/08-06-2025.webp";
-import blog5 from "../assets/blog-img/15-06-2025.webp";
-import blog1 from "../assets/blog-img/22-05-2025.webp";
-import blog6 from "../assets/blog-img/22-06-2025.webp";
-import blog2 from "../assets/blog-img/25-05-2025.webp";
-import blog7 from "../assets/blog-img/29-06-2025.webp";
+const blog1 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*PuSKLNWyOgB6Ujrv.png";
+const blog2 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*x_zz-3zdmGHCPstY";
+const blog3 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*Uy64m3J8iKh3P9F5";
+const blog4 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*yIp8t6Sa9oQ3iMJA.jpeg";
+const blog5 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*RHcDkqMWy6y-SXr9.png";
+const blog6 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*VlzgT5AhlA8kaCW2";
+const blog7 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*uzkxrVlemR-u6Rpe.png";
+const blog8 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*jqBOuIvzJy7j5FSh.png";
 
 // Import project images
 import p1 from "../assets/images/project-1.webp";
