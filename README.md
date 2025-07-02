@@ -189,7 +189,7 @@ Then open http://localhost:5173 in your browser. 🎉
 
 ## 🔗 Live Link
 
-Visit the live website: [https://gourangadas.netlify.app/](https://gourangadas.netlify.app/)
+Visit the live website: [https://gouranga-das.netlify.app/](https://gouranga-das.netlify.app/)
 
 ## 💎 Acknowledgement
 
