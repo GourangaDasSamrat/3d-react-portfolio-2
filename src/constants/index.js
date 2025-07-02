@@ -20,6 +20,7 @@ import {
 } from "../assets/icons";
 
 // Import blog images
+import blog8 from "../assets/blog-img/01-07-2025.webp";
 import blog3 from "../assets/blog-img/01-06-2025.webp";
 import blog4 from "../assets/blog-img/08-06-2025.webp";
 import blog5 from "../assets/blog-img/15-06-2025.webp";
@@ -191,6 +192,18 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title: "Exploring Google’s New Gemini CLI: The Ultimate Open-Source Dev Tool",
+    excerpt: "A comprehensive guide to Google's new Gemini CLI, an open-source tool designed to enhance developer productivity and streamline workflows.",
+    image: blog8,
+    date: "July 02, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/exploring-googles-new-gemini-cli-the-ultimate-open-source-dev-tool-19a0a5a0c6f0",
+      devto:
+        "https://dev.to/gouranga-das-khulna/exploring-googles-new-gemini-cli-the-ultimate-open-source-dev-tool-1bc4",
+    },
+  },
   {
     title: "10 Front-End Performance Fixes You Should Apply Today",
     excerpt: "A guide to essential front-end performance optimizations that can significantly improve your web application's speed and user experience.",
