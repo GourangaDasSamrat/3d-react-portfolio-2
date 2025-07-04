@@ -108,7 +108,7 @@ const Certifications = () => {
               scale: 1.02,
               transition: { duration: 0.2 },
             }}
-            className="w-full p-4 rounded-2xl bg-white shadow-xl hover:shadow-2xl transition-shadow"
+            className="w-full p-4 rounded-2xl bg-white shadow-xl hover:shadow-2xl transition-shadow flex flex-col"
           >
             <motion.div
               className="relative w-full h-48 mb-4"
@@ -155,7 +155,7 @@ const Certifications = () => {
               href={cert.verificationLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+              className="bg-blue-600 text-white px-3 py-2 rounded-lg hover:bg-blue-700 transition-colors mt-auto w-fit self-start text-sm"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               initial={{ opacity: 0, y: 20 }}
