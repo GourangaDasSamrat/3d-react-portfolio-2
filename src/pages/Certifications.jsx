@@ -3,9 +3,18 @@ import SEO from "../components/SEO";
 import certificate1 from "/src/assets/images/certificate-1.webp";
 import certificate2 from "/src/assets/images/certificate-2.webp";
 import certificate3 from "/src/assets/images/certificate-3.webp";
+import certificate4 from "/src/assets/images/certificate-4.webp";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "CSS(Basic) Certificate from HackerRank",
+      image: certificate4,
+      date: "04 July 2025",
+      description:
+        "This certification validates my foundational knowledge of CSS, including styling techniques, layout design, and responsive web design principles. It demonstrates my ability to create visually appealing and user-friendly web pages.",
+      verificationLink: "https://www.hackerrank.com/certificates/0e3142b3e0d8",
+    },
     {
       title: "JavaScript Algorithms and Data Structures",
       image: certificate3,
