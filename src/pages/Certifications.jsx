@@ -4,9 +4,18 @@ import certificate1 from "/src/assets/images/certificate-1.webp";
 import certificate2 from "/src/assets/images/certificate-2.webp";
 import certificate3 from "/src/assets/images/certificate-3.webp";
 import certificate4 from "/src/assets/images/certificate-4.webp";
+import certificate5 from "/src/assets/images/certificate-5.webp";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "JavaScript(Basic) Certificate from HackerRank",
+      image: certificate5,
+      date: "05 July 2025",
+      description:
+        "This certification demonstrates my foundational knowledge of JavaScript, including syntax, data types, control structures, and basic algorithms. It validates my ability to write simple scripts and understand core programming concepts.",
+      verificationLink: "https://www.hackerrank.com/certificates/1dc151e8da65",
+    },
     {
       title: "CSS(Basic) Certificate from HackerRank",
       image: certificate4,
