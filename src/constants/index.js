@@ -36,7 +36,8 @@ const blog7 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*uzkxrVlemR-u6Rpe.png";
 const blog8 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*jqBOuIvzJy7j5FSh.png";
-
+const blog9 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*PoRd4X2_WEZLDCxa.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -201,8 +202,23 @@ export const projects = [
 
 export const blogs = [
   {
-    title: "Exploring Google’s New Gemini CLI: The Ultimate Open-Source Dev Tool",
-    excerpt: "A comprehensive guide to Google's new Gemini CLI, an open-source tool designed to enhance developer productivity and streamline workflows.",
+    title: "6 Essential JavaScript Concepts Every Developer Should Understand",
+    excerpt:
+      "A deep dive into six fundamental JavaScript concepts that every developer should master to enhance their coding skills and understanding of the language.",
+    image: blog9,
+    date: "July 05, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/6-essential-javascript-concepts-every-developer-should-understand-b93aca0b5d41",
+      devto:
+        "https://dev.to/gouranga-das-khulna/6-essential-javascript-concepts-every-developer-should-understand-530e",
+    },
+  },
+  {
+    title:
+      "Exploring Google’s New Gemini CLI: The Ultimate Open-Source Dev Tool",
+    excerpt:
+      "A comprehensive guide to Google's new Gemini CLI, an open-source tool designed to enhance developer productivity and streamline workflows.",
     image: blog8,
     date: "July 02, 2025",
     links: {
@@ -214,7 +230,8 @@ export const blogs = [
   },
   {
     title: "10 Front-End Performance Fixes You Should Apply Today",
-    excerpt: "A guide to essential front-end performance optimizations that can significantly improve your web application's speed and user experience.",
+    excerpt:
+      "A guide to essential front-end performance optimizations that can significantly improve your web application's speed and user experience.",
     image: blog7,
     date: "June 29, 2025",
     links: {
