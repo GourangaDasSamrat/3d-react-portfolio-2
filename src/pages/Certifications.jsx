@@ -17,8 +17,9 @@ const Certifications = () => {
       title: "Problem Solving(Intermediate) Certificate from HackerRank",
       image: certificate9,
       date: "06 July 2025",
-      description: "This certification demonstrates my intermediate problem-solving skills, including algorithm design, data structures, and advanced coding techniques. It validates my ability to tackle complex programming challenges effectively.",
-      verificationLink: "",
+      description:
+        "This certification demonstrates my intermediate problem-solving skills, including algorithm design, data structures, and advanced coding techniques. It validates my ability to tackle complex programming challenges effectively.",
+      verificationLink: "https://www.hackerrank.com/certificates/9e649f914d96",
     },
     {
       title: "Problem Solving(Basic) Certificate from HackerRank",
@@ -26,7 +27,7 @@ const Certifications = () => {
       date: "06 July 2025",
       description:
         "This certification demonstrates my foundational problem-solving skills, including algorithmic thinking, data structures, and basic coding techniques. It validates my ability to approach and solve programming challenges effectively.",
-      verificationLink: "",
+      verificationLink: "https://www.hackerrank.com/certificates/a88d61f3f72a",
     },
     {
       title: "React(Basic) Certificate from HackerRank",
@@ -34,7 +35,7 @@ const Certifications = () => {
       date: "06 July 2025",
       description:
         "This certification validates my foundational knowledge of React, including component-based architecture, state management, and basic hooks. It demonstrates my ability to build interactive user interfaces using React.",
-      verificationLink: "",
+      verificationLink: "https://www.hackerrank.com/certificates/e98e9c1a71cb",
     },
     {
       title: "JavaScript(Intermediate) Certificate from HackerRank",
@@ -42,7 +43,7 @@ const Certifications = () => {
       date: "05 July 2025",
       description:
         "This certification demonstrates my intermediate knowledge of JavaScript, including advanced concepts such as asynchronous programming, closures, and higher-order functions. It validates my ability to write more complex scripts and understand advanced programming techniques.",
-      verificationLink: "",
+      verificationLink: "https://www.hackerrank.com/certificates/45f92a73ed85",
     },
     {
       title: "JavaScript(Basic) Certificate from HackerRank",
