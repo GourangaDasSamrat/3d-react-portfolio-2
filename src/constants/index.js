@@ -38,6 +38,8 @@ const blog8 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*jqBOuIvzJy7j5FSh.png";
 const blog9 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*PoRd4X2_WEZLDCxa.png";
+const blog10 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*bW9ykJaKQfmhqO-8.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -201,6 +203,19 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title: "7 React Patterns That Made Me Code Smarter, Not Harder",
+    excerpt:
+      "A collection of seven essential React patterns that can significantly improve your coding efficiency and application architecture.",
+    image: blog10,
+    date: "July 06, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/7-react-patterns-that-made-me-code-smarter-not-harder-ee0696a94e9a",
+      devto:
+        "https://dev.to/gouranga-das-khulna/7-react-patterns-that-made-me-code-smarter-not-harder-4570",
+    },
+  },
   {
     title: "6 Essential JavaScript Concepts Every Developer Should Understand",
     excerpt:
