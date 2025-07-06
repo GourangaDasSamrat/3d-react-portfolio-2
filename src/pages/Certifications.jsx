@@ -1,13 +1,48 @@
 import { motion } from "framer-motion";
 import SEO from "../components/SEO";
-import certificate1 from "/src/assets/images/certificate-1.webp";
-import certificate2 from "/src/assets/images/certificate-2.webp";
-import certificate3 from "/src/assets/images/certificate-3.webp";
-import certificate4 from "/src/assets/images/certificate-4.webp";
-import certificate5 from "/src/assets/images/certificate-5.webp";
+const certificate1 = "https://i.postimg.cc/BZFGTnjf/certificate-1.webp";
+const certificate2 = "https://i.postimg.cc/7YyrmrzG/certificate-2.webp";
+const certificate3 = "https://i.postimg.cc/5NqdrK5P/certificate-3.webp";
+const certificate4 = "https://i.postimg.cc/DzNtG9Fz/certificate-4.webp";
+const certificate5 = "https://i.postimg.cc/1zXkf9kT/certificate-5.webp";
+const certificate6 = "https://i.postimg.cc/W3Jxw5bw/certificate-6.webp";
+const certificate7 = "https://i.postimg.cc/gjFQS3xF/certificate-7.webp";
+const certificate8 = "https://i.postimg.cc/5yBGZjzH/certificate-8.webp";
+const certificate9 = "https://i.postimg.cc/QN1RBYzX/certificate-9.webp";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Problem Solving(Intermediate) Certificate from HackerRank",
+      image: certificate9,
+      date: "06 July 2025",
+      description: "This certification demonstrates my intermediate problem-solving skills, including algorithm design, data structures, and advanced coding techniques. It validates my ability to tackle complex programming challenges effectively.",
+      verificationLink: "",
+    },
+    {
+      title: "Problem Solving(Basic) Certificate from HackerRank",
+      image: certificate8,
+      date: "06 July 2025",
+      description:
+        "This certification demonstrates my foundational problem-solving skills, including algorithmic thinking, data structures, and basic coding techniques. It validates my ability to approach and solve programming challenges effectively.",
+      verificationLink: "",
+    },
+    {
+      title: "React(Basic) Certificate from HackerRank",
+      image: certificate7,
+      date: "06 July 2025",
+      description:
+        "This certification validates my foundational knowledge of React, including component-based architecture, state management, and basic hooks. It demonstrates my ability to build interactive user interfaces using React.",
+      verificationLink: "",
+    },
+    {
+      title: "JavaScript(Intermediate) Certificate from HackerRank",
+      image: certificate6,
+      date: "05 July 2025",
+      description:
+        "This certification demonstrates my intermediate knowledge of JavaScript, including advanced concepts such as asynchronous programming, closures, and higher-order functions. It validates my ability to write more complex scripts and understand advanced programming techniques.",
+      verificationLink: "",
+    },
     {
       title: "JavaScript(Basic) Certificate from HackerRank",
       image: certificate5,
