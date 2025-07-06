@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SEO from "../components/SEO";
+// Certificate images
 const certificate1 = "https://i.postimg.cc/BZFGTnjf/certificate-1.webp";
 const certificate2 = "https://i.postimg.cc/7YyrmrzG/certificate-2.webp";
 const certificate3 = "https://i.postimg.cc/5NqdrK5P/certificate-3.webp";
