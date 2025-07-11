@@ -72,6 +72,11 @@ const Links = () => {
       url: "https://discord.gg/ByjVd6KZdV",
       icon: "bx bxl-discord",
     },
+    {
+      platform: "Gmail",
+      url: "mailto:gouranga.das.khulna@gmail.com",
+      icon: "bx bxl-gmail",
+    },
   ];
 
   return (
@@ -145,12 +150,13 @@ const Links = () => {
               GitHub: "#333",
               CodePen: "#000",
               LeetCode: "#FFA116",
-              HackerRank: "green", // Official green
+              HackerRank: "green",
               LinkedIn: "#0077B5",
-              Medium: "black", // Official green
+              Medium: "black",
               DEV: "#0A0A0A",
               Blogger: "#FF8000",
               "Discord Server": "#5865F2",
+              Gmail: "#D14836",
             };
             return (
               <motion.a
