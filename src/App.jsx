@@ -7,6 +7,7 @@ import {
   Certifications,
   Contact,
   Home,
+  Links,
   NotFound,
   Projects,
 } from "./pages";
@@ -75,6 +76,7 @@ const App = () => {
               </>
             }
           />
+          <Route path="/links" element={<Links />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
