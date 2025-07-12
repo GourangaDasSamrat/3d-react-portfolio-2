@@ -28,6 +28,11 @@ const Links = () => {
       icon: "bx bxl-meta",
     },
     {
+      platform: "YouTube",
+      url: "https://www.youtube.com/@GourangaDasSamrat",
+      icon: "bx bxl-youtube",
+    },
+    {
       platform: "GitHub",
       url: "https://github.com/GourangaDasSamrat/",
       icon: "bx bxl-github",
@@ -147,6 +152,7 @@ const Links = () => {
               Instagram: "#E4405F",
               TikTok: "#010101",
               Threads: "#000000",
+              YouTube: "#FF0000",
               GitHub: "#333",
               CodePen: "#000",
               LeetCode: "#FFA116",
