@@ -5,82 +5,82 @@ const Links = () => {
     {
       platform: "Facebook",
       url: "https://www.facebook.com/gourangadassamrat/",
-      icon: "bx bxl-facebook",
+      icon: "fab fa-facebook",
     },
     {
       platform: "Twitter",
       url: "https://x.com/Gouranga_Khulna/",
-      icon: "bx bxl-twitter",
+      icon: "fab fa-twitter",
     },
     {
       platform: "Instagram",
       url: "https://www.instagram.com/gouranga.das.khulna/",
-      icon: "bx bxl-instagram",
+      icon: "fab fa-instagram",
     },
     {
       platform: "TikTok",
       url: "https://www.tiktok.com/@gourangadassamrat/",
-      icon: "bx bxl-tiktok",
+      icon: "fab fa-tiktok",
     },
     {
       platform: "Threads",
       url: "https://www.threads.com/@gouranga.das.khulna/",
-      icon: "bx bxl-meta",
+      icon: "fa-brands fa-threads",
     },
     {
       platform: "YouTube",
       url: "https://www.youtube.com/@GourangaDasSamrat",
-      icon: "bx bxl-youtube",
+      icon: "fab fa-youtube",
     },
     {
       platform: "GitHub",
       url: "https://github.com/GourangaDasSamrat/",
-      icon: "bx bxl-github",
+      icon: "fab fa-github",
     },
     {
       platform: "CodePen",
       url: "https://codepen.io/Gouranga-Das-Samrat/",
-      icon: "bx bxl-codepen",
+      icon: "fab fa-codepen",
     },
     {
       platform: "LeetCode",
       url: "https://leetcode.com/u/gourangadassamrat/",
-      icon: "bx bx-code-alt",
+      icon: "fa-solid fa-code",
     },
     {
       platform: "HackerRank",
       url: "https://www.hackerrank.com/profile/gouranga_das_kh1",
-      icon: "bx bx-code-curly",
+      icon: "fa-solid fa-code-branch",
     },
     {
       platform: "LinkedIn",
       url: "https://www.linkedin.com/in/gouranga-das-samrat/",
-      icon: "bx bxl-linkedin",
+      icon: "fab fa-linkedin",
     },
     {
       platform: "Medium",
       url: "https://medium.com/@gouranga.das.khulna/",
-      icon: "bx bxl-medium",
+      icon: "fab fa-medium",
     },
     {
       platform: "DEV",
       url: "https://dev.to/gouranga-das-khulna/",
-      icon: "bx bxl-dev-to",
+      icon: "fab fa-dev",
     },
     {
       platform: "Blogger",
       url: "https://gourangadassamrat.blogspot.com/",
-      icon: "bx bxl-blogger",
+      icon: "fab fa-blogger",
     },
     {
       platform: "Discord Server",
       url: "https://discord.gg/ByjVd6KZdV",
-      icon: "bx bxl-discord",
+      icon: "fab fa-discord",
     },
     {
       platform: "Gmail",
       url: "mailto:gouranga.das.khulna@gmail.com",
-      icon: "bx bxl-gmail",
+      icon: "fa-solid fa-envelope",
     },
   ];
 
@@ -183,7 +183,7 @@ const Links = () => {
                 whileTap={{ scale: 0.97 }}
               >
                 <i
-                  className={`${link.icon} text-2xl`}
+                  className={link.icon + " text-2xl"}
                   style={{ color: brandColors[link.platform] || "#333" }}
                 ></i>
                 <span className="text-sm">{link.platform}</span>
