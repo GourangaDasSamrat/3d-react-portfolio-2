@@ -126,9 +126,11 @@ const Links = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-gray-800  text-center max-w-lg mb-8"
         >
-          Hi! I'm Gouranga Das Samrat, a passionate developer from Khulna,
-          sharing my work and ideas online. Let's connect and build something
-          amazing together!
+          I am a passionate Frontend Web Developer skilled in HTML, CSS,
+          JavaScript, Bootstrap, Tailwind CSS and React. My focus is on building
+          user-centric, responsive, and visually stunning websites. With a
+          strong background in web design and development, I am dedicated to
+          delivering high-quality digital experiences.
         </motion.p>
 
         <motion.div
