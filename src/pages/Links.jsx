@@ -50,7 +50,7 @@ const Links = () => {
     {
       platform: "HackerRank",
       url: "https://www.hackerrank.com/profile/gouranga_das_kh1",
-      icon: "fa-solid fa-code-branch",
+      icon: "fa-brands fa-hackerrank",
     },
     {
       platform: "LinkedIn",
