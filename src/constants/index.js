@@ -151,12 +151,12 @@ export const socialLinks = [
 
 export const projects = [
   {
-    name: "3D Portfolio",
+    name: "PDF Merger React App",
     description:
-      "A stunning 3D portfolio website showcasing your skills and projects, built with React and Three.js for an immersive user experience.Also used React Helmet for SEO optimization.",
+      "A React application that allows users to merge multiple PDF files into one, providing a simple and efficient way to manage PDF documents.",
     image: p1,
-    liveUrl: "https://gourangadas.netlify.app/",
-    sourceCode: "https://github.com/GourangaDasSamrat/3D-React-Portfolio.git",
+    liveUrl: "https://pdf-hero-mauve.vercel.app/",
+    sourceCode: "https://github.com/GourangaDasSamrat/PDF-Merger-React.git",
   },
   {
     name: "3D Island Portfolio",
