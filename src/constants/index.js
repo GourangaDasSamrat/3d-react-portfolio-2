@@ -40,6 +40,10 @@ const blog9 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*PoRd4X2_WEZLDCxa.png";
 const blog10 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*bW9ykJaKQfmhqO-8.png";
+const blog11 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*KzsznaX3AafLDN8J.png";
+const blog12 =
+  "https://miro.medium.com/v2/resize:fit:720/format:webp/0*cx81_md2J-IHkRr5.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -203,6 +207,33 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title:
+      "Sharpen Your Front-End Skills: Quick HTML, CSS & React Interview Challenges",
+    excerpt:
+      "A collection of quick HTML, CSS, and React interview challenges designed to sharpen your front-end skills and prepare you for technical interviews.",
+    image: blog12,
+    date: "July 13, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/sharpen-your-front-end-skills-quick-html-css-react-interview-challenges-24629730d17c",
+      devto:
+        "https://dev.to/gouranga-das-khulna/sharpen-your-front-end-skills-quick-html-css-react-interview-challenges-5f2c",
+    },
+  },
+  {
+    title: "This One React Hook Streamlines Every Project I Build",
+    excerpt:
+      "A deep dive into a powerful React hook that simplifies state management and enhances code efficiency in every project.",
+    image: blog11,
+    date: "July 12, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/this-one-react-hook-streamlines-every-project-i-build-108af05bd18a",
+      devto:
+        "https://dev.to/gouranga-das-khulna/this-one-react-hook-streamlines-every-project-i-build-21hp",
+    },
+  },
   {
     title: "7 React Patterns That Made Me Code Smarter, Not Harder",
     excerpt:
