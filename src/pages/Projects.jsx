@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { github, internet } from "../assets/icons";
 import { CTA, SEO } from "../components";
 import { projects } from "../constants";
 
@@ -72,27 +73,35 @@ const Projects = () => {
               />
             </div>
 
-            <div className="p-6">
+            <div className="p-6 flex flex-col">
               <h3 className="text-2xl font-bold mb-2 text-gray-800">
                 {project.name}
               </h3>
-              <p className="text-gray-600 mb-4">{project.description}</p>
+              <p className="text-gray-600 mb-4 min-h-[4.5rem]">
+                {project.description}
+              </p>
 
-              <div className="flex gap-4">
+              <div className="flex gap-4 mt-auto">
                 <Link
                   to={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg text-center hover:bg-blue-600 transition-colors duration-300"
+                  className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300 flex items-center justify-center gap-2"
                 >
+                  <img
+                    src={internet}
+                    alt="Live Demo"
+                    className="w-5 h-5 invert"
+                  />
                   Live Demo
                 </Link>
                 <Link
                   to={project.sourceCode}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 border border-blue-500 text-blue-500 py-2 px-4 rounded-lg text-center hover:bg-blue-50 transition-colors duration-300"
+                  className="flex-1 border border-blue-500 text-blue-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition-colors duration-300 flex items-center justify-center gap-2"
                 >
+                  <img src={github} alt="Source Code" className="w-5 h-5" />
                   Source Code
                 </Link>
               </div>
