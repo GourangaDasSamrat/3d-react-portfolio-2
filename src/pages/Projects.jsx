@@ -73,15 +73,12 @@ const Projects = () => {
               />
             </div>
 
-            <div className="p-6 flex flex-col">
+            <div className="p-6">
               <h3 className="text-2xl font-bold mb-2 text-gray-800">
                 {project.name}
               </h3>
-              <p className="text-gray-600 mb-4 min-h-[4.5rem]">
-                {project.description}
-              </p>
-
-              <div className="flex gap-4 mt-auto">
+              <p className="text-gray-600 mb-4">{project.description}</p>
+              <div className="flex gap-4 mt-4">
                 <Link
                   to={project.liveUrl}
                   target="_blank"
