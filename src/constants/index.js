@@ -44,6 +44,10 @@ const blog11 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*KzsznaX3AafLDN8J.png";
 const blog12 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*cx81_md2J-IHkRr5.png";
+const blog13 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*te_PkYEZfrasx2Zc.png";
+const blog14 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*kfdUAICDJQ_V8RpP";
+const blog15 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*8HCFUpO_QbgeVYrS.png";
+const blog16 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*euv5zNgDN2gztFr5.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -207,6 +211,62 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title:
+      "Top 10 CSS Mistakes That Make Your Website Look Unprofessional",
+    excerpt:
+      "",
+    image: blog16,
+    date: "July 27, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/top-10-css-mistakes-that-make-your-website-look-unprofessional-2e72ee006206",
+      devto:
+        "https://dev.to/gouranga-das-khulna/top-10-css-mistakes-that-make-your-website-look-unprofessional-499o",
+    },
+  },
+  {
+    title:
+      "How to Use Framer Motion for Stunning React Animations",
+    excerpt:
+      "",
+    image: blog15,
+    date: "July 26, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/how-to-use-framer-motion-for-stunning-react-animations-e65b49a64e90",
+      devto:
+        "https://dev.to/gouranga-das-khulna/how-to-use-framer-motion-for-stunning-react-animations-2idh",
+    },
+  },
+  {
+    title:
+      "10 Must-Know React Tricks for Beginners",
+    excerpt:
+      "",
+    image: blog14,
+    date: "July 20, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/10-must-know-react-tricks-for-beginners-af8b9e42f84d",
+      devto:
+        "https://dev.to/gouranga-das-khulna/10-must-know-react-tricks-for-beginners-38gi",
+    },
+  },
+  {
+    title:
+      "Top 25 JavaScript Array Methods Every Developer Should Learn",
+    excerpt:
+      "",
+    image: blog13,
+    date: "July 19, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/top-25-javascript-array-methods-every-developer-should-learn-2f4c2a06f776",
+      devto:
+        "https://dev.to/gouranga-das-khulna/top-25-javascript-array-methods-every-developer-should-learn-2jc1",
+    },
+  },
   {
     title:
       "Sharpen Your Front-End Skills: Quick HTML, CSS & React Interview Challenges",
