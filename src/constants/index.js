@@ -215,7 +215,7 @@ export const blogs = [
     title:
       "Top 10 CSS Mistakes That Make Your Website Look Unprofessional",
     excerpt:
-      "",
+      "Discover the most common CSS mistakes that can ruin your website’s design and credibility. This post highlights the top 10 pitfalls and offers practical tips to help you create cleaner, more professional-looking layouts.",
     image: blog16,
     date: "July 27, 2025",
     links: {
@@ -229,7 +229,7 @@ export const blogs = [
     title:
       "How to Use Framer Motion for Stunning React Animations",
     excerpt:
-      "",
+      "Learn how to bring your React projects to life with Framer Motion. This guide walks you through the basics and advanced techniques to create smooth, eye-catching animations with ease.",
     image: blog15,
     date: "July 26, 2025",
     links: {
@@ -243,7 +243,7 @@ export const blogs = [
     title:
       "10 Must-Know React Tricks for Beginners",
     excerpt:
-      "",
+      "New to React? This post covers 10 essential tips and tricks that will help you write cleaner, more efficient code and boost your confidence as a beginner developer.",
     image: blog14,
     date: "July 20, 2025",
     links: {
@@ -257,7 +257,7 @@ export const blogs = [
     title:
       "Top 25 JavaScript Array Methods Every Developer Should Learn",
     excerpt:
-      "",
+      "Master JavaScript arrays with this comprehensive guide to 25 essential array methods. Whether you’re a beginner or looking to refine your skills, these techniques will streamline your development process.",
     image: blog13,
     date: "July 19, 2025",
     links: {
