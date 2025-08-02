@@ -44,10 +44,14 @@ const blog11 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*KzsznaX3AafLDN8J.png";
 const blog12 =
   "https://miro.medium.com/v2/resize:fit:720/format:webp/0*cx81_md2J-IHkRr5.png";
-const blog13 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*te_PkYEZfrasx2Zc.png";
-const blog14 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*kfdUAICDJQ_V8RpP";
-const blog15 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*8HCFUpO_QbgeVYrS.png";
-const blog16 = "https://miro.medium.com/v2/resize:fit:640/format:webp/0*euv5zNgDN2gztFr5.png";
+const blog13 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*te_PkYEZfrasx2Zc.png";
+const blog14 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*kfdUAICDJQ_V8RpP";
+const blog15 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*8HCFUpO_QbgeVYrS.png";
+const blog16 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*euv5zNgDN2gztFr5.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -212,8 +216,7 @@ export const projects = [
 
 export const blogs = [
   {
-    title:
-      "Top 10 CSS Mistakes That Make Your Website Look Unprofessional",
+    title: "Top 10 CSS Mistakes That Make Your Website Look Unprofessional",
     excerpt:
       "Discover the most common CSS mistakes that can ruin your website’s design and credibility. This post highlights the top 10 pitfalls and offers practical tips to help you create cleaner, more professional-looking layouts.",
     image: blog16,
@@ -226,8 +229,7 @@ export const blogs = [
     },
   },
   {
-    title:
-      "How to Use Framer Motion for Stunning React Animations",
+    title: "How to Use Framer Motion for Stunning React Animations",
     excerpt:
       "Learn how to bring your React projects to life with Framer Motion. This guide walks you through the basics and advanced techniques to create smooth, eye-catching animations with ease.",
     image: blog15,
@@ -240,8 +242,7 @@ export const blogs = [
     },
   },
   {
-    title:
-      "10 Must-Know React Tricks for Beginners",
+    title: "10 Must-Know React Tricks for Beginners",
     excerpt:
       "New to React? This post covers 10 essential tips and tricks that will help you write cleaner, more efficient code and boost your confidence as a beginner developer.",
     image: blog14,
@@ -254,8 +255,7 @@ export const blogs = [
     },
   },
   {
-    title:
-      "Top 25 JavaScript Array Methods Every Developer Should Learn",
+    title: "Top 25 JavaScript Array Methods Every Developer Should Learn",
     excerpt:
       "Master JavaScript arrays with this comprehensive guide to 25 essential array methods. Whether you’re a beginner or looking to refine your skills, these techniques will streamline your development process.",
     image: blog13,
