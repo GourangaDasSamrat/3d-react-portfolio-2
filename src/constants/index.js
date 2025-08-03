@@ -52,6 +52,10 @@ const blog15 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*8HCFUpO_QbgeVYrS.png";
 const blog16 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*euv5zNgDN2gztFr5.png";
+const blog17 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*HMSHhDSCxLPB3Tmz.png";
+const blog18 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*UnPluV9D6r5kGatS.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -215,6 +219,33 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title:
+      "Connecting Redux to Your React App: A Quick Guide to React-Redux and useSelector",
+    excerpt:
+      "Learn how to integrate Redux into your React application using React-Redux. This quick guide covers the basics of connecting your app and accessing state with the useSelector hook.",
+    image: blog18,
+    date: "August 03, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/connecting-redux-to-your-react-app-a-quick-guide-to-react-redux-and-useselector-5e8e63ee65cd",
+      devto:
+        "https://dev.to/gouranga-das-khulna/connecting-redux-to-your-react-app-a-quick-guide-to-react-redux-and-useselector-1a2p",
+    },
+  },
+  {
+    title: "5 Surprising Facts About LocalStorage You Probably Didn’t Know",
+    excerpt:
+      "Discover five lesser-known facts about LocalStorage that can help you use it more effectively in your web projects. You might be surprised by what it can—and can't—do!",
+    image: blog17,
+    date: "August 02, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/5-surprising-facts-about-localstorage-you-probably-didnt-know-8cf1eabf2bcb",
+      devto:
+        "https://dev.to/gouranga-das-khulna/5-surprising-facts-about-localstorage-you-probably-didnt-know-33o0",
+    },
+  },
   {
     title: "Top 10 CSS Mistakes That Make Your Website Look Unprofessional",
     excerpt:
