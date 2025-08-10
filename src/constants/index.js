@@ -56,6 +56,10 @@ const blog17 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*HMSHhDSCxLPB3Tmz.png";
 const blog18 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*UnPluV9D6r5kGatS.png";
+const blog19 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*MXVvOkFJO2qgLayP.png";
+const blog20 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*hog2gBEvoZTrIWWw.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -219,6 +223,31 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title:
+      "Stop Using TypeScript Types This Way — Opt for the Map Pattern Instead",
+    excerpt: "Learn why the common way of defining repetitive TypeScript types can lead to clutter and maintenance headaches. This article explores the Map Pattern — a cleaner, more scalable approach that boosts type safety, reduces duplication, and keeps your codebase DRY. Perfect for developers aiming to write more maintainable TypeScript.",
+    image: blog20,
+    date: "August 10, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/stop-using-typescript-types-this-way-opt-for-the-map-pattern-instead-92472dda3b1d",
+      devto:
+        "https://dev.to/gouranga-das-khulna/stop-using-typescript-types-this-way-opt-for-the-map-pattern-instead-1aoi",
+    },
+  },
+  {
+    title: "Concerned About localStorage? Here’s How to Secure It",
+    excerpt: "Storing sensitive data in localStorage can put your app — and users — at risk. This article explains the security pitfalls of localStorage and shows proven techniques to safeguard it, from encryption strategies to better storage alternatives. Essential reading for web developers who care about security.",
+    image: blog19,
+    date: "August 09, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/concerned-about-localstorage-heres-how-to-secure-it-d44ae68dea9a",
+      devto:
+        "https://dev.to/gouranga-das-khulna/concerned-about-localstorage-heres-how-to-secure-it-2plm",
+    },
+  },
   {
     title:
       "Connecting Redux to Your React App: A Quick Guide to React-Redux and useSelector",
