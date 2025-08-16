@@ -13,6 +13,11 @@ const Links = () => {
       icon: "fab fa-twitter",
     },
     {
+      platform: "BlueSky",
+      url: "https://bsky.app/profile/gouranga-khulna.bsky.social",
+      icon: "fa-brands fa-bluesky",
+    },
+    {
       platform: "Instagram",
       url: "https://www.instagram.com/gouranga.das.khulna/",
       icon: "fab fa-instagram",
@@ -151,6 +156,7 @@ const Links = () => {
             const brandColors = {
               Facebook: "#1877F3",
               Twitter: "#1DA1F2",
+              BlueSky: "#0085FF",
               Instagram: "#E4405F",
               TikTok: "#010101",
               Threads: "#000000",
