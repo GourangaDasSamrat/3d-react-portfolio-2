@@ -60,6 +60,10 @@ const blog19 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*MXVvOkFJO2qgLayP.png";
 const blog20 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*hog2gBEvoZTrIWWw.png";
+const blog21 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*2ggZ8uXqoqvcEFul.jpg";
+const blog22 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*egN0QgZuUMByHdAr.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -225,8 +229,37 @@ export const projects = [
 export const blogs = [
   {
     title:
+      "Controlled vs. Uncontrolled Components in React.js: What’s the Difference?",
+    excerpt:
+      "A clear breakdown of controlled vs. uncontrolled components in React.js, explaining how they work, their key differences, and when to use each for better form handling and state management",
+    image: blog22,
+    date: "August 17, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/controlled-vs-uncontrolled-components-in-react-js-whats-the-difference-7df4b04fbb1b",
+      devto:
+        "https://dev.to/gouranga-das-khulna/controlled-vs-uncontrolled-components-in-reactjs-whats-the-difference-13l7",
+    },
+  },
+  {
+    title:
+      "Stop Importing React This Way — Switch to the Wrapper Pattern Instead",
+    excerpt:
+      "Discover why the traditional way of importing React isn’t always ideal. Learn how the Wrapper Pattern offers a cleaner, more scalable approach to structuring your components.",
+    image: blog21,
+    date: "August 16, 2025",
+    links: {
+      medium:
+        "https://javascript.plainenglish.io/stop-importing-react-this-way-switch-to-the-wrapper-pattern-instead-1ee17ea0d069",
+      devto:
+        "https://dev.to/gouranga-das-khulna/stop-importing-react-this-way-switch-to-the-wrapper-pattern-instead-4l86",
+    },
+  },
+  {
+    title:
       "Stop Using TypeScript Types This Way — Opt for the Map Pattern Instead",
-    excerpt: "Learn why the common way of defining repetitive TypeScript types can lead to clutter and maintenance headaches. This article explores the Map Pattern — a cleaner, more scalable approach that boosts type safety, reduces duplication, and keeps your codebase DRY. Perfect for developers aiming to write more maintainable TypeScript.",
+    excerpt:
+      "Learn why the common way of defining repetitive TypeScript types can lead to clutter and maintenance headaches. This article explores the Map Pattern — a cleaner, more scalable approach that boosts type safety, reduces duplication, and keeps your codebase DRY. Perfect for developers aiming to write more maintainable TypeScript.",
     image: blog20,
     date: "August 10, 2025",
     links: {
@@ -238,7 +271,8 @@ export const blogs = [
   },
   {
     title: "Concerned About localStorage? Here’s How to Secure It",
-    excerpt: "Storing sensitive data in localStorage can put your app — and users — at risk. This article explains the security pitfalls of localStorage and shows proven techniques to safeguard it, from encryption strategies to better storage alternatives. Essential reading for web developers who care about security.",
+    excerpt:
+      "Storing sensitive data in localStorage can put your app — and users — at risk. This article explains the security pitfalls of localStorage and shows proven techniques to safeguard it, from encryption strategies to better storage alternatives. Essential reading for web developers who care about security.",
     image: blog19,
     date: "August 09, 2025",
     links: {
