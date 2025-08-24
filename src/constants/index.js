@@ -64,6 +64,8 @@ const blog21 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*2ggZ8uXqoqvcEFul.jpg";
 const blog22 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*egN0QgZuUMByHdAr.png";
+const blog23 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*4H4CGZ-NDizFDl6N.jpeg";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -227,6 +229,20 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+   title:
+     "Scaling React: 5 Tough Lessons Learned from Real-World Projects",
+   excerpt:
+     "Practical insights from real-world React projects—five hard-earned lessons on scaling apps, managing performance, and avoiding common pitfalls.",
+   image: blog23,
+   date: "August 23, 2025",
+   links: {
+     medium:
+       "https://medium.com/javascript-in-plain-english/scaling-react-5-tough-lessons-learned-from-real-world-projects-2aade682c490",
+     devto:
+       "https://dev.to/gouranga-das-khulna/scaling-react-5-tough-lessons-learned-from-real-world-projects-9k4",
+   },
+ },
   {
     title:
       "Controlled vs. Uncontrolled Components in React.js: What’s the Difference?",
