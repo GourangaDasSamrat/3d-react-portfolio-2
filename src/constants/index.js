@@ -66,6 +66,8 @@ const blog22 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*egN0QgZuUMByHdAr.png";
 const blog23 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*4H4CGZ-NDizFDl6N.jpeg";
+const blog24 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*aUjMC6j72Fibh0Be.jpeg";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -229,6 +231,20 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+   title:
+     "25 Challenging JavaScript Questions Every Developer Should Be Ready For",
+   excerpt:
+     "Test your knowledge with 25 tricky JavaScript questions covering concepts, edge cases, and best practices every developer should master.",
+   image: blog24,
+   date: "August 24, 2025",
+   links: {
+     medium:
+       "https://medium.com/javascript-in-plain-english/25-challenging-javascript-questions-every-developer-should-be-ready-for-4d1ee2a47b64",
+     devto:
+       "https://dev.to/gouranga-das-khulna/25-challenging-javascript-questions-every-developer-should-be-ready-for-18c1",
+   },
+ },
   {
    title:
      "Scaling React: 5 Tough Lessons Learned from Real-World Projects",
