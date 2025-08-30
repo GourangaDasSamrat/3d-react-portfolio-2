@@ -10,9 +10,18 @@ const certificate6 = "https://i.postimg.cc/W3Jxw5bw/certificate-6.webp";
 const certificate7 = "https://i.postimg.cc/gjFQS3xF/certificate-7.webp";
 const certificate8 = "https://i.postimg.cc/5yBGZjzH/certificate-8.webp";
 const certificate9 = "https://i.postimg.cc/QN1RBYzX/certificate-9.webp";
+const certificate10 = "https://i.postimg.cc/fTKb0Wmx/157789995.jpg";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Master Node.js: From Beginner to Full-Stack Developer",
+      image: certificate10,
+      date: "30 August 2025",
+      description:
+        "Successfully completed the Master Node.js: From Beginner to Full-Stack Developer course, gaining hands-on experience in building scalable back-end applications, RESTful APIs, and full-stack projects using Node.js, Express, and modern JavaScript frameworks.",
+      verificationLink: "https://www.udemy.com/certificate/UC-d9f0406e-cdc8-46b0-85fc-a0a2bb61f797/",
+    },
     {
       title: "Problem Solving(Intermediate) Certificate from HackerRank",
       image: certificate9,
