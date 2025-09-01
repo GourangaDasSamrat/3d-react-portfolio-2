@@ -68,6 +68,10 @@ const blog23 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*4H4CGZ-NDizFDl6N.jpeg";
 const blog24 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*aUjMC6j72Fibh0Be.jpeg";
+const blog25 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*awR7_g7rJ9CNgxJb.jpg";
+const blog26 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*x3hbkEPZkeOYHjeE.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -232,33 +236,60 @@ export const projects = [
 
 export const blogs = [
   {
-   title:
-     "25 Challenging JavaScript Questions Every Developer Should Be Ready For",
-   excerpt:
-     "Test your knowledge with 25 tricky JavaScript questions covering concepts, edge cases, and best practices every developer should master.",
-   image: blog24,
-   date: "August 24, 2025",
-   links: {
-     medium:
-       "https://medium.com/javascript-in-plain-english/25-challenging-javascript-questions-every-developer-should-be-ready-for-4d1ee2a47b64",
-     devto:
-       "https://dev.to/gouranga-das-khulna/25-challenging-javascript-questions-every-developer-should-be-ready-for-18c1",
-   },
- },
+    title:
+      "13 Game-Changing Performance Fixes Every Front-End Developer Should Know",
+    excerpt:
+      "Unlock 13 proven techniques to supercharge front-end performance—optimize load times, enhance responsiveness, and deliver a smoother user experience.",
+    image: blog26,
+    date: "August 31, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/13-game-changing-performance-fixes-every-front-end-developer-should-know-06f02572ffe4",
+      devto:
+        "https://dev.to/gouranga-das-khulna/13-game-changing-performance-fixes-every-front-end-developer-should-know-3gj8",
+    },
+  },
   {
-   title:
-     "Scaling React: 5 Tough Lessons Learned from Real-World Projects",
-   excerpt:
-     "Practical insights from real-world React projects—five hard-earned lessons on scaling apps, managing performance, and avoiding common pitfalls.",
-   image: blog23,
-   date: "August 23, 2025",
-   links: {
-     medium:
-       "https://medium.com/javascript-in-plain-english/scaling-react-5-tough-lessons-learned-from-real-world-projects-2aade682c490",
-     devto:
-       "https://dev.to/gouranga-das-khulna/scaling-react-5-tough-lessons-learned-from-real-world-projects-9k4",
-   },
- },
+    title:
+      "Essential JavaScript Built-in Functions Every Developer Should Know",
+    excerpt:
+      "A handy guide to JavaScript’s most useful built-in functions, with clear examples to boost your coding efficiency and problem-solving skills.",
+    image: blog25,
+    date: "August 30, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/essential-javascript-built-in-functions-every-developer-should-know-b85d4300e7e5",
+      devto:
+        "https://dev.to/gouranga-das-khulna/essential-javascript-built-in-functions-every-developer-should-know-40gf",
+    },
+  },
+  {
+    title:
+      "25 Challenging JavaScript Questions Every Developer Should Be Ready For",
+    excerpt:
+      "Test your knowledge with 25 tricky JavaScript questions covering concepts, edge cases, and best practices every developer should master.",
+    image: blog24,
+    date: "August 24, 2025",
+    links: {
+      medium:
+        "https://medium.com/javascript-in-plain-english/25-challenging-javascript-questions-every-developer-should-be-ready-for-4d1ee2a47b64",
+      devto:
+        "https://dev.to/gouranga-das-khulna/25-challenging-javascript-questions-every-developer-should-be-ready-for-18c1",
+    },
+  },
+  {
+    title: "Scaling React: 5 Tough Lessons Learned from Real-World Projects",
+    excerpt:
+      "Practical insights from real-world React projects—five hard-earned lessons on scaling apps, managing performance, and avoiding common pitfalls.",
+    image: blog23,
+    date: "August 23, 2025",
+    links: {
+      medium:
+        "https://medium.com/javascript-in-plain-english/scaling-react-5-tough-lessons-learned-from-real-world-projects-2aade682c490",
+      devto:
+        "https://dev.to/gouranga-das-khulna/scaling-react-5-tough-lessons-learned-from-real-world-projects-9k4",
+    },
+  },
   {
     title:
       "Controlled vs. Uncontrolled Components in React.js: What’s the Difference?",
