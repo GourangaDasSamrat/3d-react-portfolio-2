@@ -11,16 +11,27 @@ const certificate7 = "https://i.postimg.cc/gjFQS3xF/certificate-7.webp";
 const certificate8 = "https://i.postimg.cc/5yBGZjzH/certificate-8.webp";
 const certificate9 = "https://i.postimg.cc/QN1RBYzX/certificate-9.webp";
 const certificate10 = "https://i.postimg.cc/fTKb0Wmx/157789995.jpg";
+const certificate11 = "https://i.postimg.cc/jqkL35BY/157918431.jpg";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Master JavaScript, HTML, and CSS with 30 Projects in 30 Days",
+      image: certificate11,
+      date: "01 September 2025",
+      description:
+        "Successfully completed the Master JavaScript, HTML, and CSS with 30 Projects in 30 Days course on Udemy. Built 30 hands-on projects covering responsive design, DOM manipulation, form validation, interactive UI components, and real-world web applications using HTML, CSS, and JavaScript.",
+      verificationLink:
+        "https://www.udemy.com/certificate/UC-91c219fe-afe6-4b69-b4f3-1eeb4b420f4a/",
+    },
     {
       title: "Master Node.js: From Beginner to Full-Stack Developer",
       image: certificate10,
       date: "30 August 2025",
       description:
-        "Successfully completed the Master Node.js: From Beginner to Full-Stack Developer course, gaining hands-on experience in building scalable back-end applications, RESTful APIs, and full-stack projects using Node.js, Express, and modern JavaScript frameworks.",
-      verificationLink: "https://www.udemy.com/certificate/UC-d9f0406e-cdc8-46b0-85fc-a0a2bb61f797/",
+        "Successfully completed the Master Node.js: From Beginner to Full-Stack Developer course on Udemy, gaining hands-on experience in building scalable back-end applications, RESTful APIs, and full-stack projects using Node.js, Express, and modern JavaScript frameworks.",
+      verificationLink:
+        "https://www.udemy.com/certificate/UC-d9f0406e-cdc8-46b0-85fc-a0a2bb61f797/",
     },
     {
       title: "Problem Solving(Intermediate) Certificate from HackerRank",
