@@ -19,6 +19,7 @@ const Certifications = () => {
       title: "Master JavaScript, HTML, and CSS with 30 Projects in 30 Days",
       image: certificate11,
       date: "01 September 2025",
+      org: "Udemy",
       description:
         "Successfully completed the Master JavaScript, HTML, and CSS with 30 Projects in 30 Days course on Udemy. Built 30 hands-on projects covering responsive design, DOM manipulation, form validation, interactive UI components, and real-world web applications using HTML, CSS, and JavaScript.",
       verificationLink:
@@ -28,55 +29,62 @@ const Certifications = () => {
       title: "Master Node.js: From Beginner to Full-Stack Developer",
       image: certificate10,
       date: "30 August 2025",
+      org: "Udemy",
       description:
         "Successfully completed the Master Node.js: From Beginner to Full-Stack Developer course on Udemy, gaining hands-on experience in building scalable back-end applications, RESTful APIs, and full-stack projects using Node.js, Express, and modern JavaScript frameworks.",
       verificationLink:
         "https://www.udemy.com/certificate/UC-d9f0406e-cdc8-46b0-85fc-a0a2bb61f797/",
     },
     {
-      title: "Problem Solving(Intermediate) Certificate from HackerRank",
+      title: "Problem Solving(Intermediate)",
       image: certificate9,
       date: "06 July 2025",
+      org: "HackerRank",
       description:
         "This certification demonstrates my intermediate problem-solving skills, including algorithm design, data structures, and advanced coding techniques. It validates my ability to tackle complex programming challenges effectively.",
       verificationLink: "https://www.hackerrank.com/certificates/9e649f914d96",
     },
     {
-      title: "Problem Solving(Basic) Certificate from HackerRank",
+      title: "Problem Solving(Basic) ",
       image: certificate8,
       date: "06 July 2025",
+      org: "HackerRank",
       description:
         "This certification demonstrates my foundational problem-solving skills, including algorithmic thinking, data structures, and basic coding techniques. It validates my ability to approach and solve programming challenges effectively.",
       verificationLink: "https://www.hackerrank.com/certificates/a88d61f3f72a",
     },
     {
-      title: "React(Basic) Certificate from HackerRank",
+      title: "React(Basic) Certificate ",
       image: certificate7,
       date: "06 July 2025",
+      org: "HackerRank",
       description:
         "This certification validates my foundational knowledge of React, including component-based architecture, state management, and basic hooks. It demonstrates my ability to build interactive user interfaces using React.",
       verificationLink: "https://www.hackerrank.com/certificates/e98e9c1a71cb",
     },
     {
-      title: "JavaScript(Intermediate) Certificate from HackerRank",
+      title: "JavaScript(Intermediate)",
       image: certificate6,
       date: "05 July 2025",
+      org: "HackerRank",
       description:
         "This certification demonstrates my intermediate knowledge of JavaScript, including advanced concepts such as asynchronous programming, closures, and higher-order functions. It validates my ability to write more complex scripts and understand advanced programming techniques.",
       verificationLink: "https://www.hackerrank.com/certificates/45f92a73ed85",
     },
     {
-      title: "JavaScript(Basic) Certificate from HackerRank",
+      title: "JavaScript(Basic) ",
       image: certificate5,
       date: "05 July 2025",
+      org: "HackerRank",
       description:
         "This certification demonstrates my foundational knowledge of JavaScript, including syntax, data types, control structures, and basic algorithms. It validates my ability to write simple scripts and understand core programming concepts.",
       verificationLink: "https://www.hackerrank.com/certificates/1dc151e8da65",
     },
     {
-      title: "CSS(Basic) Certificate from HackerRank",
+      title: "CSS(Basic) ",
       image: certificate4,
       date: "04 July 2025",
+      org: "HackerRank",
       description:
         "This certification validates my foundational knowledge of CSS, including styling techniques, layout design, and responsive web design principles. It demonstrates my ability to create visually appealing and user-friendly web pages.",
       verificationLink: "https://www.hackerrank.com/certificates/0e3142b3e0d8",
@@ -85,6 +93,7 @@ const Certifications = () => {
       title: "JavaScript Algorithms and Data Structures",
       image: certificate3,
       date: "28 June 2025",
+      org: "freeCodeCamp",
       description:
         "This certification demonstrates my proficiency in JavaScript programming, covering fundamental concepts such as algorithms, data structures, and problem-solving techniques. It showcases my ability to write efficient and optimized code for various applications.",
       verificationLink:
@@ -94,6 +103,7 @@ const Certifications = () => {
       title: "Front End Development Libraries",
       image: certificate2,
       date: "23 June 2025",
+      org: "freeCodeCamp",
       description:
         "This certification showcases my expertise in front-end development libraries such as React, Redux, and Bootstrap. It highlights my ability to build dynamic and responsive user interfaces, manage application state, and create visually appealing web applications.",
       verificationLink:
@@ -103,6 +113,7 @@ const Certifications = () => {
       title: "Responsive Web Design Certification",
       image: certificate1,
       date: "22 June 2025",
+      org: "freeCodeCamp",
       description:
         "This certification demonstrates my proficiency in creating responsive and accessible web designs using HTML, CSS, and JavaScript. It covers topics such as Flexbox, Grid, and media queries to ensure websites are optimized for various devices.",
       verificationLink:
@@ -207,6 +218,15 @@ const Certifications = () => {
             >
               {cert.title}
             </motion.h3>
+
+            <motion.h4
+              className="w-fit bg-gray-400 text-white text-xs px-2 py-1 rounded-lg"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: 1.4 + index * 0.2 }}
+            >
+              Issued by: {cert.org}
+            </motion.h4>
 
             <motion.p
               className="text-gray-600 mb-4"

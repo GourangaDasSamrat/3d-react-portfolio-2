@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         gray: {
-          200: "#D5DAE1"
+          200: "#D5DAE1",
+          400: "#636363"
         },
         black: {
           DEFAULT: "#000",
@@ -29,4 +30,3 @@ export default {
   },
   plugins: [],
 }
-
