@@ -12,9 +12,20 @@ const certificate8 = "https://i.postimg.cc/5yBGZjzH/certificate-8.webp";
 const certificate9 = "https://i.postimg.cc/QN1RBYzX/certificate-9.webp";
 const certificate10 = "https://i.postimg.cc/fTKb0Wmx/157789995.jpg";
 const certificate11 = "https://i.postimg.cc/jqkL35BY/157918431.jpg";
+const certificate12 = "https://i.postimg.cc/j58Kb64n/158527861.jpg";
 
 const Certifications = () => {
   const certifications = [
+     {
+      title: "Figma for User Interface and User Experience UIUX Design",
+      image: certificate12,
+      date: "08 September 2025",
+      org: "Udemy",
+      description:
+        "https://www.udemy.com/certificate/UC-231d910a-7c34-4a5f-a46a-6c7e91f6c643/",
+      verificationLink:
+        "https://www.udemy.com/certificate/UC-231d910a-7c34-4a5f-a46a-6c7e91f6c643/",
+    },
     {
       title: "Master JavaScript, HTML, and CSS with 30 Projects in 30 Days",
       image: certificate11,
