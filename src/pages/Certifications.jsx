@@ -22,7 +22,7 @@ const Certifications = () => {
       date: "08 September 2025",
       org: "Udemy",
       description:
-        "https://www.udemy.com/certificate/UC-231d910a-7c34-4a5f-a46a-6c7e91f6c643/",
+        "Successfully completed a comprehensive course on designing user-friendly interfaces with Figma. Gained skills in wireframing, prototyping, and building design systems while applying core UI/UX principles to create modern digital experiences.",
       verificationLink:
         "https://www.udemy.com/certificate/UC-231d910a-7c34-4a5f-a46a-6c7e91f6c643/",
     },
