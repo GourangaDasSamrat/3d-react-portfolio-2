@@ -87,7 +87,7 @@ const Certifications = () => {
       verificationLink: "https://www.hackerrank.com/certificates/a88d61f3f72a",
     },
     {
-      title: "React(Basic) Certificate ",
+      title: "React(Basic) ",
       image: certificate7,
       date: "06 July 2025",
       org: "HackerRank",
