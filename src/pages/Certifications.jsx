@@ -13,10 +13,21 @@ const certificate9 = "https://i.postimg.cc/QN1RBYzX/certificate-9.webp";
 const certificate10 = "https://i.postimg.cc/fTKb0Wmx/157789995.jpg";
 const certificate11 = "https://i.postimg.cc/jqkL35BY/157918431.jpg";
 const certificate12 = "https://i.postimg.cc/j58Kb64n/158527861.jpg";
+const certificate13 = "https://i.postimg.cc/wjxnbXHC/Coursera-V91494-RUZT2-G-page-0001.jpg";
 
 const Certifications = () => {
   const certifications = [
-     {
+    {
+      title: "Getting Started with Microsoft Excel",
+      image: certificate13,
+      date: "09 September 2025",
+      org: "Coursera",
+      description:
+        "Successfully completed foundational training in Microsoft Excel, covering data entry, formatting, formulas, charts, and essential spreadsheet skills to manage and analyze data effectively.",
+      verificationLink:
+        "https://www.coursera.org/account/accomplishments/records/V91494RUZT2G",
+    }, 
+    {
       title: "Figma for User Interface and User Experience UIUX Design",
       image: certificate12,
       date: "08 September 2025",
