@@ -281,8 +281,8 @@ const Certifications = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: 1.8 + index * 0.2 }}
             >
+              View Certificate
               <i className="fas fa-external-link"></i>
-              Verify Certificate
             </motion.a>
           </motion.div>
         ))}
