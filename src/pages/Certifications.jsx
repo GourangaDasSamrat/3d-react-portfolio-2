@@ -14,9 +14,20 @@ const certificate10 = "https://i.postimg.cc/fTKb0Wmx/157789995.jpg";
 const certificate11 = "https://i.postimg.cc/jqkL35BY/157918431.jpg";
 const certificate12 = "https://i.postimg.cc/j58Kb64n/158527861.jpg";
 const certificate13 = "https://i.postimg.cc/wjxnbXHC/Coursera-V91494-RUZT2-G-page-0001.jpg";
+const certificate14 = "https://i.postimg.cc/Z5fDHVcg/certificate-page-0001.jpg";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Effective Leadership",
+      image: certificate14,
+      date: "09 September 2025",
+      org: "HP Life",
+      description:
+        "Successfully completed a course on effective leadership skills, learning how to inspire teams, communicate clearly, make strategic decisions, and develop key qualities for successful leadership in professional environments.",
+      verificationLink:
+        "https://www.life-global.org/certificate/0e0b848e-871a-403c-9da6-41e57dfa24a4",
+    },
     {
       title: "Getting Started with Microsoft Excel",
       image: certificate13,
