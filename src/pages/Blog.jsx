@@ -71,6 +71,7 @@ const BlogCard = ({ blog, index }) => (
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
+         <i className="fab fa-medium"></i>
           Medium
         </motion.a>
         <motion.a
@@ -81,6 +82,7 @@ const BlogCard = ({ blog, index }) => (
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
+         <i className="fab fa-dev"></i>
           Dev.to
         </motion.a>
       </motion.div>
