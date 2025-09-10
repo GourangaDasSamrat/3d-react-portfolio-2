@@ -15,9 +15,20 @@ const certificate11 = "https://i.postimg.cc/jqkL35BY/157918431.jpg";
 const certificate12 = "https://i.postimg.cc/j58Kb64n/158527861.jpg";
 const certificate13 = "https://i.postimg.cc/wjxnbXHC/Coursera-V91494-RUZT2-G-page-0001.jpg";
 const certificate14 = "https://i.postimg.cc/Z5fDHVcg/certificate-page-0001.jpg";
+const certificate15 = "https://i.postimg.cc/nr8nP7HN/certificate-page-0001.jpg";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Effective Presentations",
+      image: certificate15,
+      date: "10 September 2025",
+      org: "HP Life",
+      description:
+        "Successfully completed a course focused on developing impactful presentation skills, including structuring content, designing visuals, and delivering with confidence to effectively engage and influence an audience.",
+      verificationLink:
+        "https://www.life-global.org/certificate/16258744-909c-436c-8d2a-76c0ea9dba71",
+    },
     {
       title: "Effective Leadership",
       image: certificate14,
