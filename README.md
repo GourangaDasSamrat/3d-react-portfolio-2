@@ -1,30 +1,15 @@
-# <div align="center">🌟 3D React Portfolio</div>
+# 🌟 3D React Portfolio
 
 <div align="center">
-
-  <h2 align="center">Modern 3D Portfolio</h2>
-
-  <p align="center">
+  <h2>Modern 3D Portfolio</h2>
+  <p>
     A stunning 3D portfolio website showcasing modern web technologies and interactive experiences
-    <br />
-    [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github.com/GourangaDasSamrat/3d-react-portfolio-2)
-     <br />
-    <a href="https://gouranga-das.netlify.app/"><strong>✨ View Live Demo »</strong></a>
   </p>
+  
+  [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/GourangaDasSamrat/3d-react-portfolio-2)
+  
+  <a href="https://gouranga-das.netlify.app/"><strong>✨ View Live Demo »</strong></a>
 
-  <div align="center">
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c7776422-9f0f-403c-ae18-36972281d757/deploy-status)](https://app.netlify.com/sites/gourangadas/deploys)
-[![React](https://img.shields.io/badge/React-18-blue?logo=react&logoColor=white&labelColor=20232A)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&logoColor=white&labelColor=20232A)](https://vitejs.dev/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css&logoColor=white&labelColor=20232A)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-Latest-black?logo=three.js&logoColor=white&labelColor=20232A)](https://threejs.org/)
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&labelColor=20232A)](http://makeapullrequest.com)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square&labelColor=20232A)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/GourangaDasSamrat/3d-react-portfolio-2?style=flat-square&labelColor=20232A)](https://github.com/GourangaDasSamrat/3d-react-portfolio-2/stargazers)
-
-  </div>
 </div>
 
 ---
