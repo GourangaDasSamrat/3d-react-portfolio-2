@@ -293,6 +293,7 @@ const Certifications = () => {
               transition={{ duration: 0.3, delay: 1.8 + index * 0.2 }}
             >
               View Certificate
+              <br />
               <i className="fas fa-external-link"></i>
             </motion.a>
           </motion.div>
