@@ -2,15 +2,13 @@
 
 <div align="center">
 
-  <a href="https://gouranga-das.netlify.app/">
-    <img src="src/assets/images/logo.webp" alt="Logo" width="100" height="100">
-  </a>
-
   <h2 align="center">Modern 3D Portfolio</h2>
 
   <p align="center">
     A stunning 3D portfolio website showcasing modern web technologies and interactive experiences
     <br />
+    [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github.com/GourangaDasSamrat/3d-react-portfolio-2)
+     <br />
     <a href="https://gouranga-das.netlify.app/"><strong>✨ View Live Demo »</strong></a>
   </p>
 
