@@ -72,6 +72,7 @@ const BlogCard = ({ blog, index }) => (
           whileTap={{ scale: 0.95 }}
         >
          <i className="fab fa-medium"></i>
+          <span >  </span>
           Medium
         </motion.a>
         <motion.a
@@ -83,6 +84,7 @@ const BlogCard = ({ blog, index }) => (
           whileTap={{ scale: 0.95 }}
         >
          <i className="fab fa-dev"></i>
+          <span >  </span>
           Dev.to
         </motion.a>
       </motion.div>
