@@ -16,9 +16,20 @@ const certificate12 = "https://i.postimg.cc/j58Kb64n/158527861.jpg";
 const certificate13 = "https://i.postimg.cc/wjxnbXHC/Coursera-V91494-RUZT2-G-page-0001.jpg";
 const certificate14 = "https://i.postimg.cc/Z5fDHVcg/certificate-page-0001.jpg";
 const certificate15 = "https://i.postimg.cc/nr8nP7HN/certificate-page-0001.jpg";
+const certificate16 = "https://i.postimg.cc/8kZKrJbB/158935261.jpg";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Git and GitHub MasterClass: Git Workflow, Commands",
+      image: certificate16,
+      date: "12 September 2025",
+      org: "Udemy",
+      description:
+        "Successfully completed an in-depth course on Git and GitHub, gaining hands-on experience with version control, branching, merging, pull requests, and collaborative workflows essential for modern software development.",
+      verificationLink:
+        "https://www.udemy.com/certificate/UC-0519c2ee-99b8-42ca-a3e8-bd10a87eac0a/",
+    },
     {
       title: "Effective Presentations",
       image: certificate15,
