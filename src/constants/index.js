@@ -72,6 +72,14 @@ const blog25 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*awR7_g7rJ9CNgxJb.jpg";
 const blog26 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*x3hbkEPZkeOYHjeE.png";
+const blog27 = 
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*i5Y4SukBwK9HMg7g.jpeg";
+const blog28 = 
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*ns_tB5HUYFrvQ1LM.png";
+const blog29 = 
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*mzSBUyY87eelHV4y.png";
+const blog30 = 
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*L3T1e0sFh9Pjc9L5.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -235,6 +243,58 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+   title:
+     "Use SVG Sprites to Make Your React App Load Faster",
+   excerpt:
+     "Learn how to optimize your React app’s performance by using SVG sprites. This blog explains how combining multiple icons into a single SVG file reduces HTTP requests, speeds up loading time, and keeps your codebase cleaner.",
+   image: blog30,
+   date: "September 14, 2025",
+   links: {
+     medium:
+       "https://medium.com/@gouranga.das.khulna/use-svg-sprites-to-make-your-react-app-load-faster-311cec7b5156",
+     devto:
+       "https://dev.to/gouranga-das-khulna/use-svg-sprites-to-make-your-react-app-load-faster-319a",
+   },
+ },
+  {
+   title:
+     "Smarter Error Handling in JavaScript: Group, Don’t Panic",
+   excerpt:
+     "Discover smarter ways to handle errors in JavaScript by grouping them effectively instead of reacting in panic. This blog explores structured error handling techniques to make your code more resilient and maintainable.",
+   image: blog29,
+   date: "September 13, 2025",
+   links: {
+     medium:
+       "https://javascript.plainenglish.io/smarter-error-handling-in-javascript-group-dont-panic-7a11422e104b",
+     devto:
+       "https://dev.to/gouranga-das-khulna/smarter-error-handling-in-javascript-group-dont-panic-5c0",
+   },
+ },
+  {
+   title:
+     "Forget useEffect — Signals Are the Future of Clean, Performant Code",
+   excerpt:
+     "Explore how signals offer a cleaner, faster alternative to useEffect in React, helping you write more maintainable and performant code.",
+   image: blog28,
+   date: "September 07, 2025",
+   links: {
+     medium:
+       "https://javascript.plainenglish.io/forget-useeffect-signals-are-the-future-of-clean-performant-code-cc259b033441",
+   },
+ },
+  {
+   title:
+     "Memoization in React 19: What Happens to useMemo and useCallback?",
+   excerpt:
+     "A breakdown of how React 19 changes the role of useMemo and useCallback, and what it means for optimizing your components.",
+   image: blog27,
+   date: "September 06, 2025",
+   links: {
+     medium:
+       "https://javascript.plainenglish.io/memoization-in-react-19-what-happens-to-usememo-and-usecallback-f3ce99d2f36e",
+   },
+ },
   {
     title:
       "13 Game-Changing Performance Fixes Every Front-End Developer Should Know",
