@@ -8,7 +8,7 @@
     "build": "vite build && npm run generate-sitemap",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "generate-sitemap": "node scripts/sitemap-generator.js",
+    "generate-sitemap": "node node/sitemap-generator.js",
     "clean": "rm -rf dist",
     "prebuild": "npm run clean"
   },

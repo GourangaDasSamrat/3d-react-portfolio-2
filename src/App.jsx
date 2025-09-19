@@ -46,6 +46,7 @@ const App = () => {
                 <Footer />
               </>
             }
+          />
           <Route
             path="/experience"
             element={
@@ -57,7 +58,6 @@ const App = () => {
             }
           />
           <Route
-            path="/projects"
             path="/projects"
             element={
               <>
