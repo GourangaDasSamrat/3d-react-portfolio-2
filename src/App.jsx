@@ -6,6 +6,7 @@ import {
   Blog,
   Certifications,
   Contact,
+  Experience,
   Home,
   Links,
   NotFound,
@@ -45,8 +46,18 @@ const App = () => {
                 <Footer />
               </>
             }
+          <Route
+            path="/experience"
+            element={
+              <>
+                <Navbar />
+                <Experience />
+                <Footer />
+              </>
+            }
           />
           <Route
+            path="/projects"
             path="/projects"
             element={
               <>

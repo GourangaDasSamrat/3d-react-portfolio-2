@@ -88,6 +88,16 @@ import p4 from "../assets/images/project-4.webp";
 import p5 from "../assets/images/project-5.webp";
 import p6 from "../assets/images/project-6.webp";
 
+export const experiences = [
+  {
+    title: "Web Developer Intern",
+    company: "Labmentix",
+    duration: "15th Sep 2025 - 14th Oct 2025",
+    description: "Internship experience in web development, focusing on creating and maintaining web applications.",
+    certificateUrl: "https://i.postimg.cc/vHN697dZ/Gouranga-Das-Samrat-gouranga-das-khulna-a9473e-Certificate-page-0001.jpg"
+  }
+];
+
 export const skills = [
   {
     imageUrl: css,
