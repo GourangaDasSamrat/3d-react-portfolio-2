@@ -6,6 +6,7 @@ import { Readable } from "stream";
 const routes = [
   "/",
   "/about",
+  "/experience",
   "/projects",
   "/certifications",
   "/blog",
