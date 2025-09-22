@@ -80,6 +80,10 @@ const blog29 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*mzSBUyY87eelHV4y.png";
 const blog30 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*L3T1e0sFh9Pjc9L5.png";
+const blog31 = 
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*DeiirpYEHw2GDae6.png";
+const blog32 = 
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*PysxLsEke-DcRNwm.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -256,6 +260,34 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+   title:
+     "Unlock Full Control of Your CSS with Revert-Layer",
+   excerpt:
+     "Discover how the revert-layer keyword gives you precise control over CSS layers, making it easier to manage styles, reset overrides, and maintain cleaner code",
+   image: blog32,
+   date: "September 21, 2025",
+   links: {
+     medium:
+       "https://medium.com/@gouranga.das.khulna/unlock-full-control-of-your-css-with-revert-layer-f9e11b269220",
+     devto:
+       "https://dev.to/gouranga-das-khulna/unlock-full-control-of-your-css-with-revert-layer-4ia4",
+   },
+ },
+  {
+   title:
+     "ECMAScript 2025: Breaking Down the Latest JavaScript Enhancements",
+   excerpt:
+     "Dive into ECMAScript 2025: explore the newest JavaScript features, syntax improvements, and semantics tweaks that streamline coding, boost performance, and keep your skills future-ready.",
+   image: blog31,
+   date: "September 20, 2025",
+   links: {
+     medium:
+       "https://medium.com/@gouranga.das.khulna/ecmascript-2025-breaking-down-the-latest-javascript-enhancements-383ba6874033",
+     devto:
+       "https://dev.to/gouranga-das-khulna/ecmascript-2025-breaking-down-the-latest-javascript-enhancements-2f8b",
+   },
+ },
   {
     title: "Use SVG Sprites to Make Your React App Load Faster",
     excerpt:
