@@ -270,7 +270,7 @@ export const blogs = [
    excerpt:
      "Learn how to craft smooth, dynamic animations in CSS using composable keyframes. This guide explores best practices for creating elegant, reusable animations that enhance the user experience without sacrificing performance.",
    image: blog34,
-   date: "October 28, 2025",
+   date: "September 28, 2025",
    links: {
      medium:
        "https://medium.com/@gouranga.das.khulna/write-elegant-animations-in-css-with-dynamic-and-composable-keyframes-4b8e854a04c5",
@@ -284,7 +284,7 @@ export const blogs = [
    excerpt:
      "Discover clever CSS techniques to slice and style text with precision. This post covers innovative hacks to create clean, dynamic text effects that elevate your design without complicating the code.",
    image: blog33,
-   date: "October 27, 2025",
+   date: "September 27, 2025",
    links: {
      medium:
        "https://medium.com/@gouranga.das.khulna/slice-your-text-cleanly-with-these-css-hacks-fd0366faef3e",
