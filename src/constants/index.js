@@ -84,6 +84,10 @@ const blog31 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*DeiirpYEHw2GDae6.png";
 const blog32 = 
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*PysxLsEke-DcRNwm.png";
+const blog33 = 
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*PGUikSQewMQ-fVXv.jpeg";
+const blog34 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*sVjWLvAaleAwBI7e.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -260,6 +264,34 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+   title:
+     "Write Elegant Animations in CSS with Dynamic and Composable Keyframes",
+   excerpt:
+     "Learn how to craft smooth, dynamic animations in CSS using composable keyframes. This guide explores best practices for creating elegant, reusable animations that enhance the user experience without sacrificing performance.",
+   image: blog34,
+   date: "October 28, 2025",
+   links: {
+     medium:
+       "https://medium.com/@gouranga.das.khulna/write-elegant-animations-in-css-with-dynamic-and-composable-keyframes-4b8e854a04c5",
+     devto:
+       "https://dev.to/gouranga-das-khulna/write-elegant-animations-in-css-with-dynamic-and-composable-keyframes-4e0p",
+   },
+ },
+  {
+   title:
+     "Slice Your Text Cleanly with These CSS Hacks",
+   excerpt:
+     "Discover clever CSS techniques to slice and style text with precision. This post covers innovative hacks to create clean, dynamic text effects that elevate your design without complicating the code.",
+   image: blog33,
+   date: "October 27, 2025",
+   links: {
+     medium:
+       "https://medium.com/@gouranga.das.khulna/slice-your-text-cleanly-with-these-css-hacks-fd0366faef3e",
+     devto:
+       "https://dev.to/gouranga-das-khulna/slice-your-text-cleanly-with-these-css-hacks-212d",
+   },
+ },
   {
    title:
      "Unlock Full Control of Your CSS with Revert-Layer",
