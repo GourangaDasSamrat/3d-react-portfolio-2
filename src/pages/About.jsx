@@ -46,8 +46,7 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          Frontend Web Developer based in Bangladesh, specializing in technical
-          education through hands-on learning and building applications.
+          Full-Stack Web Developer & UI/UX Designer passionate about building modern, scalable, and user-centric web applications. With hands-on experience in MERN Stack, Next.js, and TypeScript, I specialize in turning ideas into interactive, high-performance digital experiences.
         </motion.p>
 
         <motion.div
