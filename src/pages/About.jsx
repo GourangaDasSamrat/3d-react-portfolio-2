@@ -12,7 +12,7 @@ const About = () => {
     >
       <SEO
         title="About | Gouranga Das Samrat"
-        description="Learn about Gouranga Das Samrat's journey, skills, and professional experience in frontend development and React.js"
+        description="Learn about Gouranga Das Samrat's journey, skills, and professional experience in full-stack development ,UI/UX design and technical blog writing."
         name="Gouranga Das Samrat"
         type="profile"
       />
@@ -46,7 +46,10 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          Full-Stack Web Developer & UI/UX Designer passionate about building modern, scalable, and user-centric web applications. With hands-on experience in MERN Stack, Next.js, and TypeScript, I specialize in turning ideas into interactive, high-performance digital experiences.
+          Full-Stack Web Developer & UI/UX Designer passionate about building
+          modern, scalable, and user-centric web applications. With hands-on
+          experience in MERN Stack, Next.js, and TypeScript, I specialize in
+          turning ideas into interactive, high-performance digital experiences.
         </motion.p>
 
         <motion.div

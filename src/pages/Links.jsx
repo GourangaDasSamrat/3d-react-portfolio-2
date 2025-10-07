@@ -115,7 +115,12 @@ const Links = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-gray-800  text-center max-w-lg mb-8"
-        >I am a Full-Stack Web Developer & UI/UX Designer passionate about building modern, scalable, and user-centric web applications. With hands-on experience in MERN Stack, Next.js, and TypeScript, I specialize in turning ideas into interactive, high-performance digital experiences.
+        >
+          I am a Full-Stack Web Developer & UI/UX Designer passionate about
+          building modern, scalable, and user-centric web applications. With
+          hands-on experience in MERN Stack, Next.js, and TypeScript, I
+          specialize in turning ideas into interactive, high-performance digital
+          experiences.
         </motion.p>
 
         <motion.div

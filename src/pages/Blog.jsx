@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { SEO } from "../components";
 import { blogs } from "../constants";
 
 const BlogCard = ({ blog, index }) => (
@@ -71,8 +72,8 @@ const BlogCard = ({ blog, index }) => (
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-         <i className="fab fa-medium"></i>
-          <span >  </span>
+          <i className="fab fa-medium"></i>
+          <span> </span>
           Medium
         </motion.a>
         <motion.a
@@ -83,8 +84,8 @@ const BlogCard = ({ blog, index }) => (
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-         <i className="fab fa-dev"></i>
-          <span >  </span>
+          <i className="fab fa-dev"></i>
+          <span> </span>
           Dev.to
         </motion.a>
       </motion.div>
@@ -100,6 +101,12 @@ const Blog = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
+      <SEO
+        title="Blog | Gouranga Das Samrat"
+        description="Read Gouranga Das Samrat's various blog about programming and ui/ux design."
+        name="Gouranga Das Samrat"
+        type="profile"
+      />
       <motion.h1
         className="head-text mb-2"
         initial={{ opacity: 0, y: -20 }}

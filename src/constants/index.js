@@ -80,11 +80,11 @@ const blog29 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*mzSBUyY87eelHV4y.png";
 const blog30 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*L3T1e0sFh9Pjc9L5.png";
-const blog31 = 
+const blog31 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*DeiirpYEHw2GDae6.png";
-const blog32 = 
+const blog32 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*PysxLsEke-DcRNwm.png";
-const blog33 = 
+const blog33 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*PGUikSQewMQ-fVXv.jpeg";
 const blog34 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*sVjWLvAaleAwBI7e.png";
@@ -265,61 +265,58 @@ export const projects = [
 
 export const blogs = [
   {
-   title:
-     "Write Elegant Animations in CSS with Dynamic and Composable Keyframes",
-   excerpt:
-     "Learn how to craft smooth, dynamic animations in CSS using composable keyframes. This guide explores best practices for creating elegant, reusable animations that enhance the user experience without sacrificing performance.",
-   image: blog34,
-   date: "September 28, 2025",
-   links: {
-     medium:
-       "https://medium.com/@gouranga.das.khulna/write-elegant-animations-in-css-with-dynamic-and-composable-keyframes-4b8e854a04c5",
-     devto:
-       "https://dev.to/gouranga-das-khulna/write-elegant-animations-in-css-with-dynamic-and-composable-keyframes-4e0p",
-   },
- },
+    title:
+      "Write Elegant Animations in CSS with Dynamic and Composable Keyframes",
+    excerpt:
+      "Learn how to craft smooth, dynamic animations in CSS using composable keyframes. This guide explores best practices for creating elegant, reusable animations that enhance the user experience without sacrificing performance.",
+    image: blog34,
+    date: "September 28, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/write-elegant-animations-in-css-with-dynamic-and-composable-keyframes-4b8e854a04c5",
+      devto:
+        "https://dev.to/gouranga-das-khulna/write-elegant-animations-in-css-with-dynamic-and-composable-keyframes-4e0p",
+    },
+  },
   {
-   title:
-     "Slice Your Text Cleanly with These CSS Hacks",
-   excerpt:
-     "Discover clever CSS techniques to slice and style text with precision. This post covers innovative hacks to create clean, dynamic text effects that elevate your design without complicating the code.",
-   image: blog33,
-   date: "September 27, 2025",
-   links: {
-     medium:
-       "https://medium.com/@gouranga.das.khulna/slice-your-text-cleanly-with-these-css-hacks-fd0366faef3e",
-     devto:
-       "https://dev.to/gouranga-das-khulna/slice-your-text-cleanly-with-these-css-hacks-212d",
-   },
- },
+    title: "Slice Your Text Cleanly with These CSS Hacks",
+    excerpt:
+      "Discover clever CSS techniques to slice and style text with precision. This post covers innovative hacks to create clean, dynamic text effects that elevate your design without complicating the code.",
+    image: blog33,
+    date: "September 27, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/slice-your-text-cleanly-with-these-css-hacks-fd0366faef3e",
+      devto:
+        "https://dev.to/gouranga-das-khulna/slice-your-text-cleanly-with-these-css-hacks-212d",
+    },
+  },
   {
-   title:
-     "Unlock Full Control of Your CSS with Revert-Layer",
-   excerpt:
-     "Discover how the revert-layer keyword gives you precise control over CSS layers, making it easier to manage styles, reset overrides, and maintain cleaner code",
-   image: blog32,
-   date: "September 21, 2025",
-   links: {
-     medium:
-       "https://medium.com/@gouranga.das.khulna/unlock-full-control-of-your-css-with-revert-layer-f9e11b269220",
-     devto:
-       "https://dev.to/gouranga-das-khulna/unlock-full-control-of-your-css-with-revert-layer-4ia4",
-   },
- },
+    title: "Unlock Full Control of Your CSS with Revert-Layer",
+    excerpt:
+      "Discover how the revert-layer keyword gives you precise control over CSS layers, making it easier to manage styles, reset overrides, and maintain cleaner code",
+    image: blog32,
+    date: "September 21, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/unlock-full-control-of-your-css-with-revert-layer-f9e11b269220",
+      devto:
+        "https://dev.to/gouranga-das-khulna/unlock-full-control-of-your-css-with-revert-layer-4ia4",
+    },
+  },
   {
-   title:
-     "ECMAScript 2025: Breaking Down the Latest JavaScript Enhancements",
-   excerpt:
-     "Dive into ECMAScript 2025: explore the newest JavaScript features, syntax improvements, and semantics tweaks that streamline coding, boost performance, and keep your skills future-ready.",
-   image: blog31,
-   date: "September 20, 2025",
-   links: {
-     medium:
-       "https://medium.com/@gouranga.das.khulna/ecmascript-2025-breaking-down-the-latest-javascript-enhancements-383ba6874033",
-     devto:
-       "https://dev.to/gouranga-das-khulna/ecmascript-2025-breaking-down-the-latest-javascript-enhancements-2f8b",
-   },
- },
+    title: "ECMAScript 2025: Breaking Down the Latest JavaScript Enhancements",
+    excerpt:
+      "Dive into ECMAScript 2025: explore the newest JavaScript features, syntax improvements, and semantics tweaks that streamline coding, boost performance, and keep your skills future-ready.",
+    image: blog31,
+    date: "September 20, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/ecmascript-2025-breaking-down-the-latest-javascript-enhancements-383ba6874033",
+      devto:
+        "https://dev.to/gouranga-das-khulna/ecmascript-2025-breaking-down-the-latest-javascript-enhancements-2f8b",
+    },
+  },
   {
     title: "Use SVG Sprites to Make Your React App Load Faster",
     excerpt:

@@ -13,24 +13,26 @@ const certificate9 = "https://i.postimg.cc/QN1RBYzX/certificate-9.webp";
 const certificate10 = "https://i.postimg.cc/fTKb0Wmx/157789995.jpg";
 const certificate11 = "https://i.postimg.cc/jqkL35BY/157918431.jpg";
 const certificate12 = "https://i.postimg.cc/j58Kb64n/158527861.jpg";
-const certificate13 = "https://i.postimg.cc/wjxnbXHC/Coursera-V91494-RUZT2-G-page-0001.jpg";
+const certificate13 =
+  "https://i.postimg.cc/wjxnbXHC/Coursera-V91494-RUZT2-G-page-0001.jpg";
 const certificate14 = "https://i.postimg.cc/Z5fDHVcg/certificate-page-0001.jpg";
 const certificate15 = "https://i.postimg.cc/nr8nP7HN/certificate-page-0001.jpg";
 const certificate16 = "https://i.postimg.cc/8kZKrJbB/158935261.jpg";
-const certificate17 = "https://i.postimg.cc/qvMSsDY1/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca.jpg";
-const certificate18 = "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg";
+const certificate17 =
+  "https://i.postimg.cc/qvMSsDY1/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca.jpg";
+const certificate18 =
+  "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg";
 
 const Certifications = () => {
   const certifications = [
-      {
+    {
       title: "TailwindCSS from A to Z: Master TailwindCSS Quickly",
       image: certificate18,
       date: "03 OCtober 2025",
       org: "Udemy",
       description:
         "Comprehensive course covering TailwindCSS fundamentals to advanced concepts, focusing on rapid UI development and responsive design using utility-first principles.",
-      verificationLink:
-        "http://ude.my/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6",
+      verificationLink: "http://ude.my/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6",
     },
     {
       title: "Master Web & Mobile Design: Figma, UI/UX Essentials, +More",
@@ -39,8 +41,7 @@ const Certifications = () => {
       org: "Udemy",
       description:
         "Hands-on training in web and mobile design using Figma, covering core UI/UX principles, wireframing, prototyping, and design workflows for real-world applications.",
-      verificationLink:
-        "http://ude.my/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca",
+      verificationLink: "http://ude.my/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca",
     },
     {
       title: "Git and GitHub MasterClass: Git Workflow, Commands",
@@ -81,7 +82,7 @@ const Certifications = () => {
         "Successfully completed foundational training in Microsoft Excel, covering data entry, formatting, formulas, charts, and essential spreadsheet skills to manage and analyze data effectively.",
       verificationLink:
         "https://www.coursera.org/account/accomplishments/records/V91494RUZT2G",
-    }, 
+    },
     {
       title: "Figma for User Interface and User Experience UIUX Design",
       image: certificate12,
@@ -326,7 +327,7 @@ const Certifications = () => {
               transition={{ duration: 0.3, delay: 1.8 + index * 0.2 }}
             >
               View Certificate
-              <span >  </span>
+              <span> </span>
               <i className="fas fa-external-link"></i>
             </motion.a>
           </motion.div>
