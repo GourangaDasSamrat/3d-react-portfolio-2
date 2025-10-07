@@ -1,4 +1,5 @@
 import arrow from "./arrow.svg";
+import bootstrap from "./bootstrap.svg";
 import car from "./car.svg";
 import contact from "./contact.svg";
 import css from "./css.svg";
@@ -11,14 +12,12 @@ import internet from "./internet.svg";
 import javascript from "./javascript.svg";
 import linkedin from "./linkedin.svg";
 import mongodb from "./mongodb.svg";
-import motion from "./motion.svg";
-import mui from "./mui.svg";
+import mysql from "./mysql.svg";
 import nextjs from "./nextjs.svg";
 import nodejs from "./nodejs.svg";
 import pricewise from "./pricewise.svg";
 import react from "./react.svg";
 import redux from "./redux.svg";
-import sass from "./sass.svg";
 import snapgram from "./snapgram.svg";
 import soundoff from "./soundoff.png";
 import soundon from "./soundon.png";
@@ -30,6 +29,7 @@ import typescript from "./typescript.svg";
 
 export {
   arrow,
+  bootstrap,
   car,
   contact,
   css,
@@ -42,14 +42,12 @@ export {
   javascript,
   linkedin,
   mongodb,
-  motion,
-  mui,
+  mysql,
   nextjs,
   nodejs,
   pricewise,
   react,
   redux,
-  sass,
   snapgram,
   soundoff,
   soundon,
