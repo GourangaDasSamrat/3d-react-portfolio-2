@@ -23,8 +23,6 @@ import soundoff from "./soundoff.png";
 import soundon from "./soundon.png";
 import summiz from "./summiz.svg";
 import tailwindcss from "./tailwindcss.svg";
-import threads from "./threads.svg";
-import twitter from "./twitter.svg";
 import typescript from "./typescript.svg";
 
 export {
@@ -53,7 +51,5 @@ export {
   soundon,
   summiz,
   tailwindcss,
-  threads,
-  twitter,
   typescript,
 };
