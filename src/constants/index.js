@@ -268,7 +268,7 @@ export const blogs = [
     excerpt:
       "Discover a safe and simple way to test your Node.js apps with MongoDB—without touching your production database. Clean testing, zero risk!",
     image: blog36,
-    date: "October 06, 2025",
+    date: "October 05, 2025",
     links: {
       medium:
         "https://medium.com/@gouranga.das.khulna/the-easiest-way-to-test-node-js-apps-with-mongodb-without-breaking-your-production-database-910c1712e986",
@@ -281,7 +281,7 @@ export const blogs = [
     excerpt:
       "Learn how to enhance user experience with subtle, user-friendly hints in HTML using the power of the popover=hint attribute. A simple trick with big impact!",
     image: blog35,
-    date: "October 05, 2025",
+    date: "October 04, 2025",
     links: {
       medium:
         "https://medium.com/javascript-in-plain-english/creating-user-friendly-hints-in-html-with-popover-hint-magic-2665a2497dae",
