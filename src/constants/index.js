@@ -87,6 +87,10 @@ const blog33 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*PGUikSQewMQ-fVXv.jpeg";
 const blog34 =
   "https://miro.medium.com/v2/resize:fit:640/format:webp/0*sVjWLvAaleAwBI7e.png";
+const blog35 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*-nsG2qXmEGJ1I6b7.png";
+const blog36 =
+  "https://miro.medium.com/v2/resize:fit:640/format:webp/0*zgHUhzdAJ4azky4T.png";
 // Import project images
 import p1 from "../assets/images/project-1.webp";
 import p2 from "../assets/images/project-2.webp";
@@ -258,6 +262,33 @@ export const projects = [
 ];
 
 export const blogs = [
+  {
+    title:
+      "The Easiest Way to Test Node.js Apps with MongoDB: Without Breaking Your Production Database",
+    excerpt:
+      "Discover a safe and simple way to test your Node.js apps with MongoDB—without touching your production database. Clean testing, zero risk!",
+    image: blog36,
+    date: "October 06, 2025",
+    links: {
+      medium:
+        "https://medium.com/@gouranga.das.khulna/the-easiest-way-to-test-node-js-apps-with-mongodb-without-breaking-your-production-database-910c1712e986",
+      devto:
+        "https://dev.to/gouranga-das-khulna/the-easiest-way-to-test-nodejs-apps-with-mongodb-without-breaking-your-production-database-p53",
+    },
+  },
+  {
+    title: "Creating User-Friendly Hints in HTML with Popover=Hint Magic",
+    excerpt:
+      "Learn how to enhance user experience with subtle, user-friendly hints in HTML using the power of the popover=hint attribute. A simple trick with big impact!",
+    image: blog35,
+    date: "October 05, 2025",
+    links: {
+      medium:
+        "https://medium.com/javascript-in-plain-english/creating-user-friendly-hints-in-html-with-popover-hint-magic-2665a2497dae",
+      devto:
+        "https://dev.to/gouranga-das-khulna/creating-user-friendly-hints-in-html-with-popoverhint-magic-ljh",
+    },
+  },
   {
     title:
       "Write Elegant Animations in CSS with Dynamic and Composable Keyframes",
