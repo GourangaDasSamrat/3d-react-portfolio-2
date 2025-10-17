@@ -60,7 +60,7 @@ const Home = () => {
   return (
     <section className="w-full h-screen relative">
       <SEO
-        title="Gouranga Das Samrat | Frontend Web Developer and Open Source Enthusias"
+        title="Gouranga Das Samrat | Full Stack Web Developer and Open Source Enthusias"
         description="Gouranga Das Samrat: Frontend Web Developer expert in React, Tailwind CSS, Bootstrap, HTML, CSS, and JavaScript. Crafting modern, responsive web experiences."
         type="website"
       />
