@@ -13,7 +13,13 @@
   <a href="https://gouranga-das.netlify.app/"><strong>✨ View Live Demo »</strong></a>
 
 </div>
-
+  <p style="margin-top:16px;">
+    <a href="https://deepwiki.com/GourangaDasSamrat/3d-react-portfolio-2/" title="Detailed documentation on DeepWiki">
+      <img alt="DeepWiki Docs" src="https://img.shields.io/badge/Documentation-DeepWiki-4B79FF?style=for-the-badge&logo=readthedocs&logoColor=white" />
+    </a>
+  </p>
+  <p><em>For detailed documentation, guides, and configuration notes — visit the DeepWiki page above.</em></p>
+</div>
 ---
 
 ## 🎯 Key Features
