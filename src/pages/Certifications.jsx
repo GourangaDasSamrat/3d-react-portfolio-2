@@ -22,9 +22,20 @@ const certificate17 =
   "https://i.postimg.cc/qvMSsDY1/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca.jpg";
 const certificate18 =
   "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg";
+const certificate19 = 
+  "https://i.postimg.cc/DyDFBX2X/166352363.jpg"
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "The Complete Google Slides Masterclass - Master Google Slide",
+      image: certificate19,
+      date: "07 December 2025",
+      org: "Udemy",
+      description:
+        "Successfully completed a comprehensive masterclass focusing on advanced features and best practices for Google Slides. The course covered everything from foundational design principles and template creation to mastering complex animations and collaboration tools, resulting in the ability to create highly polished, professional, and engaging presentations.",
+      verificationLink: "https://www.udemy.com/certificate/UC-ad3903c8-384d-4fec-a1d0-c27509606903/",
+    },
     {
       title: "TailwindCSS from A to Z: Master TailwindCSS Quickly",
       image: certificate18,
