@@ -57,7 +57,7 @@ const Experience = () => {
                     rel="noopener noreferrer"
                     className="inline-block mt-6 px-6 py-3 text-white font-bold bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg hover:opacity-90 transition-all hover:scale-105"
                   >
-                    View Certificate
+                    Verify..
                   </a>
                 )}
               </div>
