@@ -101,6 +101,16 @@ import p6 from "../assets/images/project-6.webp";
 
 export const experiences = [
   {
+    title: "Campus Ambassador",
+    company: "Phitron",
+    type: "Part-Time",
+    duration: "8th Dec 2025 - Present",
+    description:
+      "Building a strong student community, and organizing educational workshops and events on campus. Focused on developing leadership and communication skills while acting as a bridge between the company and the student body.",
+    certificateUrl:
+      "https://i.postimg.cc/dV63LQMR/IMG-20251208-WA0000.jpg",
+  },
+  {
     title: "Web Developer Intern",
     company: "Labmentix",
     type: "Internship",
