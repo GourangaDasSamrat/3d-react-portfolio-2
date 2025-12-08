@@ -23,10 +23,22 @@ const certificate17 =
 const certificate18 =
   "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg";
 const certificate19 = 
-  "https://i.postimg.cc/DyDFBX2X/166352363.jpg"
+  "https://i.postimg.cc/DyDFBX2X/166352363.jpg";
+const certificate20 =
+  "https://i.postimg.cc/rwMmg2VG/software-engineer-intern-certificate-page-0001-(1).jpg";
+
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Software Engineer Intern",
+      image: certificate20,
+      date: "08 December 2025",
+      org: "HackerRank",
+      description:
+        "​Successfully completed the HackerRank assessment process to earn the Software Engineer Intern Certificate. This certification validates strong foundational skills in data structures, algorithms, and problem-solving, demonstrating readiness for a software engineering internship role.",
+      verificationLink: "https://www.hackerrank.com/certificates/d9f5234dbed6",
+    },
     {
       title: "The Complete Google Slides Masterclass - Master Google Slide",
       image: certificate19,
