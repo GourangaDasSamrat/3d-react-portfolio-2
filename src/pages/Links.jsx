@@ -95,7 +95,7 @@ const Links = () => {
           className="w-32 h-32 rounded-full overflow-hidden mb-6 ring-4 ring-blue-500 shadow-lg"
         >
           <img
-            src="https://i.postimg.cc/kgQ8WTd1/cropped-circle-image-(1)-(1).png"
+            src="https://i.postimg.cc/4yFhd4VV/cropped-circle-image.png"
             alt="Gouranga Das"
             className="w-full h-full object-cover"
           />
