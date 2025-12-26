@@ -221,7 +221,7 @@ Then open http://localhost:5173 in your browser. 🎉
       alt="Discord"
     />
   </a>
-  <a href="mailto:gouranga.das.khulna@gmail.com" title="Email">
+  <a href="mailto:gouranga.samrat@gmail.com" title="Email">
     <img
       src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Email"

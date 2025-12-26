@@ -79,7 +79,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Gouranga Das",
           from_email: form.email,
-          to_email: "gouranga.das.khulna@gmail.com",
+          to_email: "gouranga.samrat@gmail.com",
           message: form.message,
           "g-recaptcha-response": recaptchaValue,
           sent_date: new Date().toLocaleString(),

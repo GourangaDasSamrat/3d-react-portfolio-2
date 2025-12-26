@@ -33,7 +33,7 @@ const SEO = ({
         "https://github.com/GourangaDasSamrat",
         "https://linkedin.com/in/gouranga-das-samrat",
         "https://gouranga.qzz.io/",
-        "mailto:gouranga.das.khulna@gmail.com",
+        "mailto:gouranga.samrat@gmail.com",
         "https://leetcode.com/u/gourangadassamrat/",
         "https://codepen.io/gouranga-das-samrat",
         "https://www.reddit.com/user/Capable-Plantain8709/",

@@ -69,7 +69,7 @@ const Links = () => {
     },
     {
       platform: "Gmail",
-      url: "mailto:gouranga.das.khulna@gmail.com",
+      url: "mailto:gouranga.samrat@gmail.com",
       icon: "fa-solid fa-envelope",
     },
   ];
