@@ -1,1 +1,6 @@
-/* /index.html 200
+# Redirect all traffic from Netlify to new Vercel domain
+https://gouranga.qzz.io/*  https://gouranga.qzz.io/:splat  301!
+http://gouranga.qzz.io/*   https://gouranga.qzz.io/:splat  301!
+
+# Catch-all redirect for any other paths
+/*  https://gouranga.qzz.io/:splat  301!

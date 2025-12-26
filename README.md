@@ -5,12 +5,12 @@
   <p>
     A stunning 3D portfolio website showcasing modern web technologies and interactive experiences
   </p>
-  
+
   [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/GourangaDasSamrat/3d-react-portfolio-2)
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/GourangaDasSamrat/3d-react-portfolio-2)
-  
-  <a href="https://gouranga-das.netlify.app/"><strong>✨ View Live Demo »</strong></a>
+
+  <a href="https://gouranga.qzz.io/"><strong>✨ View Live Demo »</strong></a>
 
 </div>
   <p style="margin-top:16px;">
@@ -57,7 +57,7 @@
 
 <div align="center">
   <h3>Experience the Live Demo</h3>
-  <a href="https://gouranga-das.netlify.app/">
+  <a href="https://gouranga.qzz.io/">
     <img src="https://img.shields.io/badge/Click%20to%20Visit-Portfolio%20Website-blue?style=for-the-badge&logo=netlify&logoColor=white&labelColor=20232A">
   </a>
 
@@ -235,7 +235,7 @@ Then open http://localhost:5173 in your browser. 🎉
 
 ## 🔗 Live Link
 
-Visit the live website: [https://gouranga-das.netlify.app/](https://gouranga-das.netlify.app/)
+Visit the live website: [https://gouranga.qzz.io/](https://gouranga.qzz.io/)
 
 ## 💎 Acknowledgement
 

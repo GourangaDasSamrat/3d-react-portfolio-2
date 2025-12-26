@@ -107,8 +107,7 @@ export const experiences = [
     duration: "8th Dec 2025 - Present",
     description:
       "Building a strong student community, and organizing educational workshops and events on campus. Focused on developing leadership and communication skills while acting as a bridge between the company and the student body.",
-    certificateUrl:
-      "https://i.postimg.cc/dV63LQMR/IMG-20251208-WA0000.jpg",
+    certificateUrl: "https://i.postimg.cc/dV63LQMR/IMG-20251208-WA0000.jpg",
   },
   {
     title: "Web Developer Intern",
@@ -224,7 +223,7 @@ export const projects = [
     description:
       "A React application that allows users to merge multiple PDF files into one, providing a simple and efficient way to manage PDF documents.",
     image: p1,
-    liveUrl: "https://pdf-hero-mauve.vercel.app/",
+    liveUrl: "https://pdf-hero.gouranga.qzz.io/",
     sourceCode: "https://github.com/GourangaDasSamrat/PDF-Merger-React.git",
   },
   {
@@ -232,7 +231,7 @@ export const projects = [
     description:
       "An interactive 3D island portfolio that showcases your work in a unique and engaging way, built with React and Three.js.And a blog section for sharing insights and updates.",
     image: p2,
-    liveUrl: "https://gouranga-das.netlify.app/",
+    liveUrl: "https://gouranga.qzz.io/",
     sourceCode: "https://github.com/GourangaDasSamrat/3d-react-portfolio-2.git",
   },
   {
@@ -240,7 +239,7 @@ export const projects = [
     description:
       "An advanced weather application that provides real-time weather updates, forecasts, and location-based services, built with React and OpenWeatherMap API.",
     image: p3,
-    liveUrl: "https://ecosky.vercel.app/",
+    liveUrl: "https://ecosky.gouranga.qzz.io/",
     sourceCode: "https://github.com/GourangaDasSamrat/React-Weather-App.git",
   },
   {

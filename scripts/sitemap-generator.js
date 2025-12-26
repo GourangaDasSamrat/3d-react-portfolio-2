@@ -15,7 +15,7 @@ const routes = [
 
 // Create a stream to write to
 const stream = new SitemapStream({
-  hostname: "https://gouranga-das.netlify.app",
+  hostname: "https://gouranga.qzz.io",
 });
 
 // Return a promise that resolves with your XML string
@@ -31,7 +31,7 @@ const generateSitemap = async () => {
 
     // Create a readable stream of the route objects
     const stream = new SitemapStream({
-      hostname: "https://gouranga-das.netlify.app",
+      hostname: "https://gouranga.qzz.io",
     });
 
     // Generate sitemap XML

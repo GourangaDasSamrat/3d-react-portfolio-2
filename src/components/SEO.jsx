@@ -7,14 +7,14 @@ const SEO = ({
   type = "website",
   keywords = "Frontend Developer, Web Developer, HTML, CSS, JavaScript, React JS, Tailwind CSS, Bootstrap 5, Portfolio, Gouranga Das Samrat, Khulna, Bangladesh, Web Design, UI/UX, Responsive Design, Netlify, Vercel, Full Stack Developer, MERN Stack",
   image = "https://i.postimg.cc/HsWDG5nx/Screenshot-from-2025-06-07-13-26-18.png", // Your website screenshot as the default OG image
-  url = "https://gouranga-das.netlify.app/",
+  url = "https://gouranga.qzz.io/",
   locale = "en_US",
   publishedAt,
   modifiedAt = new Date().toISOString(),
   article,
 }) => {
   const { pathname } = useLocation();
-  const siteUrl = "https://gouranga-das.netlify.app/"; // Directly using your portfolio URL
+  const siteUrl = "https://gouranga.qzz.io/"; // Directly using your portfolio URL
   const canonicalUrl = `${siteUrl}${pathname}`;
   const imageUrl = image.startsWith("http") ? image : `${siteUrl}${image}`;
 
@@ -28,11 +28,11 @@ const SEO = ({
     author: {
       "@type": "Person",
       name: "Gouranga Das Samrat",
-      url: "https://gouranga-das.netlify.app/",
+      url: "https://gouranga.qzz.io/",
       sameAs: [
         "https://github.com/GourangaDasSamrat",
         "https://linkedin.com/in/gouranga-das-samrat",
-        "https://gouranga-das.netlify.app/",
+        "https://gouranga.qzz.io/",
         "mailto:gouranga.das.khulna@gmail.com",
         "https://leetcode.com/u/gourangadassamrat/",
         "https://codepen.io/gouranga-das-samrat",
@@ -59,7 +59,7 @@ const SEO = ({
       name: "Gouranga Das Samrat's Portfolio",
       logo: {
         "@type": "ImageObject",
-        url: "https://gouranga-das.netlify.app/logo.webp",
+        url: "https://gouranga.qzz.io/logo.webp",
       },
     },
     keywords: keywords.split(", "),
