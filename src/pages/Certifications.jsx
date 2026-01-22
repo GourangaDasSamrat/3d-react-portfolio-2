@@ -26,10 +26,21 @@ const certificate19 =
   "https://i.postimg.cc/DyDFBX2X/166352363.jpg";
 const certificate20 =
   "https://i.postimg.cc/rwMmg2VG/software-engineer-intern-certificate-page-0001-(1).jpg";
+const certificate21 =
+  "https://i.postimg.cc/PrQj4fPn/UC-de10d064-a219-4952-9259-14f73523bbc4.jpg"
 
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Master of Essential C++ Programming Beginner to Advanced",
+      image: certificate21,
+      date: "22 January 2026",
+      org: "Udemy",
+      description:
+        `Completed an intensive, end-to-end program covering the full spectrum of C++ development. Mastered core syntax, Memory Management, and Object-Oriented Programming (OOP) principles. Gained hands-on experience with the Standard Template Library (STL) and advanced topics like pointers and templates to build high-performance applications.​`,
+      verificationLink: "http://ude.my/UC-de10d064-a219-4952-9259-14f73523bbc4",
+    },
     {
       title: "Software Engineer Intern",
       image: certificate20,
