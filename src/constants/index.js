@@ -4,6 +4,7 @@ import {
   cpp,
   docker,
   express,
+  github,
   githubActions,
   go,
   javascript,
