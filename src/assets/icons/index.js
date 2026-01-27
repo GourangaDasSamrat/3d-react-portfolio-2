@@ -1,55 +1,27 @@
-import arrow from "./arrow.svg";
-import c from "./c.svg";
-import car from "./car.svg";
-import contact from "./contact.svg";
-import cpp from "./cpp.svg";
-import docker from "./docker.svg";
-import estate from "./estate.svg";
-import express from "./express.svg";
-import githubActions from "./githubActions.svg";
-import go from "./go.svg";
-import internet from "./internet.svg";
-import javascript from "./javascript.svg";
-import linkedin from "./linkedin.svg";
-import mongodb from "./mongodb.svg";
-import mysql from "./mysql.svg";
-import nextjs from "./nextjs.svg";
-import nodejs from "./nodejs.svg";
-import pricewise from "./pricewise.svg";
-import python from "./python.svg";
-import redux from "./redux.svg";
-import snapgram from "./snapgram.svg";
-import soundoff from "./soundoff.png";
-import soundon from "./soundon.png";
-import summiz from "./summiz.svg";
-import tailwindcss from "./tailwindcss.svg";
-import typescript from "./typescript.svg";
-
-export {
-  arrow,
-  c,
-  car,
-  contact,
-  cpp,
-  docker,
-  estate,
-  express,
-  githubActions,
-  go,
-  internet,
-  javascript,
-  linkedin,
-  mongodb,
-  mysql,
-  nextjs,
-  nodejs,
-  pricewise,
-  python,
-  redux,
-  snapgram,
-  soundoff,
-  soundon,
-  summiz,
-  tailwindcss,
-  typescript,
-};
+export { default as arrow } from "./arrow.svg";
+export { default as c } from "./c.svg";
+export { default as car } from "./car.svg";
+export { default as contact } from "./contact.svg";
+export { default as cpp } from "./cpp.svg";
+export { default as docker } from "./docker.svg";
+export { default as estate } from "./estate.svg";
+export { default as express } from "./express.svg";
+export { default as github } from "./github.svg";
+export { default as githubActions } from "./githubActions.svg";
+export { default as go } from "./go.svg";
+export { default as internet } from "./internet.svg";
+export { default as javascript } from "./javascript.svg";
+export { default as linkedin } from "./linkedin.svg";
+export { default as mongodb } from "./mongodb.svg";
+export { default as mysql } from "./mysql.svg";
+export { default as nextjs } from "./nextjs.svg";
+export { default as nodejs } from "./nodejs.svg";
+export { default as pricewise } from "./pricewise.svg";
+export { default as python } from "./python.svg";
+export { default as redux } from "./redux.svg";
+export { default as snapgram } from "./snapgram.svg";
+export { default as soundoff } from "./soundoff.png";
+export { default as soundon } from "./soundon.png";
+export { default as summiz } from "./summiz.svg";
+export { default as tailwindcss } from "./tailwindcss.svg";
+export { default as typescript } from "./typescript.svg";

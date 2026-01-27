@@ -1,21 +1,9 @@
-import About from "./About";
-import Blog from "./Blog";
-import Certifications from "./Certifications";
-import Contact from "./Contact";
-import Experience from "./Experience";
-import Home from "./Home";
-import Links from "./Links";
-import NotFound from "./NotFound";
-import Projects from "./Projects";
-
-export {
-  About,
-  Blog,
-  Certifications,
-  Contact,
-  Experience,
-  Home,
-  Links,
-  NotFound,
-  Projects,
-};
+export { default as About } from "./About";
+export { default as Blog } from "./Blog";
+export { default as Certifications } from "./Certifications";
+export { default as Contact } from "./Contact";
+export { default as Experience } from "./Experience";
+export { default as Home } from "./Home";
+export { default as Links } from "./Links";
+export { default as NotFound } from "./NotFound";
+export { default as Projects } from "./Projects";
