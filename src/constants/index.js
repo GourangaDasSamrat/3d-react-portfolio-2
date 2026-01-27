@@ -1,18 +1,18 @@
 import {
-  bootstrap,
+  c,
   contact,
-  css,
+  cpp,
+  docker,
   express,
-  git,
-  github,
-  html,
+  githubActions,
+  go,
   javascript,
   linkedin,
   mongodb,
   mysql,
   nextjs,
   nodejs,
-  react,
+  python,
   redux,
   tailwindcss,
   typescript,
@@ -123,16 +123,6 @@ export const experiences = [
 
 export const skills = [
   {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
-  },
-  {
     imageUrl: javascript,
     name: "JavaScript",
     type: "Frontend",
@@ -143,18 +133,28 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: bootstrap,
-    name: "Bootstrap",
-    type: "Frontend",
+    imageUrl: go,
+    name: "Go",
+    type: "Backend and System",
   },
   {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
-    type: "Frontend",
+    imageUrl: c,
+    name: "C",
+    type: "Backend and System",
   },
   {
-    imageUrl: react,
-    name: "React",
+    imageUrl: cpp,
+    name: "C++",
+    type: "Backend and System",
+  },
+  {
+    imageUrl: python,
+    name: "python",
+    type: "Backend and Scripting",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
     type: "Frontend",
   },
   {
@@ -163,8 +163,8 @@ export const skills = [
     type: "State Management",
   },
   {
-    imageUrl: nextjs,
-    name: "Next.js",
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
     type: "Frontend",
   },
   {
@@ -178,24 +178,24 @@ export const skills = [
     type: "Backend",
   },
   {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-  {
     imageUrl: mongodb,
     name: "MongoDB",
     type: "Database",
   },
   {
     imageUrl: mysql,
-    name: "Tailwind CSS",
+    name: "My Sql",
     type: "Frontend",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
+    type: "DevOps",
+  },
+  {
+    imageUrl: githubActions,
+    name: "Github Actions",
+    type: "CI/CD",
   },
 ];
 
