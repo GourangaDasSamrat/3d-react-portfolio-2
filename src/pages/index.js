@@ -1,5 +1,4 @@
 export { default as About } from "./About";
-export { default as Blog } from "./Blog";
 export { default as Certifications } from "./Certifications";
 export { default as Contact } from "./Contact";
 export { default as Experience } from "./Experience";
