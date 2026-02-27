@@ -9,7 +9,6 @@ const routes = [
   "/experience",
   "/projects",
   "/certifications",
-  "/blog",
   "/contact",
 ];
 

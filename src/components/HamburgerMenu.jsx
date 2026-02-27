@@ -15,7 +15,6 @@ const links = [
   { to: "/about", label: "About" },
   { to: "/projects", label: "Projects" },
   { to: "/certifications", label: "Certifications" },
-  { to: "/blog", label: "Blog" },
   { to: "/contact", label: "Contact" },
 ];
 
