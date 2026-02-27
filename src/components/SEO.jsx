@@ -2,10 +2,12 @@ import { Helmet } from "react-helmet-async";
 import { useLocation } from "react-router-dom";
 
 const SEO = ({
-  title = "Gouranga Das Samrat | Frontend Web Developer",
-  description = "Hey there! I'm Gouranga Das Samrat, a 16-year-old passionate Frontend Web Developer from Khulna, Bangladesh. I craft beautiful and interactive web experiences using HTML, CSS, JavaScript (ES6), Bootstrap 5, and I'm diving deep into React JS and Tailwind CSS. Now featuring a mobile-friendly hamburger menu and Framer Motion for smooth, modern UI/UX transitions. I host my projects on Netlify and Vercel. Let's build something awesome together! 🚀",
+  title = "Gouranga Das Samrat | Software Engineer ",
+  description = `Software Engineer specializing in full-stack development, system design, and multi-platform
+  applications. I build with MERN, Go, TypeScript, and C++—from web frontends to high-performance
+  backends and developer tools.`,
   type = "website",
-  keywords = "Frontend Developer, Web Developer, HTML, CSS, JavaScript, React JS, Tailwind CSS, Bootstrap 5, Portfolio, Gouranga Das Samrat, Khulna, Bangladesh, Web Design, UI/UX, Responsive Design, Netlify, Vercel, Full Stack Developer, MERN Stack",
+  keywords = "Frontend Developer, Web Developer, Typescript, Next JS, Mongodb , MySQL, Firebase, Cloud JavaScript, React JS, Tailwind CSS, Portfolio, Gouranga Das Samrat, Khulna, Bangladesh, Web Design, UI/UX, Full Stack Developer, MERN Stac, Full Stack Developer, System design, DevOps , Go, C++",
   image = "https://i.postimg.cc/HsWDG5nx/Screenshot-from-2025-06-07-13-26-18.png", // Your website screenshot as the default OG image
   url = "https://gouranga.qzz.io/",
   locale = "en_US",
