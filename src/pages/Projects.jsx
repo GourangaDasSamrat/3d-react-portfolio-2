@@ -79,7 +79,9 @@ const Projects = () => {
               </h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="flex gap-4 mt-4">
-                <Link
+                {
+                  project.liveUrl&&(
+                    <Link
                   to={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -92,6 +94,8 @@ const Projects = () => {
                   />
                   Live Demo
                 </Link>
+                  )
+                }
                 <Link
                   to={project.sourceCode}
                   target="_blank"

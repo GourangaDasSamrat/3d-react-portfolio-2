@@ -172,21 +172,19 @@ export const projects = [
     sourceCode: "https://github.com/GourangaDasSamrat/React-Weather-App.git",
   },
   {
-    name: "Python Compiler",
+    name: "JS Visualizer",
     description:
-      "A web-based Python compiler that allows users to write, run, and test Python code directly in the browser, built with CodeMirror.",
+      "An open-source JavaScript runtime debugger (React 19, TypeScript, GSAP, Tailwind v4, Zustand) that animates the Call Stack, Event Loop, Task Queue, and Microtask Queue step-by-step; architected with a WASM-replaceable execution engine and full OSS documentation.",
     image: p4,
-    liveUrl: "https://simplepythoncompiler.netlify.app/",
-    sourceCode:
-      "https://github.com/GourangaDasSamrat/SimPle-Python-Compiler.git",
+    liveUrl: "https://js-visualizer.gouranga.qzz.io/",
+    sourceCode: "https://github.com/GourangaDasSamrat/JS-Visualizer",
   },
   {
-    name: "Google Gemini Clone",
+    name: "CLI Todo App",
     description:
-      "A clone of Google Gemini, a modern AI Assistant, built with Google Ai Studio Free Api for natural language processing.",
+      "A powerful, feature-rich command-line todo application built with Go.",
     image: p5,
-    liveUrl: "https://geminiclonebygouranga.netlify.app/",
-    sourceCode: "https://github.com/GourangaDasSamrat/Gemini-Clone.git",
+    sourceCode: "https://github.com/GourangaDasSamrat/todo-cli-go/",
   },
   {
     name: "3D iPhone Website Clone",
@@ -198,4 +196,3 @@ export const projects = [
       "https://github.com/GourangaDasSamrat/iphone-15-pro-3d-website-clone.git",
   },
 ];
-
