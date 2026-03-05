@@ -30,10 +30,21 @@ const certificate21 =
   "https://i.postimg.cc/PrQj4fPn/UC-de10d064-a219-4952-9259-14f73523bbc4.jpg";
 const certificate22 = 
   "https://i.postimg.cc/3wrC8M5F/software-engineer-certificate-page-0001.jpg";
+const certificate23 =
+  "https://i.postimg.cc/xjBkgjLr/cs50x.png"
 
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "CS50x: Introduction to Computer Science",
+      image: certificate23,
+      date: "05 March 2026",
+      org: "Harvard University",
+      description:
+        `Completed CS50x: Introduction to Computer Science by Harvard University — a rigorous introduction to computer science covering algorithms, data structures, memory, C, Python, SQL, web development, and software engineering fundamentals.`,
+      verificationLink: "https://cs50.harvard.edu/certificates/2b0dbe63-7c04-43bd-97b7-2b97069f333a",
+    },
     {
       title: "Software Engineer",
       image: certificate22,
