@@ -46,10 +46,7 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          Full-Stack Web Developer & UI/UX Designer passionate about building
-          modern, scalable, and user-centric web applications. With hands-on
-          experience in MERN Stack, Next.js, and TypeScript, I specialize in
-          turning ideas into interactive, high-performance digital experiences.
+I'm a Software Engineer who builds scalable applications across web, desktop, and command-line environments. From high-performance web platforms to cross-platform desktop applications and developer tools, I solve complex problems with clean, efficient code and thoughtful system design.
         </motion.p>
 
         <motion.div
