@@ -117,7 +117,7 @@ const Links = () => {
           className="text-gray-800  text-center max-w-lg mb-8"
         >
       
-I'm a Software Engineer who builds scalable applications across web, desktop, and command-line environments. From high-performance web platforms to cross-platform desktop applications and developer tools, I solve complex problems with clean, efficient code and thoughtful system design.
+I'm a Software Developer who builds scalable applications across web, desktop, and command-line environments. From high-performance web platforms to cross-platform desktop applications and developer tools, I solve complex problems with clean, efficient code and thoughtful system design.
 
         </motion.p>
 
