@@ -151,8 +151,7 @@ Then open http://localhost:5173 in your browser. 🎉
 
 <p align="center">
   <i>
-    Full Stack Developer • MERN Stack • Technical Writer <br/>
-    Passionate about building scalable web apps & contributing to open source
+    Software Developer 
   </i>
 </p>
 
