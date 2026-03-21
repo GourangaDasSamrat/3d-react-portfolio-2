@@ -46,7 +46,7 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-I'm a Software Engineer who builds scalable applications across web, desktop, and command-line environments. From high-performance web platforms to cross-platform desktop applications and developer tools, I solve complex problems with clean, efficient code and thoughtful system design.
+I'm a Software Developer who builds scalable applications across web, desktop, and command-line environments. From high-performance web platforms to cross-platform desktop applications and developer tools, I solve complex problems with clean, efficient code and thoughtful system design.
         </motion.p>
 
         <motion.div
