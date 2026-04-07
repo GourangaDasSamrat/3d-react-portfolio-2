@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gouranga.qzz.io/sitemap.xml
+Sitemap: https://gouranga.eu.org/sitemap.xml

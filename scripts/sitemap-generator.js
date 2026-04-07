@@ -14,7 +14,7 @@ const routes = [
 
 // Create a stream to write to
 const stream = new SitemapStream({
-  hostname: "https://gouranga.qzz.io",
+  hostname: "https://gouranga.eu.org",
 });
 
 // Return a promise that resolves with your XML string
@@ -30,7 +30,7 @@ const generateSitemap = async () => {
 
     // Create a readable stream of the route objects
     const stream = new SitemapStream({
-      hostname: "https://gouranga.qzz.io",
+      hostname: "https://gouranga.eu.org",
     });
 
     // Generate sitemap XML

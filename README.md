@@ -10,7 +10,7 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/GourangaDasSamrat/3d-react-portfolio-2)
 
-  <a href="https://gouranga.qzz.io/"><strong>✨ View Live Demo »</strong></a>
+  <a href="https://gouranga.eu.org/"><strong>✨ View Live Demo »</strong></a>
 
 </div>
   <p style="margin-top:16px;">
@@ -57,7 +57,7 @@
 
 <div align="center">
   <h3>Experience the Live Demo</h3>
-  <a href="https://gouranga.qzz.io/">
+  <a href="https://gouranga.eu.org/">
     <img src="https://img.shields.io/badge/Click%20to%20Visit-Portfolio%20Website-blue?style=for-the-badge&logo=netlify&logoColor=white&labelColor=20232A">
   </a>
 
@@ -151,7 +151,7 @@ Then open http://localhost:5173 in your browser. 🎉
 
 <p align="center">
   <i>
-    Software Developer 
+    Software Developer
   </i>
 </p>
 
@@ -203,7 +203,7 @@ Then open http://localhost:5173 in your browser. 🎉
 
 ## 🔗 Live Link
 
-Visit the live website: [https://gouranga.qzz.io/](https://gouranga.qzz.io/)
+Visit the live website: [https://gouranga.eu.org/](https://gouranga.eu.org/)
 
 ## 💎 Acknowledgement
 

@@ -188,7 +188,7 @@ export const projects = [
     description:
       "A React application that allows users to merge multiple PDF files into one, providing a simple and efficient way to manage PDF documents.",
     image: p1,
-    liveUrl: "https://pdf-hero.gouranga.qzz.io/",
+    liveUrl: "https://pdf-hero.gouranga.eu.org/",
     sourceCode: "https://github.com/GourangaDasSamrat/PDF-Merger-React.git",
   },
   {
@@ -196,7 +196,7 @@ export const projects = [
     description:
       "An interactive 3D island portfolio that showcases your work in a unique and engaging way, built with React and Three.js.And a blog section for sharing insights and updates.",
     image: p2,
-    liveUrl: "https://gouranga.qzz.io/",
+    liveUrl: "https://gouranga.eu.org/",
     sourceCode: "https://github.com/GourangaDasSamrat/3d-react-portfolio-2.git",
   },
   {
@@ -204,7 +204,7 @@ export const projects = [
     description:
       "An advanced weather application that provides real-time weather updates, forecasts, and location-based services, built with React and OpenWeatherMap API.",
     image: p3,
-    liveUrl: "https://ecosky.gouranga.qzz.io/",
+    liveUrl: "https://ecosky.gouranga.eu.org/",
     sourceCode: "https://github.com/GourangaDasSamrat/React-Weather-App.git",
   },
   {
@@ -212,7 +212,7 @@ export const projects = [
     description:
       "An open-source JavaScript runtime debugger (React 19, TypeScript, GSAP, Tailwind v4, Zustand) that animates the Call Stack, Event Loop, Task Queue, and Microtask Queue step-by-step; architected with a WASM-replaceable execution engine and full OSS documentation.",
     image: p4,
-    liveUrl: "https://js-visualizer.gouranga.qzz.io/",
+    liveUrl: "https://js-visualizer.gouranga.eu.org/",
     sourceCode: "https://github.com/GourangaDasSamrat/JS-Visualizer",
   },
   {
