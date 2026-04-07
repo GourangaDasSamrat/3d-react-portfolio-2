@@ -4,19 +4,25 @@ import {
   cpp,
   docker,
   express,
+  fastify,
   github,
   githubActions,
   go,
   javascript,
   linkedin,
+  lua,
   mongodb,
   mysql,
+  nestjs,
   nextjs,
   nodejs,
+  postgresql,
   python,
+  redis,
   redux,
+  sqlite,
   tailwindcss,
-  typescript,
+  typescript
 } from "../assets/icons";
 
 
@@ -78,7 +84,12 @@ export const skills = [
   },
   {
     imageUrl: python,
-    name: "python",
+    name: "Python",
+    type: "Backend and Scripting",
+  },
+  {
+    imageUrl: lua,
+    name: "Lua",
     type: "Backend and Scripting",
   },
   {
@@ -107,14 +118,39 @@ export const skills = [
     type: "Backend",
   },
   {
+    imageUrl: nestjs,
+    name: "Nest.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: fastify,
+    name: "Fastify",
+    type: "Backend",
+  },
+  {
     imageUrl: mongodb,
     name: "MongoDB",
     type: "Database",
   },
   {
+    imageUrl: postgresql,
+    name: "PostgreSQL",
+    type: "Database",
+  },
+  {
     imageUrl: mysql,
-    name: "My Sql",
-    type: "Frontend",
+    name: "MySql",
+    type: "Database",
+  },
+  {
+    imageUrl: sqlite,
+    name: "SqLite",
+    type: "Database",
+  },
+  {
+    imageUrl: redis,
+    name: "Redis",
+    type: "Database",
   },
   {
     imageUrl: docker,
