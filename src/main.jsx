@@ -9,5 +9,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HelmetProvider>
       <App />
     </HelmetProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

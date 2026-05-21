@@ -84,7 +84,7 @@ const Contact = () => {
           "g-recaptcha-response": recaptchaValue,
           sent_date: new Date().toLocaleString(),
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -123,7 +123,7 @@ const Contact = () => {
             text: "I didn't receive your message 😢",
             type: "danger",
           });
-        }
+        },
       );
   };
 

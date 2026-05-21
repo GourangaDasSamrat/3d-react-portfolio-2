@@ -6,11 +6,11 @@
     A stunning 3D portfolio website showcasing modern web technologies and interactive experiences
   </p>
 
-  [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/GourangaDasSamrat/3d-react-portfolio-2)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/GourangaDasSamrat/3d-react-portfolio-2)
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/GourangaDasSamrat/3d-react-portfolio-2)
 
-  <a href="https://gouranga.eu.org/"><strong>✨ View Live Demo »</strong></a>
+<a href="https://gouranga.eu.org/"><strong>✨ View Live Demo »</strong></a>
 
 </div>
   <p style="margin-top:16px;">

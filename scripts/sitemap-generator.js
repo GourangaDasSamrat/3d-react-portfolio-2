@@ -35,7 +35,7 @@ const generateSitemap = async () => {
 
     // Generate sitemap XML
     const data = await streamToPromise(
-      Readable.from(routeObjects).pipe(stream)
+      Readable.from(routeObjects).pipe(stream),
     ).then((data) => data.toString());
 
     // Ensure the public directory exists

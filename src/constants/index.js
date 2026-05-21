@@ -22,9 +22,8 @@ import {
   redux,
   sqlite,
   tailwindcss,
-  typescript
+  typescript,
 } from "../assets/icons";
-
 
 // Import project images
 import p1 from "../assets/images/project-1.webp";

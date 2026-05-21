@@ -79,23 +79,21 @@ const Projects = () => {
               </h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="flex gap-4 mt-4">
-                {
-                  project.liveUrl&&(
-                    <Link
-                  to={project.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300 flex items-center justify-center gap-2"
-                >
-                  <img
-                    src={internet}
-                    alt="Live Demo"
-                    className="w-5 h-5 invert"
-                  />
-                  Live Demo
-                </Link>
-                  )
-                }
+                {project.liveUrl && (
+                  <Link
+                    to={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300 flex items-center justify-center gap-2"
+                  >
+                    <img
+                      src={internet}
+                      alt="Live Demo"
+                      className="w-5 h-5 invert"
+                    />
+                    Live Demo
+                  </Link>
+                )}
                 <Link
                   to={project.sourceCode}
                   target="_blank"

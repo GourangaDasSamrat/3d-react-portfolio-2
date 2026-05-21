@@ -22,17 +22,14 @@ const certificate17 =
   "https://i.postimg.cc/qvMSsDY1/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca.jpg";
 const certificate18 =
   "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg";
-const certificate19 = 
-  "https://i.postimg.cc/DyDFBX2X/166352363.jpg";
+const certificate19 = "https://i.postimg.cc/DyDFBX2X/166352363.jpg";
 const certificate20 =
   "https://i.postimg.cc/rwMmg2VG/software-engineer-intern-certificate-page-0001-(1).jpg";
 const certificate21 =
   "https://i.postimg.cc/PrQj4fPn/UC-de10d064-a219-4952-9259-14f73523bbc4.jpg";
-const certificate22 = 
+const certificate22 =
   "https://i.postimg.cc/3wrC8M5F/software-engineer-certificate-page-0001.jpg";
-const certificate23 =
-  "https://i.postimg.cc/xjBkgjLr/cs50x.png"
-
+const certificate23 = "https://i.postimg.cc/xjBkgjLr/cs50x.png";
 
 const Certifications = () => {
   const certifications = [
@@ -41,17 +38,16 @@ const Certifications = () => {
       image: certificate23,
       date: "05 March 2026",
       org: "Harvard University",
-      description:
-        `Completed CS50x: Introduction to Computer Science by Harvard University — a rigorous introduction to computer science covering algorithms, data structures, memory, C, Python, SQL, web development, and software engineering fundamentals.`,
-      verificationLink: "https://cs50.harvard.edu/certificates/2b0dbe63-7c04-43bd-97b7-2b97069f333a",
+      description: `Completed CS50x: Introduction to Computer Science by Harvard University — a rigorous introduction to computer science covering algorithms, data structures, memory, C, Python, SQL, web development, and software engineering fundamentals.`,
+      verificationLink:
+        "https://cs50.harvard.edu/certificates/2b0dbe63-7c04-43bd-97b7-2b97069f333a",
     },
     {
       title: "Software Engineer",
       image: certificate22,
       date: "28 January 2026",
       org: "HackerRank",
-      description:
-        `Successfully cleared HackerRank's professional assessment for Software Engineers, confirming strong technical logic and algorithmic efficiency.`,
+      description: `Successfully cleared HackerRank's professional assessment for Software Engineers, confirming strong technical logic and algorithmic efficiency.`,
       verificationLink: "https://www.hackerrank.com/certificates/44ed730e1d87",
     },
     {
@@ -59,8 +55,7 @@ const Certifications = () => {
       image: certificate21,
       date: "22 January 2026",
       org: "Udemy",
-      description:
-        `Completed an intensive, end-to-end program covering the full spectrum of C++ development. Mastered core syntax, Memory Management, and Object-Oriented Programming (OOP) principles. Gained hands-on experience with the Standard Template Library (STL) and advanced topics like pointers and templates to build high-performance applications.​`,
+      description: `Completed an intensive, end-to-end program covering the full spectrum of C++ development. Mastered core syntax, Memory Management, and Object-Oriented Programming (OOP) principles. Gained hands-on experience with the Standard Template Library (STL) and advanced topics like pointers and templates to build high-performance applications.​`,
       verificationLink: "http://ude.my/UC-de10d064-a219-4952-9259-14f73523bbc4",
     },
     {
@@ -79,7 +74,8 @@ const Certifications = () => {
       org: "Udemy",
       description:
         "Successfully completed a comprehensive masterclass focusing on advanced features and best practices for Google Slides. The course covered everything from foundational design principles and template creation to mastering complex animations and collaboration tools, resulting in the ability to create highly polished, professional, and engaging presentations.",
-      verificationLink: "https://www.udemy.com/certificate/UC-ad3903c8-384d-4fec-a1d0-c27509606903/",
+      verificationLink:
+        "https://www.udemy.com/certificate/UC-ad3903c8-384d-4fec-a1d0-c27509606903/",
     },
     {
       title: "TailwindCSS from A to Z: Master TailwindCSS Quickly",
