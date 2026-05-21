@@ -30,9 +30,20 @@ const certificate21 =
 const certificate22 =
   "https://i.postimg.cc/3wrC8M5F/software-engineer-certificate-page-0001.jpg";
 const certificate23 = "https://i.postimg.cc/xjBkgjLr/cs50x.png";
+const certificate24 =
+  "https://i.postimg.cc/xdvR8dhT/golang-intermediate-certificate-page-0001.jpg";
 
 const Certifications = () => {
   const certifications = [
+    {
+      title: "Go(Intermediate)",
+      image: certificate24,
+      date: "21 May 2026",
+      org: "HackerRank",
+      description:
+        "Earned HackerRank's Go Intermediate certification, demonstrating proficiency in concurrent programming with goroutines, channels, interfaces, and advanced Go language features.",
+      verificationLink: "https://www.hackerrank.com/certificates/ce45b37caa35",
+    },
     {
       title: "CS50x: Introduction to Computer Science",
       image: certificate23,
