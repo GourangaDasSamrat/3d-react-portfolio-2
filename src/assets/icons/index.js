@@ -24,6 +24,7 @@ export { default as pricewise } from "./pricewise.svg";
 export { default as python } from "./python.svg";
 export { default as redis } from "./redis.svg";
 export { default as redux } from "./redux.svg";
+export { default as rust } from "./rust.svg";
 export { default as snapgram } from "./snapgram.svg";
 export { default as soundoff } from "./soundoff.png";
 export { default as soundon } from "./soundon.png";

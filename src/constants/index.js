@@ -20,6 +20,7 @@ import {
     python,
     redis,
     redux,
+    rust,
     sqlite,
     tailwindcss,
     typescript,
@@ -69,6 +70,11 @@ export const skills = [
   {
     imageUrl: go,
     name: "Go",
+    type: "Backend and System",
+  },
+  {
+    imageUrl: rust,
+    name: "Rust",
     type: "Backend and System",
   },
   {
