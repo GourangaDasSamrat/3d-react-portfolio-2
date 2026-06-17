@@ -240,6 +240,15 @@ export const projects = [
 
 export const certifications = [
   {
+    title: "Attention Mechanism with Google Cloud",
+    image: "https://i.postimg.cc/0jB85Y1X/Learn-the-Latest-Tech-Skills-Advance-Your-Career-Udacity-pages-to-jpg-0001-2.jpg",
+    date: "17 June 2026",
+    org: "Udacity",
+    description:
+      `Successfully mastered and implemented Attention Mechanisms using Google Cloud Platform (GCP) through this Udacity collaboration project. Developed practical expertise in building advanced Deep Learning models and leveraging GCP’s infrastructure for efficient training and deployment.`,
+    verificationLink: "https://www.udacity.com/certificate/e/f4a23628-6a34-11f1-999a-3b78d67abab9",
+  },
+  {
     title: "Go(Intermediate)",
     image: "https://i.postimg.cc/xdvR8dhT/golang-intermediate-certificate-page-0001.jpg",
     date: "21 May 2026",
