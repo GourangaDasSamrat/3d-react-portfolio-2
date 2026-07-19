@@ -283,25 +283,6 @@ export const certifications = [
     verificationLink: "http://ude.my/UC-de10d064-a219-4952-9259-14f73523bbc4",
   },
   {
-    title: "Software Engineer Intern",
-    image: "https://i.postimg.cc/rwMmg2VG/software-engineer-intern-certificate-page-0001-(1).jpg",
-    date: "08 December 2025",
-    org: "HackerRank",
-    description:
-      "​Successfully completed the HackerRank assessment process to earn the Software Engineer Intern Certificate. This certification validates strong foundational skills in data structures, algorithms, and problem-solving, demonstrating readiness for a software engineering internship role.",
-    verificationLink: "https://www.hackerrank.com/certificates/d9f5234dbed6",
-  },
-  {
-    title: "The Complete Google Slides Masterclass - Master Google Slide",
-    image: "https://i.postimg.cc/DyDFBX2X/166352363.jpg",
-    date: "07 December 2025",
-    org: "Udemy",
-    description:
-      "Successfully completed a comprehensive masterclass focusing on advanced features and best practices for Google Slides. The course covered everything from foundational design principles and template creation to mastering complex animations and collaboration tools, resulting in the ability to create highly polished, professional, and engaging presentations.",
-    verificationLink:
-      "https://www.udemy.com/certificate/UC-ad3903c8-384d-4fec-a1d0-c27509606903/",
-  },
-  {
     title: "TailwindCSS from A to Z: Master TailwindCSS Quickly",
     image: "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg",
     date: "03 OCtober 2025",
@@ -330,56 +311,6 @@ export const certifications = [
       "https://www.udemy.com/certificate/UC-0519c2ee-99b8-42ca-a3e8-bd10a87eac0a/",
   },
   {
-    title: "Effective Presentations",
-    image: "https://i.postimg.cc/nr8nP7HN/certificate-page-0001.jpg",
-    date: "10 September 2025",
-    org: "HP Life",
-    description:
-      "Successfully completed a course focused on developing impactful presentation skills, including structuring content, designing visuals, and delivering with confidence to effectively engage and influence an audience.",
-    verificationLink:
-      "https://www.life-global.org/certificate/16258744-909c-436c-8d2a-76c0ea9dba71",
-  },
-  {
-    title: "Effective Leadership",
-    image: "https://i.postimg.cc/Z5fDHVcg/certificate-page-0001.jpg",
-    date: "09 September 2025",
-    org: "HP Life",
-    description:
-      "Successfully completed a course on effective leadership skills, learning how to inspire teams, communicate clearly, make strategic decisions, and develop key qualities for successful leadership in professional environments.",
-    verificationLink:
-      "https://www.life-global.org/certificate/0e0b848e-871a-403c-9da6-41e57dfa24a4",
-  },
-  {
-    title: "Getting Started with Microsoft Excel",
-    image: "https://i.postimg.cc/wjxnbXHC/Coursera-V91494-RUZT2-G-page-0001.jpg",
-    date: "09 September 2025",
-    org: "Coursera",
-    description:
-      "Successfully completed foundational training in Microsoft Excel, covering data entry, formatting, formulas, charts, and essential spreadsheet skills to manage and analyze data effectively.",
-    verificationLink:
-      "https://www.coursera.org/account/accomplishments/records/V91494RUZT2G",
-  },
-  {
-    title: "Figma for User Interface and User Experience UIUX Design",
-    image: "https://i.postimg.cc/j58Kb64n/158527861.jpg",
-    date: "08 September 2025",
-    org: "Udemy",
-    description:
-      "Successfully completed a comprehensive course on designing user-friendly interfaces with Figma. Gained skills in wireframing, prototyping, and building design systems while applying core UI/UX principles to create modern digital experiences.",
-    verificationLink:
-      "https://www.udemy.com/certificate/UC-231d910a-7c34-4a5f-a46a-6c7e91f6c643/",
-  },
-  {
-    title: "Master JavaScript, HTML, and CSS with 30 Projects in 30 Days",
-    image: "https://i.postimg.cc/jqkL35BY/157918431.jpg",
-    date: "01 September 2025",
-    org: "Udemy",
-    description:
-      "Successfully completed the Master JavaScript, HTML, and CSS with 30 Projects in 30 Days course on Udemy. Built 30 hands-on projects covering responsive design, DOM manipulation, form validation, interactive UI components, and real-world web applications using HTML, CSS, and JavaScript.",
-    verificationLink:
-      "https://www.udemy.com/certificate/UC-91c219fe-afe6-4b69-b4f3-1eeb4b420f4a/",
-  },
-  {
     title: "Master Node.js: From Beginner to Full-Stack Developer",
     image: "https://i.postimg.cc/fTKb0Wmx/157789995.jpg",
     date: "30 August 2025",
@@ -399,15 +330,6 @@ export const certifications = [
     verificationLink: "https://www.hackerrank.com/certificates/9e649f914d96",
   },
   {
-    title: "Problem Solving(Basic) ",
-    image: "https://i.postimg.cc/5yBGZjzH/certificate-8.webp",
-    date: "06 July 2025",
-    org: "HackerRank",
-    description:
-      "This certification demonstrates my foundational problem-solving skills, including algorithmic thinking, data structures, and basic coding techniques. It validates my ability to approach and solve programming challenges effectively.",
-    verificationLink: "https://www.hackerrank.com/certificates/a88d61f3f72a",
-  },
-  {
     title: "React(Basic) ",
     image: "https://i.postimg.cc/gjFQS3xF/certificate-7.webp",
     date: "06 July 2025",
@@ -424,24 +346,6 @@ export const certifications = [
     description:
       "This certification demonstrates my intermediate knowledge of JavaScript, including advanced concepts such as asynchronous programming, closures, and higher-order functions. It validates my ability to write more complex scripts and understand advanced programming techniques.",
     verificationLink: "https://www.hackerrank.com/certificates/45f92a73ed85",
-  },
-  {
-    title: "JavaScript(Basic) ",
-    image: "https://i.postimg.cc/1zXkf9kT/certificate-5.webp",
-    date: "05 July 2025",
-    org: "HackerRank",
-    description:
-      "This certification demonstrates my foundational knowledge of JavaScript, including syntax, data types, control structures, and basic algorithms. It validates my ability to write simple scripts and understand core programming concepts.",
-    verificationLink: "https://www.hackerrank.com/certificates/1dc151e8da65",
-  },
-  {
-    title: "CSS(Basic) ",
-    image: "https://i.postimg.cc/DzNtG9Fz/certificate-4.webp",
-    date: "04 July 2025",
-    org: "HackerRank",
-    description:
-      "This certification validates my foundational knowledge of CSS, including styling techniques, layout design, and responsive web design principles. It demonstrates my ability to create visually appealing and user-friendly web pages.",
-    verificationLink: "https://www.hackerrank.com/certificates/0e3142b3e0d8",
   },
   {
     title: "JavaScript Algorithms and Data Structures",
