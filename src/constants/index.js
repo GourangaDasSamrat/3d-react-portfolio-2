@@ -1,29 +1,29 @@
 import {
-    c,
-    contact,
-    cpp,
-    docker,
-    express,
-    fastify,
-    github,
-    githubActions,
-    go,
-    javascript,
-    linkedin,
-    lua,
-    mongodb,
-    mysql,
-    nestjs,
-    nextjs,
-    nodejs,
-    postgresql,
-    python,
-    redis,
-    redux,
-    rust,
-    sqlite,
-    tailwindcss,
-    typescript,
+  c,
+  contact,
+  cpp,
+  docker,
+  express,
+  fastify,
+  github,
+  githubActions,
+  go,
+  javascript,
+  linkedin,
+  lua,
+  mongodb,
+  mysql,
+  nestjs,
+  nextjs,
+  nodejs,
+  postgresql,
+  python,
+  redis,
+  redux,
+  rust,
+  sqlite,
+  tailwindcss,
+  typescript,
 } from "../assets/icons";
 
 // Import project images
@@ -241,16 +241,18 @@ export const projects = [
 export const certifications = [
   {
     title: "Attention Mechanism with Google Cloud",
-    image: "https://i.postimg.cc/0jB85Y1X/Learn-the-Latest-Tech-Skills-Advance-Your-Career-Udacity-pages-to-jpg-0001-2.jpg",
+    image:
+      "https://i.postimg.cc/0jB85Y1X/Learn-the-Latest-Tech-Skills-Advance-Your-Career-Udacity-pages-to-jpg-0001-2.jpg",
     date: "17 June 2026",
     org: "Udacity",
-    description:
-      `Successfully mastered and implemented Attention Mechanisms using Google Cloud Platform (GCP) through this Udacity collaboration project. Developed practical expertise in building advanced Deep Learning models and leveraging GCP’s infrastructure for efficient training and deployment.`,
-    verificationLink: "https://www.udacity.com/certificate/e/f4a23628-6a34-11f1-999a-3b78d67abab9",
+    description: `Successfully mastered and implemented Attention Mechanisms using Google Cloud Platform (GCP) through this Udacity collaboration project. Developed practical expertise in building advanced Deep Learning models and leveraging GCP’s infrastructure for efficient training and deployment.`,
+    verificationLink:
+      "https://www.udacity.com/certificate/e/f4a23628-6a34-11f1-999a-3b78d67abab9",
   },
   {
     title: "Go(Intermediate)",
-    image: "https://i.postimg.cc/xdvR8dhT/golang-intermediate-certificate-page-0001.jpg",
+    image:
+      "https://i.postimg.cc/xdvR8dhT/golang-intermediate-certificate-page-0001.jpg",
     date: "21 May 2026",
     org: "HackerRank",
     description:
@@ -268,7 +270,8 @@ export const certifications = [
   },
   {
     title: "Software Engineer",
-    image: "https://i.postimg.cc/3wrC8M5F/software-engineer-certificate-page-0001.jpg",
+    image:
+      "https://i.postimg.cc/3wrC8M5F/software-engineer-certificate-page-0001.jpg",
     date: "28 January 2026",
     org: "HackerRank",
     description: `Successfully cleared HackerRank's professional assessment for Software Engineers, confirming strong technical logic and algorithmic efficiency.`,
@@ -276,7 +279,8 @@ export const certifications = [
   },
   {
     title: "Master of Essential C++ Programming Beginner to Advanced",
-    image: "https://i.postimg.cc/PrQj4fPn/UC-de10d064-a219-4952-9259-14f73523bbc4.jpg",
+    image:
+      "https://i.postimg.cc/PrQj4fPn/UC-de10d064-a219-4952-9259-14f73523bbc4.jpg",
     date: "22 January 2026",
     org: "Udemy",
     description: `Completed an intensive, end-to-end program covering the full spectrum of C++ development. Mastered core syntax, Memory Management, and Object-Oriented Programming (OOP) principles. Gained hands-on experience with the Standard Template Library (STL) and advanced topics like pointers and templates to build high-performance applications.​`,
@@ -284,8 +288,9 @@ export const certifications = [
   },
   {
     title: "TailwindCSS from A to Z: Master TailwindCSS Quickly",
-    image: "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg",
-    date: "03 OCtober 2025",
+    image:
+      "https://udemy-certificate.s3.amazonaws.com/image/UC-fd60d87e-053a-4a61-a904-c1e3c23808c6.jpg",
+    date: "03 October 2025",
     org: "Udemy",
     description:
       "Comprehensive course covering TailwindCSS fundamentals to advanced concepts, focusing on rapid UI development and responsive design using utility-first principles.",
@@ -293,7 +298,8 @@ export const certifications = [
   },
   {
     title: "Master Web & Mobile Design: Figma, UI/UX Essentials, +More",
-    image: "https://i.postimg.cc/qvMSsDY1/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca.jpg",
+    image:
+      "https://i.postimg.cc/qvMSsDY1/UC-5bf9a3a8-bbd4-45d9-a632-51204a6073ca.jpg",
     date: "03 OCtober 2025",
     org: "Udemy",
     description:
